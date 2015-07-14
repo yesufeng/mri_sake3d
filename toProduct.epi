@@ -1,0 +1,24 @@
+#
+# toProduct 1.14       3/15/94 12:15:02
+# Copyright (c) 1990 The General Electric Company
+#
+# Filename      Mode   Dest_Dir     Tape    Integ    Group   Owner   Link  Resp   Com
+# --------     ----   --------      ----    -----    -----   -----   ----  ----   ---
+epi             555    /usr/g/bin   Tape     Int      Group  Owner   Link  Resp   #host psdfile
+epi.psd.o	555    /usr/gvx/bin Tape     Int      Group  Owner   Link  Resp	  #tgt	psdfile #mod for MRIge56989
+epi_service     555    /usr/g/bin   Tape     Int      Group  Owner   epi   Resp   #host psdfile
+epi_service.psd.o     555    /usr/g/bin   Tape     Int      Group  Owner   epi.psd.o   Resp   #tgt psdfile
+epispec               555    /usr/g/bin   Tape     Int      Group  Owner   epi   Resp   #host psdfile
+epispec.psd.o         555    /usr/g/bin   Tape     Int      Group  Owner   epi.psd.o   Resp   #tgt psdfile
+EPISPEC               555    /usr/g/bin   Tape     Int      Group  Owner   epi   Resp   #host psdfile
+EPISPEC.psd.o         555    /usr/g/bin   Tape     Int      Group  Owner   epi.psd.o   Resp   #tgt psdfile
+epigradspec           555    /usr/g/bin   Tape     Int      Group  Owner   epi   Resp   #host psdfile
+epigradspec.psd.o     555    /usr/g/bin   Tape     Int      Group  Owner   epi.psd.o   Resp   #tgt psdfile
+epiespopt             555    /usr/g/bin   Tape     Int      Group  Owner   epi   Resp   #host psdfile
+epiespopt.psd.o       555    /usr/g/bin   Tape     Int      Group  Owner   epi.psd.o   Resp   #tgt psdfile
+epiminesp             555    /usr/g/bin   Tape     Int      Group  Owner   epi   Resp   #host psdfile
+epiminesp.psd.o       555    /usr/g/bin   Tape     Int      Group  Owner   epi.psd.o   Resp   #tgt psdfile
+epiesp.dat            555    /usr/g/bin   Tape     Int      Group  Owner   Link        Resp  #host psdfile
+epira3                555    /usr/g/bin   Tape     Int      Group  Owner   epi   Resp   #host psdfile
+epira3.psd.o          555    /usr/g/bin   Tape     Int      Group  Owner   epi.psd.o   Resp   #tgt psdfile
+epiespW.dat           555    /usr/g/bin   Tape     Int      Group  Owner   Link        Resp  #host psdfile

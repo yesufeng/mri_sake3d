@@ -1,0 +1,103 @@
+	Make starting at Fri Jan  9 12:55:12 PST 2015
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+*** Doing "imboot" in /home/jgordon/epic/psd24/bbepi_testing_yesu ...
+
+% /ESE_DV24.0_R01/mb/imake/bin/imboot.sh -t EPIC 
+
+
+
+
+*** Doing "mrmake  clean all" in /home/jgordon/epic/psd24/bbepi_testing_yesu ...
+
+% /ESE_DV24.0_R01/mb/bin/make.Linux   clean all
+/bin/rm -f -r ./EPIC+
+/bin/rm -f *.epic *.host.c *.tgt.c *.global.h *.allcv.h \
+	*.tgtex.h *.hostdecl.h *.tgtdecl.h *.exportstr.h \
+	*.runtime.h *.ext.h *.host.map \
+                cvinit.in predownload.in
+/bin/rm -f *.epicplus *.cvinit.in *.predownload.in *.tgt_hdr.h \
+	*.allcv_hwdefs.h *.allcv_simdefs.h \
+	*.exportstr_hwdefs.h *.exportstr_simdefs.h \
+	*.hostdecl_hwdefs.h *.hostdecl_simdefs.h \
+	*.tgtdecl_hwdefs.h *.tgtdecl_simdefs.h \
+	*.tgtex_hwdefs.h *.tgtex_simdefs.h *.tgt_hdr.h
+/bin/rm -f bbepi.cnvendian.input.c bbepi.cnvendian.input.i bbepi.cnvendian.private.h bbepi.cnvendian.globalvar.h bbepi.cnvendian.c bbepi.cnvendian.api.h bbepi.cvcopy.c
+==========================================================
+   Processing bbepi
+==========================================================
+/bin/rm -f bbepi.epic bbepi.host.c bbepi.tgt.c bbepi.global.h bbepi.allcv.h \
+	bbepi.tgtex.h bbepi.hostdecl.h bbepi.tgtdecl.h bbepi.exportstr.h \
+	bbepi.runtime.h bbepi.ext.h bbepi.host.map \
+	cvinit.in predownload.in
+/ESE_DV24.0_R01/psd/bin/ec -P -z  -I. -I/ESE_DV24.0_R01/psd/include -I/ESE_DV24.0_R01/psd/include/private -I/ESE_DV24.0_R01/psd/psdsource -I/ESE_DV24.0_R01/lx/em/include -I/ESE_DV24.0_R01/lx/include -I/ESE_DV24.0_R01/host/foundation-libs/CnvEndianLib/host_static -I/ESE_DV24.0_R01/host/include -I/ESE_DV24.0_R01/mgd/include -I/ESE_DV24.0_R01/vre/support bbepi.e
+Running EPIC 1.2 compiler (30/Jan/2013)...
+PSD top =  /ESE_DV24.0_R01/psd
+bbepi.e: Running EPIC 3.3 preprocessor (Oct  9 2013 17:18:52)...
+This is being compiled as a Research PSD.
+EPIC preprocessor completed with 0 errors.
+/bin/touch bbepi.epic
+==========================================================
+   Generating CV endian conversion code
+==========================================================
+/bin/rm -f bbepi.cnvendian.input.c bbepi.cnvendian.input.i bbepi.cnvendian.private.h bbepi.cnvendian.globalvar.h bbepi.cnvendian.c bbepi.cnvendian.api.h
+/ESE_DV24.0_R01/psd/bin/createCnvEndianInput bbepi.cnvendian.input.c \
+	bbepi.global.h bbepi.allcv.h bbepi.tgtex.h
+/ESE_DV24.0_R01/3p/endian_converter/endian_converter -i bbepi.cnvendian.input.c -h bbepi.cnvendian.private.h -ha bbepi.cnvendian.api.h -hg bbepi.cnvendian.globalvar.h -o bbepi.cnvendian.c  -I. -I/ESE_DV24.0_R01/psd/include -I/ESE_DV24.0_R01/psd/include/private -I/ESE_DV24.0_R01/psd/psdsource -I/ESE_DV24.0_R01/lx/em/include -I/ESE_DV24.0_R01/lx/include -I/ESE_DV24.0_R01/host/foundation-libs/CnvEndianLib/host_static -I/ESE_DV24.0_R01/host/include -I/ESE_DV24.0_R01/mgd/include -I/ESE_DV24.0_R01/vre/support -m32          -DHOST_TGT     -DMGD_IF     -DLX_ENBLpopup     -DPSD_HW  -pre cv_cnv_endian_ -no_inc
+
+***** Generating Endian Conversion Files...
+
+	/ESE_DV24.0_R01/3p_osi/gnudev_host/inst/bin/x86_64-unknown-linux-gnu-gcc -E -P -o bbepi.cnvendian.input.i bbepi.cnvendian.input.c  -I. -I/ESE_DV24.0_R01/psd/include -I/ESE_DV24.0_R01/psd/include/private -I/ESE_DV24.0_R01/psd/psdsource -I/ESE_DV24.0_R01/lx/em/include -I/ESE_DV24.0_R01/lx/include -I/ESE_DV24.0_R01/host/foundation-libs/CnvEndianLib/host_static -I/ESE_DV24.0_R01/host/include -I/ESE_DV24.0_R01/mgd/include -I/ESE_DV24.0_R01/vre/support -m32 -DHOST_TGT -DMGD_IF -DLX_ENBLpopup -DPSD_HW -UIMAKE_NONE
+
+	/ESE_DV24.0_R01/vendor/ruby_linux/bin/ruby -I/ESE_DV24.0_R01/vendor/ruby_linux/lib/ruby/site_ruby/1.6 -I/ESE_DV24.0_R01/3p/endian_converter  /ESE_DV24.0_R01/3p/endian_converter/endian_converter.rb -i bbepi.cnvendian.input.i  -h bbepi.cnvendian.private.h -ha bbepi.cnvendian.api.h -hg bbepi.cnvendian.globalvar.h -o bbepi.cnvendian.c -pre cv_cnv_endian_ -no_inc
+
+***** Endian Conversion Files Created
+==========================================================
+   Generating cvcopy functions
+==========================================================
+/bin/rm -f bbepi.cvcopy.c
+/ESE_DV24.0_R01/psd/bin/contigCVs bbepi bbepi.cvcopy.c bbepi.allcv.h bbepi.tgtex.h
+
+
+
+
+
+/home/jgordon/epic/psd24/bbepi_testing_yesu succeeded.
+
+   Total makes to do:   4
+   Succeeded:           1
+   Failed:              0
+   Yet to build:        3
+   Percent complete:    25%
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+*** Doing "imboot" in /home/jgordon/epic/psd24/bbepi_testing_yesu/host ...
+
+% /ESE_DV24.0_R01/mb/imake/bin/imboot.sh -t GCC 
+
+
+
+
+*** Doing "mrmake  clean all" in /home/jgordon/epic/psd24/bbepi_testing_yesu/host ...
+
+% /ESE_DV24.0_R01/mb/bin/make.Linux   clean all
+/bin/rm -f *.mi *.o
+/bin/rm -f *.o-hh *.o-hhts
+/bin/rm -f bbepi
+/bin/rm -f bbepi.host.o-hh
+/ESE_DV24.0_R01/3p_osi/gnudev_host/inst/bin/x86_64-unknown-linux-gnu-gcc -c -o bbepi.host.o-hh ../bbepi.host.c -Werror -I.. -I/ESE_DV24.0_R01/psd/include -I/ESE_DV24.0_R01/psd/include/private -I/ESE_DV24.0_R01/psd/psdsource -I/ESE_DV24.0_R01/lx/em/include -I/ESE_DV24.0_R01/lx/include -I/ESE_DV24.0_R01/host/foundation-libs/CnvEndianLib/host_static -I/ESE_DV24.0_R01/host/include -I/ESE_DV24.0_R01/mgd/include -I/ESE_DV24.0_R01/vre/support      -m32     -g          -Wall   -DHOST_TGT -DMGD_IF -DLX_ENBLpopup -DPSD_HW -UIMAKE_PSDSUFFIXRULES
+
+
+
+
+
+/home/jgordon/epic/psd24/bbepi_testing_yesu/host failed.
+
+   Total makes to do:   4
+   Succeeded:           1
+   Failed:              1
+   Yet to build:        3
+   Percent complete:    25%
+

@@ -1,0 +1,853 @@
+ 5.5.1  11/12/93    PL      Based on fcmemp:hsi version 1.21
+                             5.5 support routine changes made
+ 5.5.2  12/01/93    PL      Rev D or E fast receiver modifications
+ 5.5.3  02/19/94    PL      User page removed
+                            Base hwd_period on gradient configuration
+                            Use convervative targets for epi echo train
+                            Minimum TE for full and fract ky, any trajectory
+                            Phase encoding polarity flipped
+                            ileaveinit, epiRecvFrqPhs, setreadpolarity
+ 5.5.4  04/02/94    PL      Significant updates for minimum te caculation
+                            (SCCS 1.64)
+ 5.5.5  04/02/94    PL      Additional minimum te mods to center tfon about
+                             selected te
+                            phase encoding polarity corrected (SCCS 1.65)
+ 5.5.6  04/07/94    PL      ky_offset for fractional ky
+                            Hook up off-center fov in phase direction(SCCS1.66)
+ 5.5.7  04/15/94    PL      move PSpredownload to end of predownload section
+                             (SCCS 1.67)
+ 5.5.8  04/19/94    PL      Improved eos killer logic
+                            Change fast receiver low pass filter selection
+                             logic
+                            1st order gradient moment nulling on slice axis
+ 5.5.9  05/09/94    PL      RUP_GRD for pw_gzrf1d, pw_wgx (ddt MRIge20003)
+ 5.5.10 05/17/94    PL      pifanub, piteval updated in cveval (ddt MRIge20004)
+                            New error messages added to cvcheck
+ 5.5.11 06/06/94    PL      1st order gradient moment nulling on phase encode
+                             (SCCS 1.68)
+ 5.5.12 06/07/94    PL      Integrate new spectral spatial RF pulses
+ 5.5.13 06/09/94    PL      De-rate zrt for standard recvr (ddt 20338)
+                            cvcheck entry for nex>1 or multreps/mutlslice
+                             (ddt 20275)
+ 5.5.14 06/14/94    PL      Error messages fixed for fract_ky, center out
+                            Initialize bandpass asymmetry correction CVs
+ 5.5.15 07/06/94    PL      Play last baseline at a longer TR
+ 5.5.16 07/13/94    PL      Defeat pscCF interface
+ 5.5.17 07/31/94    PL      Add user CV screen
+                            Set dda = f(intleaves)
+ 5.5.18 08/04/94    PL      Add rhfast_rec
+ 5.5.19 08/10/94    BES     Remove PHASE_OFF struct - it is in epic.h now.
+                            Rename psd_grad_acq_delay to psd_grd_wait.
+                            No more _b1scale suffixes on inlines.
+                            Add SpSat, ChemSat and PS cvinit after obloptimize
+                             in cveval.
+ 5.5.20 08/15/94    PL      hsdab defaulted off for now
+                            Eliminate rhuser16
+ 5.5.21 08/18/94    PL      Add amptran, irms<x,y,z> gradient analysis code
+                            Add missing SpSat pieces
+ 5.5.22 09/01/94    PL      Emerged with 5.2 ufi version:
+                            avail_tdaqhxa for gradient recalled
+                            watchdogcount set to 5 (MRIge20967)
+                            Add z diffusion checking to minimum TE calc
+                            Fix diffusion step boundary checks
+                            Add amptran, irms<x,y,z> gradient analysis code
+                            pre_slice now drives slice_num
+                            Add minseqgram; remove gradient_heat
+                            Add opcs-like control to pw_rf2 from memp
+                            AMPTRAN compiler directive added until
+                             minseqgram, amptran functions are available
+        09/08/94    PL      Add checks for a_gzrf1, a_gzrf2
+ 5.5.23 09/09/94    PL      Remove remaining rhuser CVs
+                            Initialize rhpctemporal, rhpcspacial
+                            Remove wave_ptr error in overwriting rf2mps1
+ 5.5.24 09/28/94    PL      Emerge with 5.2 UFI source
+                            Switch rhtype chopper logic
+                            Don't scale pw_gxwad in grad heat calcs
+ 5.5.25 10/04/94    PL      Add entry point table init for aps2, mps2
+                            Default hsdab on now.
+                            Add slice_reset, slice_loc function for testing
+                            Fix gating bug which resulted from baselines
+                             being played first (MRIge21302)
+ 5.5.26 10/13/94    PL      Change vrgf system call line
+                            Enable multiple nex
+                            Eliminate flag551, revise logic
+ 5.5.27 10/19/94    PL      Change rhpcspacial, rhpctempral defaults
+ 5.5.28 10/27/94    PL      Add #undef's for TR_MAX, FOV_MAX, MAX_RFPULSE_NUM
+                            Default opxres to 128 (same as cvdef)
+                            Max val of hwd_version increased to 128us
+                    PL/FHE  DC chop args to epiRecvFrqPhs, rhtype mods
+ 5.5.29 11/09/94    PL      Remove rhdab0e limit for phased array fast recvr
+                            Add b0dither() call
+ 5.5.30 11/17/94    PL      Change rhpcspacial slice determination
+ 5.5.31 11/28/94    PL      Fix conditional for setreadpolarity call in psdinit
+                            numTaps reset to 32;
+                            Added esp arg to ileaveinit call
+                            Move b0dither calls within rtd block
+                            Modify single_ramp_gx1d pulsegen code, fix ep_alt
+                            Remove user CV screen, use opnshots;
+                             Add pi button control CVs
+                            Add 3 orthogonal plane test mode (b0calmode)
+ 5.5.33 12/09/94    PL      Added args to ileaveinit call
+                            Init rhvrgf
+                            Initialize epi phase correction rh CVs
+                            Remove do_ref, use rhref
+ 5.5.34 12/14/94    PL      Fix pishotnub usage (its a bit mask)
+                            Change pw_gzrf1a, pw_gzrf1d calc
+                            Use cffrecvnum instead of cffastrec
+                            setb0rotmats called repeated in predownload
+ 5.5.35 01/03/95    PL      Set pipscoptnub, pipscdef vars for epi
+                            Acquire baselines at end of scan
+                            Set rhtype1 for multi-coil superframe
+                            Remove pnsf, dbdt variables (handled in epigradopt)
+                            emid include ky_offset (MRIge22048)
+                            Default autovrgf on; move system call to pulsegen
+                            Rounding of tsp for fast receiver
+                            epigradopt, ileaveinit argument extensions
+                    FHE     Added multi-phase
+ 5.5.36 01/23/95    PL      Support BOTTOM_UP trajectory for full ky
+                            Add blippol array and support to ygradctrl
+                            Add xtr_rba_time, new arg to epiRecvFrqPhs
+                    FHE     Enhanced multi-phase
+                            Ref now compatible with multiple channel
+                             fast receivers
+ 5.5.37 02/06/95    FHE     Added rhrefframes.
+ 5.5.38 02/08/95    PL      Make pw_gxwad a multiple of hw_period
+                            Init rhtype1, rhrefframes, rhrefframep,
+                             rhscnframe, rhpasframe
+ 5.5.39 02/16/95    FHE     Added enhanced ref scan capabilities: use all
+                             slices, loop to center slice, or center slice only
+                            Modified baseline slices loop
+                            Integrated cardiac gating with user interface
+                    PL      New dc and rf chopping mods
+                            New quick checks for dc chop cases
+                            Enable dc chop
+                            pw_gxgap primary method of insuring esp is
+                             a multiple of hwd_period
+                            Default don to 1
+ 5.5.40 02/19/95    PL      Disable dc chop! - recon conflict
+ 5.5.41 02/21/95    FHE     Modified blineacq for multipass scan
+                            Changed rf pulse for gre epi with flip>30
+                            Added rhpcileave control to ref entry point
+ 5.5.42 03/03/95    PL/FHE  System safety algorithms (grad, RF) added
+                            Separate loggrd, phygrd structures for echo
+                             train part of sequence, for dB/dt
+                            single_ramp_gx1d logic based on epiloggrd
+                            New defaults for rh CVs
+                            Renable dc_chop
+                            Modified hwd_period for fresbecc
+                            Renamed hwd_period to hrdwr_period
+ 5.5.43 03/06/95    FHE     Modified arguments to minseqgram
+ 5.5.44 03/07/95    PL      Added Burst Mode
+                            Added user CV screen for burst, ramp samp
+                            Set piadvmin for rcv bw (MRIge21627)
+        03/13/95    FHE     Added pass_rep loop outside the passes loop
+                            for multi-rep cardiac-gated capability
+ 5.5.45 03/13/95    PL      Additions for Burst Mode
+                            Added quick checks for dB/dt, burst mode
+                            Repositioned gy1 group to beginning of readout
+                             ramp for vector db/dt
+                            Initialize rhhdbestky
+                            Default rhpcconorder to 2
+                            Change xtr_rba_time, frtime defaults
+ 5.5.46 03/17/95    FHE     Added ss.e ssCheck inline for max slice offset
+                            MRIge22317: modified setreadpolarity for gapped
+                             waveform
+ 5.5.47 03/21/95    PL      Remove burstrecovery from pisctim* and scan_time
+                            Make esp a multiple of hrdwr_period for non-vrg
+                            Make fast receiver init part of epi sequence
+                            Reworked gldelay control
+                    FHE     Modified multi-rep interleaved acq to use pass_reps
+                            as opposed to core_reps
+ 5.5.48 03/27/95    PL      New arguments to ileaveinit
+ 5.5.49 03/27/95    PL      Activate dbdt quick checks, just don't return
+                             failure for now
+                            Made reduced image size square
+                            Default rhmethod to 1
+                    FHE     MRIge23136: turned off data acq for dda in
+                             multi-pass.
+                            MRIge23049: move calculation of gktime
+                            Default xkiller off and zkiller on
+ 5.5.50 04/04/95    PL/FHE  Fix to reduced image size for VRG
+                            Error messages updated
+                            Make sure first row in k-space is always positive
+                            Init iheesp
+                            powscale set to 1 for orthogonal scan planes
+                            Extend eos killers by gkdelay
+                            Remove slquant1 factor from disdaq_shots,
+                             core_shots
+                            Remove confusing psd_rf_wait assignment (to 32)
+ 5.5.51 04/11/95    PL/FHE  Increased watchdog timeout to 50 seconds (10x5)
+                            Different setting of rhpcconnpts for etl = 1
+                            Default rhrcxres, rhrcyres, rhimsize
+                            Fix for etl = 1 (MRIge22186)
+                            Increased DATA_ACQ_MAX and upper limit on rhnslices
+                            Negated ia_gxw for gxwde
+ 5.5.52 04/19/95    FHE     Negated polarity of first attack ramp for gxw
+                            Decreased DATA_ACQ_MAX back to 512
+                            Modified piphasfovnub (MRIge23335)
+                            Removed slquant1 from 2nd calc. of core_shots
+                            Modified calc of area_gy1 for etl=1 (MRIge22186)
+ 5.5.53	04/20/95    HEP	    Moved ssCheck inline to the end of cvinit.
+							(MRIge22770).
+ 5.5.54 04/21/95    HEP     Set the existence of iheesp in cveval().
+							(MRIge23425)
+ 5.5.55	04/26/95    HEP     Removed seting existence of iheesp in
+			    cveval().  Scan ifcc changed and now iheesp
+			    does not have to have the existence flag
+			    set.
+ 5.5.56	04/26/95    HEP	    Corrected ChemSat Y crusher for all entry
+			    points minus mps2.  Added cstun==1 before
+			    call to psdinit() to initialize Chemsat
+			    crusher. MRIge21177
+ 5.5.57	04/26/95    HEP	    Added fast receiver and phased array check
+			    from spr MRIge21133 to cvcheck().
+			    (MRIge21198)
+ 5.5.58 04/28/95    FHE     Set gldelayx,y,z to 0. Will read from delay.dat file (MRIge23498)
+                            Modified burstmode by adding cvxamptrans, etc.
+                            Changed piphasfovnub back to 7.
+                            Moved setburstmode call to before all sys safety calls.
+                            Made slice_reset dependent on b0calmode.
+                            Defaulted rhpcconorder=1.
+                            Defaulted rhpc_corr=1.
+                            Added calc of rhblank for reduced image size.
+                            Set rhpcspacial to time order.
+                            Set rhrcctrl=RHRCMAG+rawmode*RHRCRAW (MRIge22609)
+                            Modified calc of area_gy1 for etl=1 (MRIge22186)
+ 5.5.59	05/02/95    HEP     Added file existence checks for b0dither.cal
+			    and delay.dat into predownload().  The error
+			    messages are logged to the L1-B terminal
+			    unless a return FAILURE is used. Add return
+			    FAILURE to epic_error calls.
+ 5.5.60	05/02/95    HEP     Remove return FAILURE for b0dither, delay 
+			    datafile checks.  Reset rhdab0s, rhdab0e
+			    values in cveval() for spr MRIge21198.
+
+ 5.5.61	05/03/95    HEP     Moved ss.e inline to before predownload.
+			    And moved ssCheck to the end of
+			    predownload. MRIge22770.
+ 5.5.62 05/07/95    FHE     Set rhpccon,lin, rhpccon(lin)order for etl<4
+                            Corrected rsp upper/lower limits in ref() (MRIge23623)
+                            Modified calc. of bline_time
+                            Defaulted xtr_offset = -30 (quick fix for xtr packet timing)
+ 5.5.63	05/12/95    HEP     Added multiphase, multirep loops to
+			    ihtdeltab code. (MRIge22585)
+ 5.5.64 05/15/95    FHE     Opnewgeo/obloptimize call changes in cvinit 
+                            (MRIge23855)
+                            Added avminsldelay support (MRIge23892)
+                            Added new calc. of rhhnover
+                            Modified calc. of bline_time
+                    HEP     Added new quick checks for yres/nshots/etl
+                            Moved include predownload, inline loadrheaderinit
+                              and scalerotmats code
+ 5.5.65 05/19/95    FHE/HEP Removed unit conversions for system safety cvs (MRIge24074)
+                            Fixed rhhnover calcs. (MRIge23676)
+                            Added opnshots>opyres quick check
+ 5.5.66 05/23/95    FHE     Flipped polarity of first readout attack (gxwa) for odd etl
+                            Adjust pw_gxwl,r for hrdwr_period periodicity
+                            Adjust pw_gxgap for minesp requirement
+                            Set rhpclinorder=1 for GRE/EPI
+                            Set ihnex=nop*nex per new nex annotation requirement(MRIge24292)
+                            Add logic to calc. of rhpcspacial for multi-pass acqs.
+                            Reset pisldelnub to 0 when multiphase is turned off.
+ 5.5.67 06/01/95    FHE     Fixed pw_gxgap/esp adjustment for vrgf case.
+                            Added quick checks for classic and grxroi (MRIge24393)
+                             and for avminrbw (MRIge24395)
+                            Modified etl=1 quick check
+                            Defaulted opacqo=0 (interleaved multi-phase)
+ 5.5.68 06/07/95    FHE     Set rhtype1 properly for std rec multi coil (MRIge24349)
+                            Fixed slice thickness quick checks (MRIge24485)
+                            Set avround = 1 (MRIge24494)
+                            Initialized pw_gxwl,r for hrdwr_period req (MRIge24486)
+ 5.5.69 06/16/95    FHE     Fixed fract_ky/fract_echo quickcheck (MRIge24579)
+                            Added gkdelay and gktime to post_echo_time for sp_satstart calc
+                            Added missing sp_satcard_loc assignments
+                            Fixed e1st calc (MRIge25582)
+                            Added quickcheck for opepi=1 (MRIge24669)
+                            Added opautosldelay logic for using avminsldelay
+                            Increased DATA_ACQ_MAX to 1024
+                            Modified pw_gxwl,r calcs to allow user modify cvs
+ 5.5.70 06/30/95    FHE     Added pw_gxwl1,2, pw_gxwr1,2 and related functionality
+ 5.5.71 07/14/95    FHE     Fixed pw_gxwl1,2 changes (MRIge25828)
+                            Set rhfermr = opxres (MRIge25824)
+                            Change osamp_ratio to vrgf_ratio, added vrgf_targ
+                            Modified pos_moment_start for spsp pulse (part of MRIge25718)
+ 5.5.72 07/21/95    FHE	    pos_moment_start changes for spsp rf (MRIge25718)
+                            Fixed cal file ermes in cvinit and cvcheck (MRIge25584)
+                            piphasfovnub2 changes (MRIge24286)
+                            Don't play seqcore at tmin value for opirmode=1 (MRIge25861)
+                            rhpclin,con, rhpclin,conorder changes for etl<4 (MRIge25587,
+                              MRIge25858, MRIge22186)
+                            Added avmaxcorereps for the multiphase sequential feature.
+ 5.5.73 07/23/95    FHE	    Fixed conditionals in ref() (MRIge25959)
+                            Modified pw_gxwl(r)1 when blip exceeds pw_gxwad (MRIge25996)
+                            Added quick check for rhnframes+rhhnover odd (MRIge25987)
+		    MGH     Added the TNS checks to seqcore and baselines.(MRIge22436)
+		            Added the piswapfc for head scans. (MRIge23920).
+ 5.5.74 07/24/95    QT      Set piphasfovval2,3 which are associated with 
+                            piphasfovnub2 (MRIge24286).
+ 5.5.75 07/26/95    MGH     Added an ssp wait, sspshift, to spring the setperiods done 
+                            with glcdelay and setperiods.(MRIge22186). (MRIge24538 YPD).
+ 5.5.76 07/27/95    MGH     Fixed explicitly Rxed sat pulses (MRIge25881).
+                            Changed rhfermr calculation.
+ 5.5.77 08/03/95    FHE     Moved pass packet from pass sequence to end of core 
+                             sequence (MRIge26053 and func. imaging reqt.)
+                            Changed calc of fft_ysize for rhmethod = 1 (MRIge25818)
+                            Set dro,dpo args in rtd epiRecvFrqPhs to 0 because rspinfo
+                             structure is modified to capture dro,dpo changes in rtd
+                            Increased default value of optr to increase initial value
+                             of avmaxcorereps (max # of seq opfphases) (MRIge26175)
+                            Flipped polarity of ygmn gradient lobes (MRIge25718)
+ 5.5.78 08/05/95    PL      Add dacq_adjust to delayval array (MRIge25901)
+                    FHE     Locked out more incompatible features (MRIge26306
+ 5.5.79 08/11/95    QT      Modified minseqgram() call.
+ 5.5.80 08/14/95    YP Du   Added Inversion.e inline
+                            Added satdelay, rfscale, t_postreadout
+                            Added slots for IR RF and gradient pulses
+                            Added IR pulses to grad driver and grad heating calcs
+                            Added setupphases() in PULSEGEN
+                            Note: IR (opirprep) is locked out for 5.5, enable with mcv ir_on
+ 5.5.81 08/14/95    FHE     Fixed scan_time, avmintr for multi-phase sequential
+                            Increased bl_acq_tr2 since baselines are now played first
+                            Moved ssp_pass_delay and sspshift to avoid pulse overlap
+ 5.5.82 08/28/95    FHE     Set DATA_ACQ_MAX back to 512 (MRIge26093).
+                            Fixed rhrecv_freq_s out of range error.
+                            Set slquant_per_trig = 1 for sequential multiphase.
+ 5.5.83 08/31/95    FHE     Added rhfreqscale changes (MRIge26704)
+                            Locked out seq multi-phase and ecg gating (MRIge26740)
+                            Increased min_hnover to 20 for GRE (MRIge24353)
+                            Added FREC_MIN_PROG_DEL (MRIge26729).
+ 5.5.84 09/19/95    QT      Swap default freq direction in oblique axial/coronal scan.  
+ 5.5.85 09/22/95    LP      Enhanced MRIge26729 solution.
+ 5.5.86 09/23/95    FHE     Made eesp a mult. of hrdwr_period (MRIge27171).
+                            Moved spawning of the vrgf system call from epi.e to
+                             scan using the piforkvrgf cv (MRIge27291).
+ 5.5.87 09/25/95    FHE     Locked out numerous options for UFI M4 tape.
+ 5.5.88 09/25/95    FHE     Fix previous changes.
+ 5.5.89 09/27/95    FHE     Modified xpwmdc and gating in burstmode.
+                            Set ref_mode=0 if rhpcileave=0 (MRIge27172).
+                            More M4 lockout changes - allow even slices.
+ 5.5.90 10/02/95    FHE     Default opnshots=1 for sr120 (MRIge27503).
+ 5.5.91 10/18/95    LP      First edit in 55m4 branch
+                            Corrected corrupted header
+			    MRIge26428 additions and corrections - OCFOV in
+			    the frequency direction
+			    epiRecvFrqPhs temporarily included here until m3 is finalized
+ 5.5.92 10/20/95    LP      Added y flow comp calculation to avmintecalc routine
+                            This prevents cycling between fractional & full ky
+			    using protocol a2*(1)
+ 5.5.93 10/25/95    FHE     Replaced GXW_SLOT with GXWP_SLOT and GXWN_SLOT in
+                            sys safety calcs (MRIge26624).
+                            Unlocked the m4 locks.
+ 5.5.94 10/26/95    mgh     MRIge26638. Fixed sequential multi-phase.
+		 	    MRIge27673. Cardiac Clock fix.
+                            MRIge27722. Initialized rspent rsp variable.
+                            Changed rbw annotation.
+                            Change range on opuser2.
+                            Change def values for opxres and rbw.
+ 5.5.95 10/27/95    FHE     Added phase-encode blip amp corrections for oblique scans.
+                    mgh     Fixed gating calculations for burst mode.
+ 5.5.96 11/02/95    FHE     Fixed ihtrtab,ihtdeltab for mph cardiac gated (MRIge28194).
+                            Fixed nreps calc for interleaved mph (MRIge28192).
+ 5.5.97 11/03/95    LP      Added VRGF OCFOV enhancement (MRIge26428), corrected dfscale 
+                            for BWs > 62.5 ( vrgfsamp and fast_rec set before being used )
+ 5.5.98 11/06/95    FHE     Removed quick check which locked out multi-rep/multi acq.
+                            Added pw_gxw_total for sys safety fix (MRIge26624).
+                            Modified avmintr for ipg seqtime limitations and set
+                              rhhnover=8 for GRE and burstmode != 0 (MRIge28195).
+                            Default oblcorr_on = 1 (MRIge26318).
+                            Added new calc of ihvbw1 for vrgf (MRIge28103).
+                            Changed vrgf_targ and selection of lpf (MRIge28274)
+ 5.5.99 11/10/95    LP      Set pitfeextra=fract_ky (MRIge28200).
+ 5.5.100 11/12/95   FHE     Added new rhpc logic for new phase corr (MRIge27054).
+                            Added new logic for lpf selection (MRIge28274).
+ 5.5.101 11/13/95   LP      Added gldelayfval and gldelaycval initialization to rtd section 
+                            (MRIge28389).
+ 5.5.102 11/15/95   FHE	    Set avminsldelay=20us always (MRIge28504).
+ 5.5.103 11/21/95   FHE	    Locked out rampsamp and xres>256 (MRIge26912).
+                            Increased def val of rhpclinnpts to 4 (MRIge28665).
+                            Reduced val of vrgf_targ (MRIge28338).
+ 5.5.104 11/28/95   FHE     Complex oblique corrections - changed args for blipcorr,
+                            also added blipcorr hooks to rtd (MRIge28548).
+                            Initialized ctlend_last,fill,unfill (MRIge28611,28466).
+ 5.5.105 11/28/95   LP      removed private copy of epiRecvFrqPhs
+                            added table of omega locations to improve performance
+			    MRIge28585 & MRIge28671
+ 5.5.106 11/28/95   FHE     Fixed lockout of fast rec and phased array (MRIge28767).
+                            Fixed dt annotation (MRIge28529).
+ 5.5.107 11/29/95   FHE     Changed receiver unblanking timing (MRIge28778).
+                    LP      Made it work.
+		    LP      MRIge28817 - omegadelay period fix for negative gldelay
+		            <x,y,z> values
+ 5.5.108 12/01/95   LP      MRIge28586 - ramp sampling error fiv
+ 5.5.109 12/01/95   FHE     Changed rhpcbestky for gre epi (MRIge28849).
+ 5.5.110 12/04/95   FHE     Set ref_mode=0 if rhpcspacial==0 (MRIge28824).
+ 8.1.7   12/14/95   FHE     Merged final(?) 5.5 code with initial lx epi.
+                            Notes: rfunblank changes made in 5.5 were removed
+                                     pending further investigation.
+                                   cal files missing error messages was commented
+                                     pending discussion with scan.
+
+        COMMENTS FROM PREVIOUS EPI:LX MERGE
+
+        05/02/95    KJB     Initial conversion for testing on Lightning.
+                            Started from copy of epi:55 version 95fw17.6
+
+        06/02/95   KJB      Hardcoded FAST RECEIVER initialization and 
+			    added rba_bits since cerd is not notified of
+			    begin acquisition otherwise.
+			    (Unable to complete testing for fast receiver, but 
+			    this version works for std rcvr with hsdab.)
+
+        8.0.0   06/28/95   JDM      Merged with latest ufi changes. Split up cveval() and
+                            predownload() into separate routines of size < 1k lines
+			    of code, so gnu assembler doesn't choke.
+
+        8.0.1   07/26/95   JDM      Added new fast receiver args to loadhsdab() calls as 1
+                            for now (currently unused).
+
+        8.1.0   07/26/95   JDM      Merged with latest ufi changes.
+
+        8.1.1   08/21/95   RJL      Merged with epi:55 upto and including sccs1.146
+
+        8.1.2   08/21/95   JDM      Added fast recvr TARDIS_FREQ_OFFSET set to 
+                            RCV_FREQ_FAST.
+
+        8.1.3   08/30/95   RJL      Merged with epi:55 sccs(1.147,1.148,1.149,1.150). Latest fixes to epi
+                            promotes
+        8.1.3   09/01/95   RJL      Merged with epi:55 sccs(1.151). Latest fixes to epi
+                            promotes. Added new pulses to grad_rf files.
+
+        8.1.4   09/20/95   RJL      Make xtr_offset a CV and modifiable for CERD testing. May return afterwards.
+
+        8.1.5	10/19/95   KJB      Removed filter dependency on scanslot>3 so decimation 
+                            is properly set.  Download filter if doing fast receiver,
+			    but clip bandwidth to 62.5. Moved init of rspent in MPS2
+			    and APS2 prior to psdinit.
+        8.1.6   11/16/95   RJL      Change passing of phygrd in minseqgram to pass by address. Causing
+                            core dumps.
+
+
+ 8.1.7   12/19/95   RJL     Lockout MT for this PSD - MRIge28286
+ 8.1.8   01/04/96   FHE     bursttime double/float changes (MRIge29391).
+ 8.1.9   01/16/96   YP Du   Fixed RCVR unblanking using RCVRUNBLANK.
+ 8.1.10  01/25/96   YP Du   Enabled to select IR by commenting out the opirprep check 
+                            in CVCHECK and adding cvmax(opirprep, 1) in CVINIT.
+			    Simplified the code in CVEVAL that assures esp is a
+			    multiple of (hardware period * intleaves).
+ 8.1.11	 02/05/96   YP Du   Moved real time display from the rtd() entry point to scanloop()
+			    as a function of multi-phase. A cv rtd_on was added to select
+			    rtd in multi-phase. Setting modrot=1 causes scanner to pause.
+ 8.1.12  02/08/96   YP Du   Fixed CV check when the number of images >512 in multi-phase(MRIge29798).
+ 8.1.13  02/12/96   YP Du   Modified minesp round up so that minesp is a multiple of
+                            (hardware period)*intleaves.
+ 8.1.14  02/14/96   YP Du   Changed the data type of origrot[][] from short to int (MRIge30097).
+ 8.1.15  02/20/96   YP Du   Increased bl_acq_tr2 to 1s when vrgfsamp=1 and opyres>=256 (MRIge29749).
+ 8.1.16  02/21/96   YP Du   Moved avmaxrbw and avminrbw calculations from CVEVAL to CVINIT. 
+			    Used cffrecvnum to determine the value of avmaxrbw.
+ 8.1.17  03/04/96   YP Du   Added xres = 32 and 512 buttons.
+                            Added CV checks to ensure illegal xres and yres are rejected.
+                            Assigned avmaxxres = 512 and avmaxyres = 512.
+                            Added EM_PSD_EPI_XRES_INVALID. (MRIge30474)
+ 8.1.18  03/22/96   RJL     MRIge30672 - For epi set pidefrbw=62.5kHz when > sr77. This is so
+                            default value placed into field by scan matches PSD default value
+			    for oprbw.
+ 8.1.19  03/27/96   YP Du   Changed xtr_offset to -50 us.
+			    Added RCVRUNBLANK for baseline acq with fast recvr (MRIge31024).
+			    Ensured EDR is imcompatible w/ fast recvr in CVCHECK(MRIge29882).
+ 8.1.20  04/01/96   YP Du   Fixed ihvbw1 calculation for VRG (MRIge31185);
+                    KJB     Removed the declaration of rba_bits;
+ 8.1.21  04/10/96   YP Du   Divided tsp by 1s in ihvbw1 calculation.
+ 8.1.22  04/10/96   YP Du   Changed minimum allowed tsp from 0.05us to 1.0us (MRIge31703).
+ 8.1.23  04/21/96  RJL      Numerous modifications for Advisory Panel Popup support.
+                            1. Added event handlers and return status of ADVISORY_FAILURE to
+			       several cvcheck checks. Added initialization of new epic.h
+			       advisory panel values at beginning of cvcheck():
+				    av<min,max>etl,av<min,max>phasefov,av<min,max>nex,
+                                    avminyres,av<min,max>rtarr,av<min,max>rtpoint,
+                                    av<min,max>slthick, refer to epic.h for more
+				    details on these new values.
+				  
+                                Refer to 8.0 EPIC Advisory Panel SDD for technical description 
+                                of the changes.
+                            2. Add InitAdvisories.e inline and Add InitAdvPnlCvs() call 
+                               to initialize new advisory panel cvs in cvcheck as first line.
+	                    3. Add advisory panel check for opphasefov to keep users from 
+                               entering invalid values into text widget
+ 8.1.24  05/29/96   YP Du   Added a b0dither_interpo call. A CV b0dither_new was added
+                            for the selection of b0dither_interpo. The default value
+                            of b0dither_new is 1. (MRIge32656)
+			    Fixed an error in the calc of data acq window position by using 
+			    the 1st time obtained defaultdelay (=defaultdelay_save) (MRIge32470).
+
+ 8.1.25  05/30/96    RJL   Moved all advisory panel initializations to cveval() section so they
+                           are not overwritten by call to InitAdvPnlCvs().
+ 8.1.26  06/04/96   YP Du   Replaced defaultdelay_save using pw_sspdelay and pw_omegadelay in
+			    the setperiod calls. (MRIge32470) 
+ 8.1.27  06/04/96   YP Du   Corrected e1st calculation for APS when fract_ky == PSD_FRACT_KY.
+                            Simplified the code for emid and e1st calculations. (MRIge32898)
+ 8.1.28  06/05/96   YP Du   Added existance check for calibration file b0vectors.dat.head<body>.
+			    A new CV nob0dither_interpo was added.(MRIge32656)
+			    Disabled the calls of b0dither_interpo() to download.
+ 8.1.29  06/12/96   YP Du   Set xtr_offset=-30us when fast receiver is used.(MRIge32085)
+ 8.1.30  06/14/96   YP Du   Defined xtr_offset as a regular variable (i.e., not a CV).
+                            Ensured that multiple fast receivers are not supported.
+                            opmultrecv=1 is used to set avmaxrbw=62.5kHz. (MRIge31694)
+ 8.1.31  06/19/96   YP Du   Set ia_gyb before setiampt() for double oblique correction.(MRIge32805)
+			    Set pw_gx1=4 if it is 0. Ported from MRIge33014 fix. (MRIge33016)
+                            Defined xtr_offset as a CV temporarily for possible further tweaking.
+ 8.1.32  06/21/96   YP Du   Set xtr_offset = -56us for std receiver (MRIge33265);
+			    Set pw_gx1>=MIN_PLATEAU_TIME (MRIge33016).
+ 8.1.33  06/26/96   YP Du   Modified the setiampt() call for double oblique correction.(MRIge32805)
+			    Ensured the incompatibility between epi and the Single-Shot button.(MRIge33260)
+ 8.1.34  06/28/96   YP Du   Added powermon_b1scale() call and the calc. for piasar and pipsar in
+                            cveval. (MRIge33410).
+ 8.1.35  06/30/96   YP Du   Removed opfphases from the calc of rhnslices when opmph=0. (MRIge32705)
+ 8.1.36  07/01/96   YP Du   Removed 1us from setperiod for sspdelay and 2us from setperiod
+			    for omegadelay. (MRIge33461)
+
+ 8.1.37  07/17/96   RJL     Added simulationInit at start of pulsegen() to
+                            initialize rotation matrices to identity matrix
+                            during simulation only.  Moved rsprot_unscaled
+                            inits to pulsegen before calcdelay uses the values.
+
+ 8.1.38  07/18/96   YP Du   Set oc_fact=2.
+ 8.1.39  07/23/96   YP Du   Locked out ir prep for M3 tape.
+ 8.1.40  07/24/96   YP Du   Unlocked out ir prep for M4 tape.
+ 			    Rounded up avminte and avmintefull to 0.1 ms (MRIge33657).
+			    Rounded up opte to 0.1 ms when MIN TE or MIN FULL TE are selected
+			    (MRIge34126).
+ 8.1.41  08/01/96   YP Du   Made cffrecvnum == 0 and fast_rec == FAST_REC imcompatible 
+			    (MRIge34195).
+ 			    Allowed and only allowed xres to be an even number btwn 32 and 512
+			    (MRIge33964).
+ 8.1.42  08/05/96   YP Du   Called amppwcrush only for SE-EPI (MRIge33618). 
+ 8.1.43  08/06/96   YP Du   Included pulses gz1 and gzmn in grad_rf_epi.globals.h and
+                            grad_rf_epi.h. Made the corresponding changes in epi.e(MRIge33619).
+ 8.1.44  08/08/96   YP Du   Set opfphases<=max_num_pass(=256). (MRIge32615).
+ 8.1.45  08/09/96   YP Du   Set pixresnub=63 (from 62) to allow other xres selections(MRIge33964).
+ 8.1.46  08/11/96   YP Du   Increased some default values to allow a maximum number of
+			    passes (or opfphases in mph) = 512 (possibly 999) (MRIge32615).
+			    (rhreps:256->512, reps:256->999, pass_reps:256->999, 
+			    slice_num:256->999, rep_num:256->999, max_num_pass:380->999)
+ 8.1.46  08/12/96   YP Du   Changed ihtr calculation to avoid ihtr>optr. (MRIge34441)
+
+ 8.1.47  08/15/96   RJL     MRIge32542: Changed sysmin of opfov to 4cm since EPI never allows
+                            anything smaller anyway. Fov's less than 2 can result in support
+			    routine failures in this PSD, so we should not allow those values
+			    to be used in the PSD.
+
+ 8.0.48 08/16/96    RJL     MRIge34479: Added epic_warning message for missing cal files.
+ 8.1.49 08/?/96     RK	    Placed cal file reading in cvinit for b0dither and calcdelay.(MRIge33595)
+ 8.1.50 09/02/96    YP Du   Set hrdwr_period to 96 us for sr20 if long_hrdwr_period=1.(MRIge32896)
+			    Made mph and rhpcspacial=0 imcompatible. (MRIge30766)
+ 8.1.51 09/03/96    SGT     MRIge34121: EPI IR with cardiac gating causes download failure.
+                            optdel1 is correctly calculated, but pitdel1 count the ir_time twice.
+                            Solution: make optdel1 and pitdel1 equal with IR. 
+                            pos_start and sp_satstart calculations are wrong, correct both.
+ 8.1.52 09/05/96    RK      changed the function names of b0Dither_interpo_file and b0Dither to
+                            b0Dither_ifile and b0DitherFile. The file I/O operations in the original
+                            functions have been removed and instead are now read from a buffer.
+                            Two other functions; OpenDitherInterpoFile and OpenDitherFile do file
+                            I/O instead and are called in the cvinit.
+ 8.1.53 09/17/96   YP Du    Corrected the amp in the setiampt calls when pepolar=1. (MRIge35254)
+ 8.1.54 09/20/96   PL       Adding missing ramp to pos_moment_start (MRge34494)
+ 8.1.55 09/22/96   YP Du    Added file existence check for bcrvf1.dat, bcrvf2.dat, bcrvf3.dat,
+			    bcrvf4.dat, bcrvf5.dat, bcrvs1.dat, bcrvs2.dat, bcrvs3.dat, 
+			    bcrvs4.dat. (MRIge34844)
+ 8.1.54 09/20/96   PL       Save rsprot_unscaled before scalerotmats call
+                             (MRIge35495)
+ 8.1.55 09/27/96   PL       Read additional parameter in delay.dat file when
+                             vrgf (MRIge34032)
+ 8.1.56 09/29/96   LP       Correct sscanf conversion loop to capture fstdelayvrg
+                             (MRIge34032)
+ 8.1.57 10/04/96   YP Du    Moved ssCheck from predownload to cvcheck. (MRIge35768)
+ 8.1.58 10/11/96   YP Du    Removed the call of ssCheck() for M3.
+ 8.1.59 10/15/96   YP Du    File existence check for bcrvf*.dat if(cffrecvnum != 0)(MRIge35898)
+ 			    Set a value avmaxrbw for display (MRIge35969).
+
+ 8.1.60 10/22/96   RJL      MRIge35883 - Set system minimum opxres to 16 in cvinit().
+ 8.1.61 10/24/96   YP Du    Put back the ssCheck call. (MRIge35971)
+ 8.1.62 10/28/96   PL       Set cv<x,y,z>full to 32767 to force blipcorr to
+                             function properly (MRIge34032)
+ 8.1.63 10/30/96   YP Du    Corrected err msg when esp is not a multiple of hrdwr_period (MRIge36003)
+			    Modified warning msg for non-existent cal files (MRIge35898).
+ 8.1.64 11/04/96    RK      Removed the unwanted warning message appearing in the simulation mode.
+ 8.1.65 11/12/96   LP/YPD   Added rhuser4=acqmode, set rhreps = exist(opfphases)
+                            for recon fix MRIge36453.
+ 8.1.66 11/22/96   GM/YPD   Corrected the calculation of cvy<z>amptran and cvy<z>pwmdc for 
+			    bursttime > 5 sec. (MRIge36960)
+ 8.1.67 12/03/96   PL       MRIge35444: Add tfon wait for omega board (womega)
+
+Please update abstract with internal revision number!
+
+ 8.1.68 03/14/96   VB       MRIge37295: Added an error check to limit the entry
+                            of opuser2 to 30s.
+
+sccs1.232 07/11/97 VB       MRIge40443: Check for srmode > 77 along with cffrecvnum!=0
+                            before opening fast receiver cal files.
+
+			    MRIge39615: Set oprbw to 62.5 if opuser0 is 0.
+
+sccs1.233 08/14/97 VB       MRIge39615: Need to add an additional condition
+                            where the bandwidth has to be defaulted to 62.5
+			    only if opuser0 is 0 and oprbw is greater
+			    than 62.5.
+
+			    MRIge41252: Implement correction for axial image
+			    signal fall-off due to the maxwell field effect.
+			    The implementation was orginaly done by Peter Du.
+
+sccs1.234 08/25/97 RJF	    MRIge41464 : Added check for 0 nex input.
+
+sccs1.235 09/05/97 VB       MRIge41582: undid the fix for MRIge39615. The
+                            fix for the problem in MRIge39615 was done by
+                            the scan team.
+
+sccs1.236 09/17/97 VB       MRIge41630: Pulled out the axial signal fall-off
+                            correction because it was causing problems
+                            in starting GRE EPI.
+
+                            Changed `epi' to EPI in psdname()
+
+sccs1.237 10/07/97 VB       MRIge42072 - added a range check for opphasefov.
+
+sccs1.238 10/15/97 VB       MRIge42231 - added error check for NEX less than 
+                            1.5.
+
+sccs1.239 10/23/97 VB       MRIge42250: made changes to two error messages.
+                            The first one was in the calculation of newyres.
+                            If temp_int was 1, newyres was calculated as 0.
+
+                            If minimum te is selected and opnshots = opyres
+                            the error message displayed was wrong. I just
+                            changed the message to display "# of phases
+                            should be greater than # shots if Minimum TE is
+                            selected.
+
+sccs1.240 11/4/97  VB       MRIge41345: set long_hrdwr_period to1. This will
+                            make hrdwr_period to 96 if SR20.
+
+sccs 1.241 11/6/97 BJM      MRIge42854 : removed #include <values.h> and
+                            replaced M_PI with PI.  Added #ifdef to include 
+                            either stdioLib.h or stdio.h depending on hw 
+                            or sim comp. Prevents build failure.
+
+sccs1.242 11/07/97 LR       MRIge41058 - changed the maximum value 
+                            of the cv iheesp for cfsrmode = 120
+                            to prevent download failure - latha@mr 
+
+sccs1.243 11/07/97 BJM      MRIge41484 - Modified cv ky_offset and fn to 
+                            prevent download failure of multi-shot spin-echo
+                            epi.
+
+sccs1.244 12/14/97  VB      MRIge41892 - Set rhpclin to 0 if phase correction
+                            is turned off. With this change the ref scan
+                            button will not show up when phase correction
+                            is turned off.
+
+sccs1.245 01/02/97  VB      i18n changes.
+
+sccs1.246 01/08/97  VB      MRIge43763: pulled out the changes made for 
+                            MRIge41892. 
+sccs1.247 02/10/98 JFM      MRIge44190: Corrected the misleading error 
+                            message when opphases > avmaxphase.
+
+sccs1.248&9 03/31/98 BJM    MRIge44199: Fixed 256x512 EOS error for full
+                            TE - increased time_ssi to 15ms for etl > 256.
+
+sccs1.250 04/02/98 BJM      MRIge44706: move burst scan checks to predownload
+                            to prevent menu-chase problems with multi-phase 
+
+sccs1.251 05/04/98 BJM      Undo MRIge44706 to fix MRIge45602 per suggestion of
+                            SPR review. Re-opened MRIge44706 and sent to scan 
+                            team. 
+
+sccs1.255 06/08/98 BJM      MRIge45988: only display ramp samp option if 
+                            cffrecvnum > 0;
+
+                            MRIge43434: added function to read grafidy.config
+                            file to get warp update period.
+
+                            MRIge46106: redefined default of optr = 10s
+                            since avmintr = 600 ms for yres >= 256 to prevent 
+                            mintr failed message from appearing  
+                            Prototyped code for ANSI Conversion.
+
+sccs1.256 07/10/98  VB      ansi changes
+
+sccs1.258 31-Aug-98 Thayer  Corrections for ANSI conversions.
+
+                            
+sccs1.256 07/13/98 BJM      MRIge4573: changed decimation calc to use CERD BW &
+                            pass PSD_CERD_BW to setfilter()
+
+sccs1.257 08/05/98 BJM      MRIge46697: added xtr_offset to getfiltparams call
+
+sccs1.258 08/24/98 BJM      MRIge47073: fix to derate all waveforms in epi 
+                            based on dbdt except for the epi readout which
+                            is handled by epigradopt().
+
+sccs1.260 08/27/98  VB      Added changes for the SNR(IQ)Index feature
+
+sccs1.261 08/31/98  BJM     Pulled orig. fix for MRIge47073 since this was
+                            causing a problem with Scan.  Instead, modified
+                            obloptimize so dbddtderate is not called for epi
+                            scans in that function.  Instead, dbdtderate is
+                            called explicitly within this PSD for all non-
+                            readout gradient waveforms.
+
+sccs1.262 09/16/98  BJM     MRIge46824: moved check for cffrecvnum to top of
+                            cveval to prevent display of ramp sampling option
+                            if fast receiver doesn not exist since Scan team
+                            could not fix it.
+
+sccs1.263 10/05/98  BJM     MRIge47714 - added cfsrmode = 150 case.
+
+sccs1.264 10/05/98  NDG     MRIge47922 fecho_factor is set based on check for 
+                            fract_ky.
+
+sccs1.265 11/09/98  BJM     MRIge48532 - turn on eosykiller if ss_rf1 = PSD_ON
+
+          02/09/99  BJM     MRIge50913 -  Fix annoying FOV error message
+                            when ramp sampling toggled on/off.  Force user to
+                            select rbw if vrgf turned off.
+
+          02/09/99  PH      MRIge50815 - Lockout 32x32 ramp sampling.
+
+          02/09/99  TAA     MRIge50870 - Moved check for xres > 256 before 
+                            burst mode checks.
+
+          02/17/99  BJM     MRIge50915 - Fix for Ref Scan failure with ConCat 
+                            Sat.  Fixed scan_time calc for ConCat sat...
+
+          03/09/99  TAA     MRIge51408 - limiting the maximum allowed bandwidth
+                            when rampsampling =  OFF because maximum fov = 99cm.
+
+          03/12/99  BJM     MRIge51381 - remove redundant baselines for seq.
+                            scan acqs so scan time is correct.
+
+          03/17/99  BJM/GFN Updated code to use pulsegen on the host side.
+                            Changed minseq*() calls to use minseq() instead.
+                            Changed EFFSLICESELZ calls to EFFSLICESELZ_SSP
+                            to create trains of trapezoids on the Host side.
+
+          03/19/99  PH      MRIge51410 - opyres can not be greater than opxres
+                            for square pixel.  
+
+        03/24/1999  GFN     Changed minimum values for readpolar and 
+                            blippolar from 0 to -1. The valid values are
+                            only 1 or -1 in ileaveinit(). 
+
+        04/02/1999  GFN     MRIge51879 - Created new function
+                            calcPulseParams() to set parameters for pulse
+                            generation (e.g., pulse widths, instruction
+                            amplitudes).  This allows the pulsegen on
+                            the host feature call this function instead
+                            of predownload().
+
+        04/08/1999  BJM     825 -> 83 MERGE
+                            Updated SpSatPlayRelaxers() call in scanloop()
+
+        04/15/1999  GFN     Moved calcPulseParams() call to the end of
+                            predownload().
+                            Added return FAILURE when blipcorrdel() fails.
+
+        04/15/1999  GFN     MRIge52711 - Commented out any code related to
+                            data acquisition delay (e.g., calcdelay()) in
+                            pulsegen() to prevent download failures.
+                            Initialized defaultdelay to zero.
+
+        04/30/1999  BJM     MRIge52710 - comment out ileaveinit on host side.  
+                            rowflip.param file was being overwritten...
+
+                            MRIge53149 - change to malloc() for multi-dim
+                                         arrays on ipg side
+ 
+                            MRIge51931 - tried to clean up core section to reduce EOS
+                                         errors
+ 
+                            MRIge52197 - added extended burstmode - remove burstmode 
+                                         option if gradamp = 8651
+
+        05/10/1999  BJM     MRIge50536 - prevent out of range opphasefov
+
+        05/14/1999  PH      MRIge50404 - Lockout opnshots >= 16 for ramp sampling.
+ 
+        05/14/1999  PH      MRIge53297 - set mod_rba to true and remove one extra dabrbaload()
+                            so that there is no APS2 failure.
+                       
+        05/21/1999  PH      MRIge52661 - Set rhpcspacial = 0 for oblique scan so that there
+                            is less ghosting for CRM.
+
+        05/21/1999  BJM     MRIge53529 - fix for multi-phase failure
+
+        06/07/1999  GFN     MRIge53672 - Added a check to prevent multiphase
+                            be selected with Concatenated SAT.
+
+        06/09 1999  GFN     MRIge50536 - Updated check for out of range
+                            opphasefov.
+
+        06/23/1999  GFN     MRIge54002 - Changed hardcoded index 0 to new
+                            idx_seqcore when calling minseq();
+
+        06/25/1999  BJM     MRIge54172 - Add maxwell shift correction for
+                            axial scans.
+                            MRIge53740 - Comment out call to get_hrdwr_per()
+                            due to the increase in WARP update rate for VLTC.
+                            MRIge54198 - Uncomment call to ileaveinit() on
+                            the host side to fix "zero" readout gradient
+                            amplitudes.
+
+        06/28/1999  PH      MRIge53894 - the maximum receiver bandwidth on SR77 is 125kHz 
+                            if there is fast CERD, otherwise it is 62.5kHz.  The maximum 
+                            bandwidth can't be 500kHz for SR77 because there is no fast 
+                            receiver.  The avmaxrbw calculation based on 99cm FOV (MRIge51408)
+                            is not applicable to SR77.
+
+        07/02/1999  GFN     MRIge54002 - Use the new seqEntryIndex CV instead
+                            of the idx_* variables.
+
+        07/27/1999  PH      MRIge53894 - Although system has 125Khz fast CERD, epi does
+                            not allow 125Khz on SR77.  Set maximum rbw=62.5Khz.
+
+        08/03/1999  BJM     MRIge54033 - Made refftime an array for xtr position by slice
+
+        08/23/1999  BJM     MRIge55066 - Fix timing of Sp. Sat for cardiac gated epi 
+                            w/ minimum trigger delay.
+
+        08/24/1999  BJM     MRIge55206 - Fix for memory allocation error on IPG side
+
+        09/07/1999  GFN     MRIge55545 - The creation of the ocfovramp1 and
+                            ocfovramp2 pulses and some other code around it
+                            was commented out for the host side.  However, the
+                            loop that initializes the echotrainramp1 and
+                            echotrainramp2 arrays was still being executed
+                            causing a core dump.  I commented out the for loop
+                            as well.
+
+        09/27/1999  GFN     MRIge55604 - Make sure the min FOV is not less
+                            than 4.0 cm and that the max RBW is not more
+                            than 500 KHz.
+
+        09/29/1999  GFN     MRIge54033, MRIge55996 - Changed use of refdata from
+                            static to dynamic.
+
+        11/13/1999 TAA      MRIge56926 - Calcuclation of avminslthick is moved from 
+                            inside error conditions.
+
+        11/19/1999 TAA      MRIge56898 - Calculation of avminnshots and avmaxnshots  
+                            from inside error conditions.
+
+        01/03/2000 BJM      MRIge57362 - acquire baselines on first rep of 
+                            each pass. Merged 84 version w/ 83 epi to pick up 
+                            latest fixes.
+                            MRIge57093 - remove ileave*esp check
+
+        01/24/2000 BJM      MRIge57985 - fix for download failure.  Need to add 
+                            pw_sspshift to non_tetime.
+                            MRIge58033 - fixed tempx calculation
+
+        02/03/2000 BJM      MRIge58235 - save res_rf2 in pgen to prevent DL failure with pgen
+                            on host when rf2 is scaled....
+
+        03/09/2000 BJM      MRIge55604 - set default for hrdwr_period = GRAD_UPDATE_TIME.

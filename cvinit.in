@@ -1,0 +1,790 @@
+
+  pw_x_td0  = _pw_x_td0.fixedflag ?  ((void)(pw_x_td0), pw_x_td0) : pw_x_td0;
+  wg_x_td0  = _wg_x_td0.fixedflag ?  ((void)(XGRAD), wg_x_td0) : XGRAD;
+
+  pw_y_td0  = _pw_y_td0.fixedflag ?  ((void)(pw_y_td0), pw_y_td0) : pw_y_td0;
+  wg_y_td0  = _wg_y_td0.fixedflag ?  ((void)(YGRAD), wg_y_td0) : YGRAD;
+
+  pw_z_td0  = _pw_z_td0.fixedflag ?  ((void)(pw_z_td0), pw_z_td0) : pw_z_td0;
+  wg_z_td0  = _wg_z_td0.fixedflag ?  ((void)(ZGRAD), wg_z_td0) : ZGRAD;
+
+  pw_rho_td0  = _pw_rho_td0.fixedflag ?  ((void)(pw_rho_td0), pw_rho_td0) : pw_rho_td0;
+  wg_rho_td0  = _wg_rho_td0.fixedflag ?  ((void)(RHO), wg_rho_td0) : RHO;
+
+  pw_theta_td0  = _pw_theta_td0.fixedflag ?  ((void)(pw_theta_td0), pw_theta_td0) : pw_theta_td0;
+  wg_theta_td0  = _wg_theta_td0.fixedflag ?  ((void)(THETA), wg_theta_td0) : THETA;
+
+  pw_omega_td0  = _pw_omega_td0.fixedflag ?  ((void)(pw_omega_td0), pw_omega_td0) : pw_omega_td0;
+  wg_omega_td0  = _wg_omega_td0.fixedflag ?  ((void)(OMEGA), wg_omega_td0) : OMEGA;
+
+  pw_ssp_td0  = _pw_ssp_td0.fixedflag ?  ((void)(pw_ssp_td0), pw_ssp_td0) : pw_ssp_td0;
+  wg_ssp_td0  = _wg_ssp_td0.fixedflag ?  ((void)(SSP), wg_ssp_td0) : SSP;
+
+    flip_rf0  = _flip_rf0.fixedflag ?  ((void)(flip_rf0), flip_rf0) : flip_rf0;
+    a_rf0  = _a_rf0.fixedflag ?  ((void)(flip_rf0/180), a_rf0) : flip_rf0/180;
+    pw_gzrf0  = _pw_gzrf0.fixedflag ?  ((void)(pw_rf0), pw_gzrf0) : pw_rf0;
+    res_gzrf0  = _res_gzrf0.fixedflag ?  ((void)(1), res_gzrf0) : 1;
+    res_rf0  = _res_rf0.fixedflag ?  ((void)(res_rf0), res_rf0) : res_rf0;
+    pw_rf0  = _pw_rf0.fixedflag ?  ((void)(pw_rf0), pw_rf0) : pw_rf0;
+    cyc_rf0  = _cyc_rf0.fixedflag ?  ((void)(cyc_rf0), cyc_rf0) : cyc_rf0;
+    thk_rf0  = _thk_rf0.fixedflag ?  ((void)((opimode==PSD_3D?opvthick:tmpslthick)), thk_rf0) : (opimode==PSD_3D?opvthick:tmpslthick);
+    wg_rf0  = _wg_rf0.fixedflag ?  ((void)(TYPRHO1), wg_rf0) : TYPRHO1;
+
+  a_omegarf0       = _a_omegarf0.fixedflag ?   ((void)((float)-1), a_omegarf0) : (float)-1;
+  res_omegarf0     = _res_omegarf0.fixedflag ?  ((void)(res_rf0), res_omegarf0) : res_rf0;
+  pw_omegarf0      = _pw_omegarf0.fixedflag ?  ((void)(pw_omegarf0), pw_omegarf0) : pw_omegarf0;
+  rfslot_omegarf0  = _rfslot_omegarf0.fixedflag ?  ((void)(RF0_SLOT), rfslot_omegarf0) : RF0_SLOT;
+  off_omegarf0     = _off_omegarf0.fixedflag ?  ((void)(0), off_omegarf0) : 0;
+  n_omegarf0       = _n_omegarf0.fixedflag ?  ((void)(0), n_omegarf0) : 0;  /* Initialize to 0 because the macro will be called
+                              at least once and the n_$[ext2_name] will
+                              be incremented in the pulsegen section */
+  wg_omegarf0  = _wg_omegarf0.fixedflag ?  ((void)(THETA), wg_omegarf0) : THETA;
+
+    wg_gyk0  = _wg_gyk0.fixedflag ?  ((void)(YGRAD), wg_gyk0) : YGRAD;
+
+
+    flip_rf1  = _flip_rf1.fixedflag ?  ((void)(flip_rf1), flip_rf1) : flip_rf1;
+    a_rf1  = _a_rf1.fixedflag ?  ((void)(flip_rf1/180), a_rf1) : flip_rf1/180;
+    pw_gzrf1  = _pw_gzrf1.fixedflag ?  ((void)(pw_rf1), pw_gzrf1) : pw_rf1;
+    res_gzrf1  = _res_gzrf1.fixedflag ?  ((void)(res_rf1), res_gzrf1) : res_rf1;
+    res_rf1  = _res_rf1.fixedflag ?  ((void)(res_rf1), res_rf1) : res_rf1;
+    pw_rf1  = _pw_rf1.fixedflag ?  ((void)(pw_rf1), pw_rf1) : pw_rf1;
+    cyc_rf1  = _cyc_rf1.fixedflag ?  ((void)(cyc_rf1), cyc_rf1) : cyc_rf1;
+    thk_rf1  = _thk_rf1.fixedflag ?  ((void)(opslthick), thk_rf1) : opslthick;
+    a_thetarf1  = _a_thetarf1.fixedflag ?  ((void)(0), a_thetarf1) : 0;
+    res_thetarf1  = _res_thetarf1.fixedflag ?  ((void)(res_rf1), res_thetarf1) : res_rf1;
+    pw_thetarf1  = _pw_thetarf1.fixedflag ?  ((void)(pw_rf1), pw_thetarf1) : pw_rf1;
+    wg_rf1  = _wg_rf1.fixedflag ?  ((void)(TYPRHO1), wg_rf1) : TYPRHO1;
+
+  a_phaserf1  = _a_phaserf1.fixedflag ?  ((void)(a_phaserf1), a_phaserf1) : a_phaserf1;
+  res_phaserf1  = _res_phaserf1.fixedflag ?  ((void)(res_phaserf1), res_phaserf1) : res_phaserf1;
+  pw_phaserf1  = _pw_phaserf1.fixedflag ?  ((void)(pw_phaserf1), pw_phaserf1) : pw_phaserf1;
+  off_phaserf1  = _off_phaserf1.fixedflag ?  ((void)(0), off_phaserf1) : 0;
+  wg_phaserf1  = _wg_phaserf1.fixedflag ?  ((void)(wg_phaserf1), wg_phaserf1) : wg_phaserf1;
+
+  flip_rf2  = _flip_rf2.fixedflag ?  ((void)(flip_rf2), flip_rf2) : flip_rf2;
+  a_rf2  = _a_rf2.fixedflag ?  ((void)(flip_rf2/180), a_rf2) : flip_rf2/180;
+  pw_gzrf2  = _pw_gzrf2.fixedflag ?  ((void)(pw_rf2), pw_gzrf2) : pw_rf2;
+  pw_rf2  = _pw_rf2.fixedflag ?  ((void)(pw_rf2), pw_rf2) : pw_rf2;
+  cyc_rf2  = _cyc_rf2.fixedflag ?  ((void)(cyc_rf2), cyc_rf2) : cyc_rf2;
+  thk_rf2  = _thk_rf2.fixedflag ?  ((void)(opslthick), thk_rf2) : opslthick;
+  wg_rf2  = _wg_rf2.fixedflag ?  ((void)(TYPRHO1), wg_rf2) : TYPRHO1;
+
+  res_rf2se1b4  = _res_rf2se1b4.fixedflag ?  ((void)(res_rf2), res_rf2se1b4) : res_rf2;
+  wg_rf2se1b4  = _wg_rf2se1b4.fixedflag ?  ((void)(RHO), wg_rf2se1b4) : RHO;
+
+    wg_gyrf2iv  = _wg_gyrf2iv.fixedflag ?  ((void)(YGRAD), wg_gyrf2iv) : YGRAD;
+
+    wg_gzrf2l1  = _wg_gzrf2l1.fixedflag ?  ((void)(ZGRADB), wg_gzrf2l1) : ZGRADB;
+
+    wg_gzrf2r1  = _wg_gzrf2r1.fixedflag ?  ((void)(ZGRADB), wg_gzrf2r1) : ZGRADB;
+
+
+
+
+
+
+   wg_gy1  = _wg_gy1.fixedflag ?  ((void)(YGRAD), wg_gy1) : YGRAD;
+
+    wg_gymn2  = _wg_gymn2.fixedflag ?  ((void)(YGRAD), wg_gymn2) : YGRAD;
+
+    wg_gymn1  = _wg_gymn1.fixedflag ?  ((void)(YGRAD), wg_gymn1) : YGRAD;
+
+    wg_gz1  = _wg_gz1.fixedflag ?  ((void)(ZGRAD), wg_gz1) : ZGRAD;
+
+    wg_gzmn  = _wg_gzmn.fixedflag ?  ((void)(ZGRAD), wg_gzmn) : ZGRAD;
+
+  res_rf2se1  = _res_rf2se1.fixedflag ?  ((void)(PSD_FSE_RF2_R), res_rf2se1) : PSD_FSE_RF2_R;
+  wg_rf2se1  = _wg_rf2se1.fixedflag ?  ((void)(RHO), wg_rf2se1) : RHO;
+
+    wg_gxk  = _wg_gxk.fixedflag ?  ((void)(XGRAD), wg_gxk) : XGRAD;
+
+    wg_gyk  = _wg_gyk.fixedflag ?  ((void)(YGRAD), wg_gyk) : YGRAD;
+
+    wg_gzk  = _wg_gzk.fixedflag ?  ((void)(ZGRAD), wg_gzk) : ZGRAD;
+
+  ia_sync_on_2  = _ia_sync_on_2.fixedflag ?  ((void)(0), ia_sync_on_2) : 0;
+
+  ia_sync_off_2  = _ia_sync_off_2.fixedflag ?  ((void)(0), ia_sync_off_2) : 0;
+
+  pw_wgx  = _pw_wgx.fixedflag ?  ((void)(pw_wgx), pw_wgx) : pw_wgx;
+  wg_wgx  = _wg_wgx.fixedflag ?  ((void)(XGRAD), wg_wgx) : XGRAD;
+
+  pw_wgy  = _pw_wgy.fixedflag ?  ((void)(pw_wgy), pw_wgy) : pw_wgy;
+  wg_wgy  = _wg_wgy.fixedflag ?  ((void)(YGRAD), wg_wgy) : YGRAD;
+
+  pw_wgz  = _pw_wgz.fixedflag ?  ((void)(pw_wgz), pw_wgz) : pw_wgz;
+  wg_wgz  = _wg_wgz.fixedflag ?  ((void)(ZGRAD), wg_wgz) : ZGRAD;
+
+  pw_wssp  = _pw_wssp.fixedflag ?  ((void)(pw_wssp), pw_wssp) : pw_wssp;
+  wg_wssp  = _wg_wssp.fixedflag ?  ((void)(SSP), wg_wssp) : SSP;
+
+  pw_sspdelay  = _pw_sspdelay.fixedflag ?  ((void)(pw_sspdelay), pw_sspdelay) : pw_sspdelay;
+  wg_sspdelay  = _wg_sspdelay.fixedflag ?  ((void)(SSP), wg_sspdelay) : SSP;
+
+  pw_omegadelay  = _pw_omegadelay.fixedflag ?  ((void)(pw_omegadelay), pw_omegadelay) : pw_omegadelay;
+  wg_omegadelay  = _wg_omegadelay.fixedflag ?  ((void)(OMEGA), wg_omegadelay) : OMEGA;
+
+  pw_womega  = _pw_womega.fixedflag ?  ((void)(pw_womega), pw_womega) : pw_womega;
+  wg_womega  = _wg_womega.fixedflag ?  ((void)(OMEGA), wg_womega) : OMEGA;
+
+  pw_sspshift  = _pw_sspshift.fixedflag ?  ((void)(pw_sspshift), pw_sspshift) : pw_sspshift;
+  wg_sspshift  = _wg_sspshift.fixedflag ?  ((void)(SSP), wg_sspshift) : SSP;
+
+  pw_ssp_pass_delay  = _pw_ssp_pass_delay.fixedflag ?    ((void)(1), pw_ssp_pass_delay) : 1;
+  wg_ssp_pass_delay  = _wg_ssp_pass_delay.fixedflag ?  ((void)(SSP), wg_ssp_pass_delay) : SSP;
+
+
+  pw_jwg_delay  = _pw_jwg_delay.fixedflag ?    ((void)(4), pw_jwg_delay) : 4;
+  wg_jwg_delay  = _wg_jwg_delay.fixedflag ?  ((void)(SSP), wg_jwg_delay) : SSP;
+
+  pw_touch_wssp  = _pw_touch_wssp.fixedflag ?  ((void)(pw_touch_wssp), pw_touch_wssp) : pw_touch_wssp;
+  wg_touch_wssp  = _wg_touch_wssp.fixedflag ?  ((void)(SSP), wg_touch_wssp) : SSP;
+
+
+
+
+
+
+
+
+
+
+
+
+    wg_gxtouchu2  = _wg_gxtouchu2.fixedflag ?  ((void)(XGRAD), wg_gxtouchu2) : XGRAD;
+
+    wg_gytouchu2  = _wg_gytouchu2.fixedflag ?  ((void)(YGRAD), wg_gytouchu2) : YGRAD;
+
+    wg_gztouchu2  = _wg_gztouchu2.fixedflag ?  ((void)(ZGRAD), wg_gztouchu2) : ZGRAD;
+
+    wg_gxtouchu  = _wg_gxtouchu.fixedflag ?  ((void)(XGRAD), wg_gxtouchu) : XGRAD;
+
+    wg_gytouchu  = _wg_gytouchu.fixedflag ?  ((void)(YGRAD), wg_gytouchu) : YGRAD;
+
+    wg_gztouchu  = _wg_gztouchu.fixedflag ?  ((void)(ZGRAD), wg_gztouchu) : ZGRAD;
+
+    wg_gxtouchd2  = _wg_gxtouchd2.fixedflag ?  ((void)(XGRAD), wg_gxtouchd2) : XGRAD;
+
+    wg_gytouchd2  = _wg_gytouchd2.fixedflag ?  ((void)(YGRAD), wg_gytouchd2) : YGRAD;
+
+    wg_gztouchd2  = _wg_gztouchd2.fixedflag ?  ((void)(ZGRAD), wg_gztouchd2) : ZGRAD;
+
+    wg_gxtouchd  = _wg_gxtouchd.fixedflag ?  ((void)(XGRAD), wg_gxtouchd) : XGRAD;
+
+    wg_gytouchd  = _wg_gytouchd.fixedflag ?  ((void)(YGRAD), wg_gytouchd) : YGRAD;
+
+    wg_gztouchd  = _wg_gztouchd.fixedflag ?  ((void)(ZGRAD), wg_gztouchd) : ZGRAD;
+
+    wg_gxtouchf2  = _wg_gxtouchf2.fixedflag ?  ((void)(XGRAD), wg_gxtouchf2) : XGRAD;
+
+    wg_gytouchf2  = _wg_gytouchf2.fixedflag ?  ((void)(YGRAD), wg_gytouchf2) : YGRAD;
+
+    wg_gztouchf2  = _wg_gztouchf2.fixedflag ?  ((void)(ZGRAD), wg_gztouchf2) : ZGRAD;
+
+    wg_gxtouchf  = _wg_gxtouchf.fixedflag ?  ((void)(XGRAD), wg_gxtouchf) : XGRAD;
+
+    wg_gytouchf  = _wg_gytouchf.fixedflag ?  ((void)(YGRAD), wg_gytouchf) : YGRAD;
+
+    wg_gztouchf  = _wg_gztouchf.fixedflag ?  ((void)(ZGRAD), wg_gztouchf) : ZGRAD;
+
+  res_rfcssat  = _res_rfcssat.fixedflag ?  ((void)(res_rfcssat), res_rfcssat) : res_rfcssat;
+  wg_rfcssat  = _wg_rfcssat.fixedflag ?  ((void)(RHO), wg_rfcssat) : RHO;
+
+  res_omega_hs_rfcssat  = _res_omega_hs_rfcssat.fixedflag ?  ((void)(res_rfcssat), res_omega_hs_rfcssat) : res_rfcssat;
+  wg_omega_hs_rfcssat  = _wg_omega_hs_rfcssat.fixedflag ?  ((void)(THETA), wg_omega_hs_rfcssat) : THETA;
+
+    wg_gzrfcs  = _wg_gzrfcs.fixedflag ?  ((void)(ZGRAD), wg_gzrfcs) : ZGRAD;
+
+    wg_gykcs  = _wg_gykcs.fixedflag ?  ((void)(YGRAD), wg_gykcs) : YGRAD;
+
+    wg_gxkcs  = _wg_gxkcs.fixedflag ?  ((void)(XGRAD), wg_gxkcs) : XGRAD;
+
+    wg_gzkcs  = _wg_gzkcs.fixedflag ?  ((void)(ZGRAD), wg_gzkcs) : ZGRAD;
+
+
+  pw_isi_cardiacsat  = _pw_isi_cardiacsat.fixedflag ?  ((void)(pw_isisat), pw_isi_cardiacsat) : pw_isisat;
+  wg_isi_cardiacsat  = _wg_isi_cardiacsat.fixedflag ?  ((void)(SSP), wg_isi_cardiacsat) : SSP;
+
+  pw_rot_update_cardiacsat  = _pw_rot_update_cardiacsat.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_cardiacsat) : pw_rotupdate;
+  wg_rot_update_cardiacsat  = _wg_rot_update_cardiacsat.fixedflag ?  ((void)(SSP), wg_rot_update_cardiacsat) : SSP;
+
+  flip_rfse1  = _flip_rfse1.fixedflag ?  ((void)(90.0), flip_rfse1) : 90.0;
+  a_rfse1  = _a_rfse1.fixedflag ?  ((void)(flip_rfse1/180), a_rfse1) : flip_rfse1/180;
+  pw_gzrfse1  = _pw_gzrfse1.fixedflag ?  ((void)(pw_rfse1), pw_gzrfse1) : pw_rfse1;
+  pw_rfse1  = _pw_rfse1.fixedflag ?  ((void)(pw_rfse1), pw_rfse1) : pw_rfse1;
+  cyc_rfse1  = _cyc_rfse1.fixedflag ?  ((void)(1.0), cyc_rfse1) : 1.0;
+  thk_rfse1  = _thk_rfse1.fixedflag ?  ((void)(exsatthick1), thk_rfse1) : exsatthick1;
+  wg_rfse1  = _wg_rfse1.fixedflag ?  ((void)(TYPRHO1), wg_rfse1) : TYPRHO1;
+
+  pw_isi_sate1  = _pw_isi_sate1.fixedflag ?  ((void)(pw_isisat), pw_isi_sate1) : pw_isisat;
+  wg_isi_sate1  = _wg_isi_sate1.fixedflag ?  ((void)(SSP), wg_isi_sate1) : SSP;
+
+  pw_rot_update_e1  = _pw_rot_update_e1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_e1) : pw_rotupdate;
+  wg_rot_update_e1  = _wg_rot_update_e1.fixedflag ?  ((void)(SSP), wg_rot_update_e1) : SSP;
+
+    wg_gykse1  = _wg_gykse1.fixedflag ?  ((void)(YGRAD), wg_gykse1) : YGRAD;
+
+    wg_gxkse1  = _wg_gxkse1.fixedflag ?  ((void)(XGRAD), wg_gxkse1) : XGRAD;
+
+  pw_isi_satek1  = _pw_isi_satek1.fixedflag ?  ((void)(pw_isisat), pw_isi_satek1) : pw_isisat;
+  wg_isi_satek1  = _wg_isi_satek1.fixedflag ?  ((void)(SSP), wg_isi_satek1) : SSP;
+
+  pw_rot_update_ek1  = _pw_rot_update_ek1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_ek1) : pw_rotupdate;
+  wg_rot_update_ek1  = _wg_rot_update_ek1.fixedflag ?  ((void)(SSP), wg_rot_update_ek1) : SSP;
+
+  flip_rfse2  = _flip_rfse2.fixedflag ?  ((void)(90.0), flip_rfse2) : 90.0;
+  a_rfse2  = _a_rfse2.fixedflag ?  ((void)(flip_rfse2/180), a_rfse2) : flip_rfse2/180;
+  pw_gzrfse2  = _pw_gzrfse2.fixedflag ?  ((void)(pw_rfse2), pw_gzrfse2) : pw_rfse2;
+  pw_rfse2  = _pw_rfse2.fixedflag ?  ((void)(pw_rfse2), pw_rfse2) : pw_rfse2;
+  cyc_rfse2  = _cyc_rfse2.fixedflag ?  ((void)(1.0), cyc_rfse2) : 1.0;
+  thk_rfse2  = _thk_rfse2.fixedflag ?  ((void)(exsatthick2), thk_rfse2) : exsatthick2;
+  wg_rfse2  = _wg_rfse2.fixedflag ?  ((void)(TYPRHO1), wg_rfse2) : TYPRHO1;
+
+  pw_isi_sate2  = _pw_isi_sate2.fixedflag ?  ((void)(pw_isisat), pw_isi_sate2) : pw_isisat;
+  wg_isi_sate2  = _wg_isi_sate2.fixedflag ?  ((void)(SSP), wg_isi_sate2) : SSP;
+
+  pw_rot_update_e2  = _pw_rot_update_e2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_e2) : pw_rotupdate;
+  wg_rot_update_e2  = _wg_rot_update_e2.fixedflag ?  ((void)(SSP), wg_rot_update_e2) : SSP;
+
+    wg_gykse2  = _wg_gykse2.fixedflag ?  ((void)(YGRAD), wg_gykse2) : YGRAD;
+
+    wg_gxkse2  = _wg_gxkse2.fixedflag ?  ((void)(XGRAD), wg_gxkse2) : XGRAD;
+
+  pw_isi_satek2  = _pw_isi_satek2.fixedflag ?  ((void)(pw_isisat), pw_isi_satek2) : pw_isisat;
+  wg_isi_satek2  = _wg_isi_satek2.fixedflag ?  ((void)(SSP), wg_isi_satek2) : SSP;
+
+  pw_rot_update_ek2  = _pw_rot_update_ek2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_ek2) : pw_rotupdate;
+  wg_rot_update_ek2  = _wg_rot_update_ek2.fixedflag ?  ((void)(SSP), wg_rot_update_ek2) : SSP;
+
+  flip_rfse3  = _flip_rfse3.fixedflag ?  ((void)(90.0), flip_rfse3) : 90.0;
+  a_rfse3  = _a_rfse3.fixedflag ?  ((void)(flip_rfse3/180), a_rfse3) : flip_rfse3/180;
+  pw_gzrfse3  = _pw_gzrfse3.fixedflag ?  ((void)(pw_rfse3), pw_gzrfse3) : pw_rfse3;
+  pw_rfse3  = _pw_rfse3.fixedflag ?  ((void)(pw_rfse3), pw_rfse3) : pw_rfse3;
+  cyc_rfse3  = _cyc_rfse3.fixedflag ?  ((void)(1.0), cyc_rfse3) : 1.0;
+  thk_rfse3  = _thk_rfse3.fixedflag ?  ((void)(exsatthick3), thk_rfse3) : exsatthick3;
+  wg_rfse3  = _wg_rfse3.fixedflag ?  ((void)(TYPRHO1), wg_rfse3) : TYPRHO1;
+
+  pw_isi_sate3  = _pw_isi_sate3.fixedflag ?  ((void)(pw_isisat), pw_isi_sate3) : pw_isisat;
+  wg_isi_sate3  = _wg_isi_sate3.fixedflag ?  ((void)(SSP), wg_isi_sate3) : SSP;
+
+  pw_rot_update_e3  = _pw_rot_update_e3.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_e3) : pw_rotupdate;
+  wg_rot_update_e3  = _wg_rot_update_e3.fixedflag ?  ((void)(SSP), wg_rot_update_e3) : SSP;
+
+    wg_gykse3  = _wg_gykse3.fixedflag ?  ((void)(YGRAD), wg_gykse3) : YGRAD;
+
+    wg_gxkse3  = _wg_gxkse3.fixedflag ?  ((void)(XGRAD), wg_gxkse3) : XGRAD;
+
+  pw_isi_satek3  = _pw_isi_satek3.fixedflag ?  ((void)(pw_isisat), pw_isi_satek3) : pw_isisat;
+  wg_isi_satek3  = _wg_isi_satek3.fixedflag ?  ((void)(SSP), wg_isi_satek3) : SSP;
+
+  pw_rot_update_ek3  = _pw_rot_update_ek3.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_ek3) : pw_rotupdate;
+  wg_rot_update_ek3  = _wg_rot_update_ek3.fixedflag ?  ((void)(SSP), wg_rot_update_ek3) : SSP;
+
+  flip_rfse4  = _flip_rfse4.fixedflag ?  ((void)(90.0), flip_rfse4) : 90.0;
+  a_rfse4  = _a_rfse4.fixedflag ?  ((void)(flip_rfse4/180), a_rfse4) : flip_rfse4/180;
+  pw_gzrfse4  = _pw_gzrfse4.fixedflag ?  ((void)(pw_rfse4), pw_gzrfse4) : pw_rfse4;
+  pw_rfse4  = _pw_rfse4.fixedflag ?  ((void)(pw_rfse4), pw_rfse4) : pw_rfse4;
+  cyc_rfse4  = _cyc_rfse4.fixedflag ?  ((void)(1.0), cyc_rfse4) : 1.0;
+  thk_rfse4  = _thk_rfse4.fixedflag ?  ((void)(exsatthick4), thk_rfse4) : exsatthick4;
+  wg_rfse4  = _wg_rfse4.fixedflag ?  ((void)(TYPRHO1), wg_rfse4) : TYPRHO1;
+
+  pw_isi_sate4  = _pw_isi_sate4.fixedflag ?  ((void)(pw_isisat), pw_isi_sate4) : pw_isisat;
+  wg_isi_sate4  = _wg_isi_sate4.fixedflag ?  ((void)(SSP), wg_isi_sate4) : SSP;
+
+  pw_rot_update_e4  = _pw_rot_update_e4.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_e4) : pw_rotupdate;
+  wg_rot_update_e4  = _wg_rot_update_e4.fixedflag ?  ((void)(SSP), wg_rot_update_e4) : SSP;
+
+    wg_gykse4  = _wg_gykse4.fixedflag ?  ((void)(YGRAD), wg_gykse4) : YGRAD;
+
+    wg_gxkse4  = _wg_gxkse4.fixedflag ?  ((void)(XGRAD), wg_gxkse4) : XGRAD;
+
+  pw_isi_satek4  = _pw_isi_satek4.fixedflag ?  ((void)(pw_isisat), pw_isi_satek4) : pw_isisat;
+  wg_isi_satek4  = _wg_isi_satek4.fixedflag ?  ((void)(SSP), wg_isi_satek4) : SSP;
+
+  pw_rot_update_ek4  = _pw_rot_update_ek4.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_ek4) : pw_rotupdate;
+  wg_rot_update_ek4  = _wg_rot_update_ek4.fixedflag ?  ((void)(SSP), wg_rot_update_ek4) : SSP;
+
+  flip_rfse5  = _flip_rfse5.fixedflag ?  ((void)(90.0), flip_rfse5) : 90.0;
+  a_rfse5  = _a_rfse5.fixedflag ?  ((void)(flip_rfse5/180), a_rfse5) : flip_rfse5/180;
+  pw_gzrfse5  = _pw_gzrfse5.fixedflag ?  ((void)(pw_rfse5), pw_gzrfse5) : pw_rfse5;
+  pw_rfse5  = _pw_rfse5.fixedflag ?  ((void)(pw_rfse5), pw_rfse5) : pw_rfse5;
+  cyc_rfse5  = _cyc_rfse5.fixedflag ?  ((void)(1.0), cyc_rfse5) : 1.0;
+  thk_rfse5  = _thk_rfse5.fixedflag ?  ((void)(exsatthick5), thk_rfse5) : exsatthick5;
+  wg_rfse5  = _wg_rfse5.fixedflag ?  ((void)(TYPRHO1), wg_rfse5) : TYPRHO1;
+
+  pw_isi_sate5  = _pw_isi_sate5.fixedflag ?  ((void)(pw_isisat), pw_isi_sate5) : pw_isisat;
+  wg_isi_sate5  = _wg_isi_sate5.fixedflag ?  ((void)(SSP), wg_isi_sate5) : SSP;
+
+  pw_rot_update_e5  = _pw_rot_update_e5.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_e5) : pw_rotupdate;
+  wg_rot_update_e5  = _wg_rot_update_e5.fixedflag ?  ((void)(SSP), wg_rot_update_e5) : SSP;
+
+    wg_gykse5  = _wg_gykse5.fixedflag ?  ((void)(YGRAD), wg_gykse5) : YGRAD;
+
+    wg_gxkse5  = _wg_gxkse5.fixedflag ?  ((void)(XGRAD), wg_gxkse5) : XGRAD;
+
+  pw_isi_satek5  = _pw_isi_satek5.fixedflag ?  ((void)(pw_isisat), pw_isi_satek5) : pw_isisat;
+  wg_isi_satek5  = _wg_isi_satek5.fixedflag ?  ((void)(SSP), wg_isi_satek5) : SSP;
+
+  pw_rot_update_ek5  = _pw_rot_update_ek5.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_ek5) : pw_rotupdate;
+  wg_rot_update_ek5  = _wg_rot_update_ek5.fixedflag ?  ((void)(SSP), wg_rot_update_ek5) : SSP;
+
+  flip_rfse6  = _flip_rfse6.fixedflag ?  ((void)(90.0), flip_rfse6) : 90.0;
+  a_rfse6  = _a_rfse6.fixedflag ?  ((void)(flip_rfse6/180), a_rfse6) : flip_rfse6/180;
+  pw_gzrfse6  = _pw_gzrfse6.fixedflag ?  ((void)(pw_rfse6), pw_gzrfse6) : pw_rfse6;
+  pw_rfse6  = _pw_rfse6.fixedflag ?  ((void)(pw_rfse6), pw_rfse6) : pw_rfse6;
+  cyc_rfse6  = _cyc_rfse6.fixedflag ?  ((void)(1.0), cyc_rfse6) : 1.0;
+  thk_rfse6  = _thk_rfse6.fixedflag ?  ((void)(exsatthick6), thk_rfse6) : exsatthick6;
+  wg_rfse6  = _wg_rfse6.fixedflag ?  ((void)(TYPRHO1), wg_rfse6) : TYPRHO1;
+
+  pw_isi_sate6  = _pw_isi_sate6.fixedflag ?  ((void)(pw_isisat), pw_isi_sate6) : pw_isisat;
+  wg_isi_sate6  = _wg_isi_sate6.fixedflag ?  ((void)(SSP), wg_isi_sate6) : SSP;
+
+  pw_rot_update_e6  = _pw_rot_update_e6.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_e6) : pw_rotupdate;
+  wg_rot_update_e6  = _wg_rot_update_e6.fixedflag ?  ((void)(SSP), wg_rot_update_e6) : SSP;
+
+    wg_gykse6  = _wg_gykse6.fixedflag ?  ((void)(YGRAD), wg_gykse6) : YGRAD;
+
+    wg_gxkse6  = _wg_gxkse6.fixedflag ?  ((void)(XGRAD), wg_gxkse6) : XGRAD;
+
+  pw_isi_satek6  = _pw_isi_satek6.fixedflag ?  ((void)(pw_isisat), pw_isi_satek6) : pw_isisat;
+  wg_isi_satek6  = _wg_isi_satek6.fixedflag ?  ((void)(SSP), wg_isi_satek6) : SSP;
+
+  pw_rot_update_ek6  = _pw_rot_update_ek6.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_ek6) : pw_rotupdate;
+  wg_rot_update_ek6  = _wg_rot_update_ek6.fixedflag ?  ((void)(SSP), wg_rot_update_ek6) : SSP;
+
+  flip_rfsx1  = _flip_rfsx1.fixedflag ?  ((void)(90.0), flip_rfsx1) : 90.0;
+  a_rfsx1  = _a_rfsx1.fixedflag ?  ((void)(flip_rfsx1/180), a_rfsx1) : flip_rfsx1/180;
+  pw_gxrfsx1  = _pw_gxrfsx1.fixedflag ?  ((void)(pw_rfsx1), pw_gxrfsx1) : pw_rfsx1;
+  pw_rfsx1  = _pw_rfsx1.fixedflag ?  ((void)(pw_rfsx1), pw_rfsx1) : pw_rfsx1;
+  cyc_rfsx1  = _cyc_rfsx1.fixedflag ?  ((void)(1.0), cyc_rfsx1) : 1.0;
+  thk_rfsx1  = _thk_rfsx1.fixedflag ?  ((void)(satthickdfx), thk_rfsx1) : satthickdfx;
+  wg_rfsx1  = _wg_rfsx1.fixedflag ?  ((void)(TYPRHO1), wg_rfsx1) : TYPRHO1;
+
+  pw_isi_satx1  = _pw_isi_satx1.fixedflag ?  ((void)(pw_isisat), pw_isi_satx1) : pw_isisat;
+  wg_isi_satx1  = _wg_isi_satx1.fixedflag ?  ((void)(SSP), wg_isi_satx1) : SSP;
+
+  pw_rot_update_x1  = _pw_rot_update_x1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_x1) : pw_rotupdate;
+  wg_rot_update_x1  = _wg_rot_update_x1.fixedflag ?  ((void)(SSP), wg_rot_update_x1) : SSP;
+
+    wg_gyksx1  = _wg_gyksx1.fixedflag ?  ((void)(YGRAD), wg_gyksx1) : YGRAD;
+
+    wg_gxksx1  = _wg_gxksx1.fixedflag ?  ((void)(XGRAD), wg_gxksx1) : XGRAD;
+
+  pw_isi_satxk1  = _pw_isi_satxk1.fixedflag ?  ((void)(pw_isisat), pw_isi_satxk1) : pw_isisat;
+  wg_isi_satxk1  = _wg_isi_satxk1.fixedflag ?  ((void)(SSP), wg_isi_satxk1) : SSP;
+
+  pw_rot_update_xk1  = _pw_rot_update_xk1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_xk1) : pw_rotupdate;
+  wg_rot_update_xk1  = _wg_rot_update_xk1.fixedflag ?  ((void)(SSP), wg_rot_update_xk1) : SSP;
+
+  flip_rfsx2  = _flip_rfsx2.fixedflag ?  ((void)(90.0), flip_rfsx2) : 90.0;
+  a_rfsx2  = _a_rfsx2.fixedflag ?  ((void)(flip_rfsx2/180), a_rfsx2) : flip_rfsx2/180;
+  pw_gxrfsx2  = _pw_gxrfsx2.fixedflag ?  ((void)(pw_rfsx2), pw_gxrfsx2) : pw_rfsx2;
+  pw_rfsx2  = _pw_rfsx2.fixedflag ?  ((void)(pw_rfsx2), pw_rfsx2) : pw_rfsx2;
+  cyc_rfsx2  = _cyc_rfsx2.fixedflag ?  ((void)(1.0), cyc_rfsx2) : 1.0;
+  thk_rfsx2  = _thk_rfsx2.fixedflag ?  ((void)(satthickx2), thk_rfsx2) : satthickx2;
+  wg_rfsx2  = _wg_rfsx2.fixedflag ?  ((void)(TYPRHO1), wg_rfsx2) : TYPRHO1;
+
+  pw_isi_satx2  = _pw_isi_satx2.fixedflag ?  ((void)(pw_isisat), pw_isi_satx2) : pw_isisat;
+  wg_isi_satx2  = _wg_isi_satx2.fixedflag ?  ((void)(SSP), wg_isi_satx2) : SSP;
+
+  pw_rot_update_x2  = _pw_rot_update_x2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_x2) : pw_rotupdate;
+  wg_rot_update_x2  = _wg_rot_update_x2.fixedflag ?  ((void)(SSP), wg_rot_update_x2) : SSP;
+
+    wg_gyksx2  = _wg_gyksx2.fixedflag ?  ((void)(YGRAD), wg_gyksx2) : YGRAD;
+
+    wg_gxksx2  = _wg_gxksx2.fixedflag ?  ((void)(XGRAD), wg_gxksx2) : XGRAD;
+
+  pw_isi_satxk2  = _pw_isi_satxk2.fixedflag ?  ((void)(pw_isisat), pw_isi_satxk2) : pw_isisat;
+  wg_isi_satxk2  = _wg_isi_satxk2.fixedflag ?  ((void)(SSP), wg_isi_satxk2) : SSP;
+
+  pw_rot_update_xk2  = _pw_rot_update_xk2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_xk2) : pw_rotupdate;
+  wg_rot_update_xk2  = _wg_rot_update_xk2.fixedflag ?  ((void)(SSP), wg_rot_update_xk2) : SSP;
+
+  flip_rfsy1  = _flip_rfsy1.fixedflag ?  ((void)(90.0), flip_rfsy1) : 90.0;
+  a_rfsy1  = _a_rfsy1.fixedflag ?  ((void)(flip_rfsy1/180), a_rfsy1) : flip_rfsy1/180;
+  pw_gyrfsy1  = _pw_gyrfsy1.fixedflag ?  ((void)(pw_rfsy1), pw_gyrfsy1) : pw_rfsy1;
+  pw_rfsy1  = _pw_rfsy1.fixedflag ?  ((void)(pw_rfsy1), pw_rfsy1) : pw_rfsy1;
+  cyc_rfsy1  = _cyc_rfsy1.fixedflag ?  ((void)(1.0), cyc_rfsy1) : 1.0;
+  thk_rfsy1  = _thk_rfsy1.fixedflag ?  ((void)(satthickdfy), thk_rfsy1) : satthickdfy;
+  wg_rfsy1  = _wg_rfsy1.fixedflag ?  ((void)(TYPRHO1), wg_rfsy1) : TYPRHO1;
+
+  pw_isi_saty1  = _pw_isi_saty1.fixedflag ?  ((void)(pw_isisat), pw_isi_saty1) : pw_isisat;
+  wg_isi_saty1  = _wg_isi_saty1.fixedflag ?  ((void)(SSP), wg_isi_saty1) : SSP;
+
+  pw_rot_update_y1  = _pw_rot_update_y1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_y1) : pw_rotupdate;
+  wg_rot_update_y1  = _wg_rot_update_y1.fixedflag ?  ((void)(SSP), wg_rot_update_y1) : SSP;
+
+    wg_gyksy1  = _wg_gyksy1.fixedflag ?  ((void)(YGRAD), wg_gyksy1) : YGRAD;
+
+    wg_gxksy1  = _wg_gxksy1.fixedflag ?  ((void)(XGRAD), wg_gxksy1) : XGRAD;
+
+  pw_isi_satyk1  = _pw_isi_satyk1.fixedflag ?  ((void)(pw_isisat), pw_isi_satyk1) : pw_isisat;
+  wg_isi_satyk1  = _wg_isi_satyk1.fixedflag ?  ((void)(SSP), wg_isi_satyk1) : SSP;
+
+  pw_rot_update_yk1  = _pw_rot_update_yk1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_yk1) : pw_rotupdate;
+  wg_rot_update_yk1  = _wg_rot_update_yk1.fixedflag ?  ((void)(SSP), wg_rot_update_yk1) : SSP;
+
+  flip_rfsy2  = _flip_rfsy2.fixedflag ?  ((void)(90.0), flip_rfsy2) : 90.0;
+  a_rfsy2  = _a_rfsy2.fixedflag ?  ((void)(flip_rfsy2/180), a_rfsy2) : flip_rfsy2/180;
+  pw_gyrfsy2  = _pw_gyrfsy2.fixedflag ?  ((void)(pw_rfsy2), pw_gyrfsy2) : pw_rfsy2;
+  pw_rfsy2  = _pw_rfsy2.fixedflag ?  ((void)(pw_rfsy2), pw_rfsy2) : pw_rfsy2;
+  cyc_rfsy2  = _cyc_rfsy2.fixedflag ?  ((void)(1.0), cyc_rfsy2) : 1.0;
+  thk_rfsy2  = _thk_rfsy2.fixedflag ?  ((void)(satthicky2), thk_rfsy2) : satthicky2;
+  wg_rfsy2  = _wg_rfsy2.fixedflag ?  ((void)(TYPRHO1), wg_rfsy2) : TYPRHO1;
+
+  pw_isi_saty2  = _pw_isi_saty2.fixedflag ?  ((void)(pw_isisat), pw_isi_saty2) : pw_isisat;
+  wg_isi_saty2  = _wg_isi_saty2.fixedflag ?  ((void)(SSP), wg_isi_saty2) : SSP;
+
+  pw_rot_update_y2  = _pw_rot_update_y2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_y2) : pw_rotupdate;
+  wg_rot_update_y2  = _wg_rot_update_y2.fixedflag ?  ((void)(SSP), wg_rot_update_y2) : SSP;
+
+    wg_gyksy2  = _wg_gyksy2.fixedflag ?  ((void)(YGRAD), wg_gyksy2) : YGRAD;
+
+    wg_gxksy2  = _wg_gxksy2.fixedflag ?  ((void)(XGRAD), wg_gxksy2) : XGRAD;
+
+  pw_isi_satyk2  = _pw_isi_satyk2.fixedflag ?  ((void)(pw_isisat), pw_isi_satyk2) : pw_isisat;
+  wg_isi_satyk2  = _wg_isi_satyk2.fixedflag ?  ((void)(SSP), wg_isi_satyk2) : SSP;
+
+  pw_rot_update_yk2  = _pw_rot_update_yk2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_yk2) : pw_rotupdate;
+  wg_rot_update_yk2  = _wg_rot_update_yk2.fixedflag ?  ((void)(SSP), wg_rot_update_yk2) : SSP;
+
+  flip_rfsz1  = _flip_rfsz1.fixedflag ?  ((void)(90.0), flip_rfsz1) : 90.0;
+  a_rfsz1  = _a_rfsz1.fixedflag ?  ((void)(flip_rfsz1/180), a_rfsz1) : flip_rfsz1/180;
+  pw_gzrfsz1  = _pw_gzrfsz1.fixedflag ?  ((void)(pw_rfsz1), pw_gzrfsz1) : pw_rfsz1;
+  pw_rfsz1  = _pw_rfsz1.fixedflag ?  ((void)(pw_rfsz1), pw_rfsz1) : pw_rfsz1;
+  cyc_rfsz1  = _cyc_rfsz1.fixedflag ?  ((void)(1.0), cyc_rfsz1) : 1.0;
+  thk_rfsz1  = _thk_rfsz1.fixedflag ?  ((void)(satthickdfz), thk_rfsz1) : satthickdfz;
+  wg_rfsz1  = _wg_rfsz1.fixedflag ?  ((void)(TYPRHO1), wg_rfsz1) : TYPRHO1;
+
+  pw_isi_satz1  = _pw_isi_satz1.fixedflag ?  ((void)(pw_isisat), pw_isi_satz1) : pw_isisat;
+  wg_isi_satz1  = _wg_isi_satz1.fixedflag ?  ((void)(SSP), wg_isi_satz1) : SSP;
+
+  pw_rot_update_z1  = _pw_rot_update_z1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_z1) : pw_rotupdate;
+  wg_rot_update_z1  = _wg_rot_update_z1.fixedflag ?  ((void)(SSP), wg_rot_update_z1) : SSP;
+
+    wg_gyksz1  = _wg_gyksz1.fixedflag ?  ((void)(YGRAD), wg_gyksz1) : YGRAD;
+
+    wg_gxksz1  = _wg_gxksz1.fixedflag ?  ((void)(XGRAD), wg_gxksz1) : XGRAD;
+
+  pw_isi_satzk1  = _pw_isi_satzk1.fixedflag ?  ((void)(pw_isisat), pw_isi_satzk1) : pw_isisat;
+  wg_isi_satzk1  = _wg_isi_satzk1.fixedflag ?  ((void)(SSP), wg_isi_satzk1) : SSP;
+
+  pw_rot_update_zk1  = _pw_rot_update_zk1.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_zk1) : pw_rotupdate;
+  wg_rot_update_zk1  = _wg_rot_update_zk1.fixedflag ?  ((void)(SSP), wg_rot_update_zk1) : SSP;
+
+  flip_rfsz2  = _flip_rfsz2.fixedflag ?  ((void)(90.0), flip_rfsz2) : 90.0;
+  a_rfsz2  = _a_rfsz2.fixedflag ?  ((void)(flip_rfsz2/180), a_rfsz2) : flip_rfsz2/180;
+  pw_gzrfsz2  = _pw_gzrfsz2.fixedflag ?  ((void)(pw_rfsz2), pw_gzrfsz2) : pw_rfsz2;
+  pw_rfsz2  = _pw_rfsz2.fixedflag ?  ((void)(pw_rfsz2), pw_rfsz2) : pw_rfsz2;
+  cyc_rfsz2  = _cyc_rfsz2.fixedflag ?  ((void)(1.0), cyc_rfsz2) : 1.0;
+  thk_rfsz2  = _thk_rfsz2.fixedflag ?  ((void)(satthickz2), thk_rfsz2) : satthickz2;
+  wg_rfsz2  = _wg_rfsz2.fixedflag ?  ((void)(TYPRHO1), wg_rfsz2) : TYPRHO1;
+
+  pw_isi_satz2  = _pw_isi_satz2.fixedflag ?  ((void)(pw_isisat), pw_isi_satz2) : pw_isisat;
+  wg_isi_satz2  = _wg_isi_satz2.fixedflag ?  ((void)(SSP), wg_isi_satz2) : SSP;
+
+  pw_rot_update_z2  = _pw_rot_update_z2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_z2) : pw_rotupdate;
+  wg_rot_update_z2  = _wg_rot_update_z2.fixedflag ?  ((void)(SSP), wg_rot_update_z2) : SSP;
+
+    wg_gyksz2  = _wg_gyksz2.fixedflag ?  ((void)(YGRAD), wg_gyksz2) : YGRAD;
+
+    wg_gxksz2  = _wg_gxksz2.fixedflag ?  ((void)(XGRAD), wg_gxksz2) : XGRAD;
+
+  pw_isi_satzk2  = _pw_isi_satzk2.fixedflag ?  ((void)(pw_isisat), pw_isi_satzk2) : pw_isisat;
+  wg_isi_satzk2  = _wg_isi_satzk2.fixedflag ?  ((void)(SSP), wg_isi_satzk2) : SSP;
+
+  pw_rot_update_zk2  = _pw_rot_update_zk2.fixedflag ?  ((void)(pw_rotupdate), pw_rot_update_zk2) : pw_rotupdate;
+  wg_rot_update_zk2  = _wg_rot_update_zk2.fixedflag ?  ((void)(SSP), wg_rot_update_zk2) : SSP;
+
+
+  pw_y_ccs_null  = _pw_y_ccs_null.fixedflag ?    ((void)(RUP_GRD(8)), pw_y_ccs_null) : RUP_GRD(8);
+  wg_y_ccs_null  = _wg_y_ccs_null.fixedflag ?  ((void)(YGRAD), wg_y_ccs_null) : YGRAD;
+
+
+  flip_rf1mps1  = _flip_rf1mps1.fixedflag ?  ((void)(flip_rf1mps1), flip_rf1mps1) : flip_rf1mps1;
+  a_rf1mps1  = _a_rf1mps1.fixedflag ?  ((void)(flip_rf1mps1/180), a_rf1mps1) : flip_rf1mps1/180;
+  pw_gzrf1mps1  = _pw_gzrf1mps1.fixedflag ?  ((void)(pw_rf1mps1), pw_gzrf1mps1) : pw_rf1mps1;
+  pw_rf1mps1  = _pw_rf1mps1.fixedflag ?  ((void)(pw_rf1mps1), pw_rf1mps1) : pw_rf1mps1;
+  cyc_rf1mps1  = _cyc_rf1mps1.fixedflag ?  ((void)(cyc_rf1mps1), cyc_rf1mps1) : cyc_rf1mps1;
+  thk_rf1mps1  = _thk_rf1mps1.fixedflag ?  ((void)(thk_rf1mps1), thk_rf1mps1) : thk_rf1mps1;
+  wg_rf1mps1  = _wg_rf1mps1.fixedflag ?  ((void)(TYPRHO1), wg_rf1mps1) : TYPRHO1;
+
+    wg_gz1mps1  = _wg_gz1mps1.fixedflag ?  ((void)(ZGRAD), wg_gz1mps1) : ZGRAD;
+
+    wg_gx1mps1  = _wg_gx1mps1.fixedflag ?  ((void)(read_axis), wg_gx1mps1) : read_axis;
+
+  flip_rf2mps1  = _flip_rf2mps1.fixedflag ?  ((void)(flip_rf2mps1), flip_rf2mps1) : flip_rf2mps1;
+  a_rf2mps1  = _a_rf2mps1.fixedflag ?  ((void)(flip_rf2mps1/180), a_rf2mps1) : flip_rf2mps1/180;
+  pw_gzrf2mps1  = _pw_gzrf2mps1.fixedflag ?  ((void)(pw_rf2mps1), pw_gzrf2mps1) : pw_rf2mps1;
+  pw_rf2mps1  = _pw_rf2mps1.fixedflag ?  ((void)(pw_rf2mps1), pw_rf2mps1) : pw_rf2mps1;
+  cyc_rf2mps1  = _cyc_rf2mps1.fixedflag ?  ((void)(cyc_rf2mps1), cyc_rf2mps1) : cyc_rf2mps1;
+  thk_rf2mps1  = _thk_rf2mps1.fixedflag ?  ((void)(thk_rf2mps1), thk_rf2mps1) : thk_rf2mps1;
+  wg_rf2mps1  = _wg_rf2mps1.fixedflag ?  ((void)(TYPRHO1), wg_rf2mps1) : TYPRHO1;
+
+    wg_gzrf2lmps1  = _wg_gzrf2lmps1.fixedflag ?  ((void)(ZGRADB), wg_gzrf2lmps1) : ZGRADB;
+
+    wg_gzrf2rmps1  = _wg_gzrf2rmps1.fixedflag ?  ((void)(ZGRADB), wg_gzrf2rmps1) : ZGRADB;
+
+    wg_gxwmps1  = _wg_gxwmps1.fixedflag ?  ((void)(read_axis), wg_gxwmps1) : read_axis;
+
+
+
+  flip_rf1cfl  = _flip_rf1cfl.fixedflag ?  ((void)(flip_rf1cfl), flip_rf1cfl) : flip_rf1cfl;
+  a_rf1cfl  = _a_rf1cfl.fixedflag ?  ((void)(flip_rf1cfl/180), a_rf1cfl) : flip_rf1cfl/180;
+  pw_gzrf1cfl  = _pw_gzrf1cfl.fixedflag ?  ((void)(pw_rf1cfl), pw_gzrf1cfl) : pw_rf1cfl;
+  pw_rf1cfl  = _pw_rf1cfl.fixedflag ?  ((void)(pw_rf1cfl), pw_rf1cfl) : pw_rf1cfl;
+  cyc_rf1cfl  = _cyc_rf1cfl.fixedflag ?  ((void)(cyc_rf1cfl), cyc_rf1cfl) : cyc_rf1cfl;
+  thk_rf1cfl  = _thk_rf1cfl.fixedflag ?  ((void)(thk_rf1cfl), thk_rf1cfl) : thk_rf1cfl;
+  wg_rf1cfl  = _wg_rf1cfl.fixedflag ?  ((void)(TYPRHO1), wg_rf1cfl) : TYPRHO1;
+
+    wg_gz1cfl  = _wg_gz1cfl.fixedflag ?  ((void)(ZGRAD), wg_gz1cfl) : ZGRAD;
+
+
+    wg_gykcfl  = _wg_gykcfl.fixedflag ?  ((void)(YGRAD), wg_gykcfl) : YGRAD;
+
+
+    wg_gxkrcvn  = _wg_gxkrcvn.fixedflag ?  ((void)(XGRAD), wg_gxkrcvn) : XGRAD;
+
+    wg_gykrcvn  = _wg_gykrcvn.fixedflag ?  ((void)(YGRAD), wg_gykrcvn) : YGRAD;
+
+    wg_gzkrcvn  = _wg_gzkrcvn.fixedflag ?  ((void)(ZGRAD), wg_gzkrcvn) : ZGRAD;
+
+  pw_rcvn_wait  = _pw_rcvn_wait.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_rcvn_wait) : GRAD_UPDATE_TIME;
+  wg_rcvn_wait  = _wg_rcvn_wait.fixedflag ?  ((void)(ZGRAD), wg_rcvn_wait) : ZGRAD;
+
+
+
+
+
+
+  flip_rf0cfh  = _flip_rf0cfh.fixedflag ?  ((void)(flip_rf0cfh), flip_rf0cfh) : flip_rf0cfh;
+  a_rf0cfh  = _a_rf0cfh.fixedflag ?  ((void)(flip_rf0cfh/180), a_rf0cfh) : flip_rf0cfh/180;
+  pw_gzrf0cfh  = _pw_gzrf0cfh.fixedflag ?  ((void)(pw_rf0cfh), pw_gzrf0cfh) : pw_rf0cfh;
+  res_gzrf0cfh  = _res_gzrf0cfh.fixedflag ?  ((void)(1), res_gzrf0cfh) : 1;
+  res_rf0cfh  = _res_rf0cfh.fixedflag ?  ((void)(res_rf0cfh), res_rf0cfh) : res_rf0cfh;
+  pw_rf0cfh  = _pw_rf0cfh.fixedflag ?  ((void)(pw_rf0cfh), pw_rf0cfh) : pw_rf0cfh;
+  cyc_rf0cfh  = _cyc_rf0cfh.fixedflag ?  ((void)(cyc_rf0cfh), cyc_rf0cfh) : cyc_rf0cfh;
+  thk_rf0cfh  = _thk_rf0cfh.fixedflag ?  ((void)(((presscfh_ctrl==PRESSCFH_NONE)?opslthick:presscfh_ir_slthick)), thk_rf0cfh) : ((presscfh_ctrl==PRESSCFH_NONE)?opslthick:presscfh_ir_slthick);
+  wg_rf0cfh  = _wg_rf0cfh.fixedflag ?  ((void)(TYPRHO1), wg_rf0cfh) : TYPRHO1;
+
+  a_omegarf0cfh       = _a_omegarf0cfh.fixedflag ?   ((void)((float)-1), a_omegarf0cfh) : (float)-1;
+  res_omegarf0cfh     = _res_omegarf0cfh.fixedflag ?  ((void)(res_rf0cfh), res_omegarf0cfh) : res_rf0cfh;
+  pw_omegarf0cfh      = _pw_omegarf0cfh.fixedflag ?  ((void)(pw_omegarf0cfh), pw_omegarf0cfh) : pw_omegarf0cfh;
+  rfslot_omegarf0cfh  = _rfslot_omegarf0cfh.fixedflag ?  ((void)(RF0_CFH_SLOT), rfslot_omegarf0cfh) : RF0_CFH_SLOT;
+  off_omegarf0cfh     = _off_omegarf0cfh.fixedflag ?  ((void)(0.0), off_omegarf0cfh) : 0.0;
+  n_omegarf0cfh       = _n_omegarf0cfh.fixedflag ?  ((void)(0), n_omegarf0cfh) : 0;  /* Initialize to 0 because the macro will be called
+                              at least once and the n_$[ext2_name] will
+                              be incremented in the pulsegen section */
+  wg_omegarf0cfh  = _wg_omegarf0cfh.fixedflag ?  ((void)(THETA), wg_omegarf0cfh) : THETA;
+
+    wg_gyrf0kcfh  = _wg_gyrf0kcfh.fixedflag ?  ((void)(YGRAD), wg_gyrf0kcfh) : YGRAD;
+
+  pw_zticfh  = _pw_zticfh.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_zticfh) : GRAD_UPDATE_TIME;
+  wg_zticfh  = _wg_zticfh.fixedflag ?  ((void)(ZGRAD), wg_zticfh) : ZGRAD;
+
+  pw_rticfh  = _pw_rticfh.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_rticfh) : GRAD_UPDATE_TIME;
+  wg_rticfh  = _wg_rticfh.fixedflag ?  ((void)(RHO), wg_rticfh) : RHO;
+
+  pw_xticfh  = _pw_xticfh.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_xticfh) : GRAD_UPDATE_TIME;
+  wg_xticfh  = _wg_xticfh.fixedflag ?  ((void)(XGRAD), wg_xticfh) : XGRAD;
+
+  pw_yticfh  = _pw_yticfh.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_yticfh) : GRAD_UPDATE_TIME;
+  wg_yticfh  = _wg_yticfh.fixedflag ?  ((void)(YGRAD), wg_yticfh) : YGRAD;
+
+  pw_sticfh  = _pw_sticfh.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_sticfh) : GRAD_UPDATE_TIME;
+  wg_sticfh  = _wg_sticfh.fixedflag ?  ((void)(SSP), wg_sticfh) : SSP;
+
+  flip_rf1cfh  = _flip_rf1cfh.fixedflag ?  ((void)(flip_rf1cfh), flip_rf1cfh) : flip_rf1cfh;
+  a_rf1cfh  = _a_rf1cfh.fixedflag ?  ((void)(flip_rf1cfh/180), a_rf1cfh) : flip_rf1cfh/180;
+  pw_gzrf1cfh  = _pw_gzrf1cfh.fixedflag ?  ((void)(pw_rf1cfh), pw_gzrf1cfh) : pw_rf1cfh;
+  pw_rf1cfh  = _pw_rf1cfh.fixedflag ?  ((void)(pw_rf1cfh), pw_rf1cfh) : pw_rf1cfh;
+  cyc_rf1cfh  = _cyc_rf1cfh.fixedflag ?  ((void)(cyc_rf1cfh), cyc_rf1cfh) : cyc_rf1cfh;
+  thk_rf1cfh  = _thk_rf1cfh.fixedflag ?  ((void)(((presscfh_ctrl==PRESSCFH_NONE)?thk_rf1cfh:presscfh_slthick)), thk_rf1cfh) : ((presscfh_ctrl==PRESSCFH_NONE)?thk_rf1cfh:presscfh_slthick);
+  wg_rf1cfh  = _wg_rf1cfh.fixedflag ?  ((void)(TYPRHO1), wg_rf1cfh) : TYPRHO1;
+
+  a_rf2cfh  = _a_rf2cfh.fixedflag ?  ((void)(a_rf2cfh), a_rf2cfh) : a_rf2cfh;
+  res_rf2cfh  = _res_rf2cfh.fixedflag ?  ((void)(0), res_rf2cfh) : 0;
+  cyc_rf2cfh  = _cyc_rf2cfh.fixedflag ?  ((void)(1.0), cyc_rf2cfh) : 1.0;
+  off_rf2cfh  = _off_rf2cfh.fixedflag ?  ((void)(0.0), off_rf2cfh) : 0.0;
+  alpha_rf2cfh  = _alpha_rf2cfh.fixedflag ?  ((void)(0.46), alpha_rf2cfh) : 0.46;
+  pw_rf2cfh  = _pw_rf2cfh.fixedflag ?  ((void)(pw_rf2cfh), pw_rf2cfh) : pw_rf2cfh;
+  wg_rf2cfh  = _wg_rf2cfh.fixedflag ?  ((void)(RHO), wg_rf2cfh) : RHO;
+
+  a_rf3cfh  = _a_rf3cfh.fixedflag ?  ((void)(a_rf3cfh), a_rf3cfh) : a_rf3cfh;
+  res_rf3cfh  = _res_rf3cfh.fixedflag ?  ((void)(0), res_rf3cfh) : 0;
+  cyc_rf3cfh  = _cyc_rf3cfh.fixedflag ?  ((void)(1.0), cyc_rf3cfh) : 1.0;
+  off_rf3cfh  = _off_rf3cfh.fixedflag ?  ((void)(0.0), off_rf3cfh) : 0.0;
+  alpha_rf3cfh  = _alpha_rf3cfh.fixedflag ?  ((void)(0.46), alpha_rf3cfh) : 0.46;
+  pw_rf3cfh  = _pw_rf3cfh.fixedflag ?  ((void)(pw_rf3cfh), pw_rf3cfh) : pw_rf3cfh;
+  wg_rf3cfh  = _wg_rf3cfh.fixedflag ?  ((void)(RHO), wg_rf3cfh) : RHO;
+
+    wg_gxrf2cfh  = _wg_gxrf2cfh.fixedflag ?  ((void)(XGRAD), wg_gxrf2cfh) : XGRAD;
+
+    wg_gyrf2cfh  = _wg_gyrf2cfh.fixedflag ?  ((void)(YGRAD), wg_gyrf2cfh) : YGRAD;
+
+    wg_gzrf2lcfh  = _wg_gzrf2lcfh.fixedflag ?  ((void)(ZGRAD), wg_gzrf2lcfh) : ZGRAD;
+
+    wg_gzrf2rcfh  = _wg_gzrf2rcfh.fixedflag ?  ((void)(ZGRAD), wg_gzrf2rcfh) : ZGRAD;
+
+    wg_gyrf3cfh  = _wg_gyrf3cfh.fixedflag ?  ((void)(YGRAD), wg_gyrf3cfh) : YGRAD;
+
+    wg_gzrf3lcfh  = _wg_gzrf3lcfh.fixedflag ?  ((void)(ZGRAD), wg_gzrf3lcfh) : ZGRAD;
+
+    wg_gzrf3rcfh  = _wg_gzrf3rcfh.fixedflag ?  ((void)(ZGRAD), wg_gzrf3rcfh) : ZGRAD;
+
+    wg_gy1cfh  = _wg_gy1cfh.fixedflag ?  ((void)(YGRAD), wg_gy1cfh) : YGRAD;
+
+    wg_gx1cfh  = _wg_gx1cfh.fixedflag ?  ((void)(XGRAD), wg_gx1cfh) : XGRAD;
+
+
+    wg_gykcfh  = _wg_gykcfh.fixedflag ?  ((void)(YGRAD), wg_gykcfh) : YGRAD;
+
+
+  ia_contrfhubsel  = _ia_contrfhubsel.fixedflag ?  ((void)(0), ia_contrfhubsel) : 0;
+
+  ia_contrfsel  = _ia_contrfsel.fixedflag ?  ((void)(0), ia_contrfsel) : 0;
+
+  pw_csw_wait  = _pw_csw_wait.fixedflag ?  ((void)(SSP_UPDATE_TIME), pw_csw_wait) : SSP_UPDATE_TIME;
+  wg_csw_wait  = _wg_csw_wait.fixedflag ?  ((void)(SSP), wg_csw_wait) : SSP;
+
+
+
+  flip_rf1ftg  = _flip_rf1ftg.fixedflag ?  ((void)(flip_rf1ftg), flip_rf1ftg) : flip_rf1ftg;
+  a_rf1ftg  = _a_rf1ftg.fixedflag ?  ((void)(flip_rf1ftg/180), a_rf1ftg) : flip_rf1ftg/180;
+  pw_gzrf1ftg  = _pw_gzrf1ftg.fixedflag ?  ((void)(pw_rf1ftg), pw_gzrf1ftg) : pw_rf1ftg;
+  pw_rf1ftg  = _pw_rf1ftg.fixedflag ?  ((void)(pw_rf1ftg), pw_rf1ftg) : pw_rf1ftg;
+  cyc_rf1ftg  = _cyc_rf1ftg.fixedflag ?  ((void)(cyc_rf1ftg), cyc_rf1ftg) : cyc_rf1ftg;
+  thk_rf1ftg  = _thk_rf1ftg.fixedflag ?  ((void)(FTGopslthickz1), thk_rf1ftg) : FTGopslthickz1;
+  wg_rf1ftg  = _wg_rf1ftg.fixedflag ?  ((void)(TYPRHO1), wg_rf1ftg) : TYPRHO1;
+
+    wg_gz1ftg  = _wg_gz1ftg.fixedflag ?  ((void)(ZGRAD), wg_gz1ftg) : ZGRAD;
+
+  flip_rf2ftg  = _flip_rf2ftg.fixedflag ?  ((void)(flip_rf2ftg), flip_rf2ftg) : flip_rf2ftg;
+  a_rf2ftg  = _a_rf2ftg.fixedflag ?  ((void)(flip_rf2ftg/180), a_rf2ftg) : flip_rf2ftg/180;
+  pw_gzrf2ftg  = _pw_gzrf2ftg.fixedflag ?  ((void)(pw_rf2ftg), pw_gzrf2ftg) : pw_rf2ftg;
+  pw_rf2ftg  = _pw_rf2ftg.fixedflag ?  ((void)(pw_rf2ftg), pw_rf2ftg) : pw_rf2ftg;
+  cyc_rf2ftg  = _cyc_rf2ftg.fixedflag ?  ((void)(cyc_rf2ftg), cyc_rf2ftg) : cyc_rf2ftg;
+  thk_rf2ftg  = _thk_rf2ftg.fixedflag ?  ((void)(FTGopslthickz2), thk_rf2ftg) : FTGopslthickz2;
+  wg_rf2ftg  = _wg_rf2ftg.fixedflag ?  ((void)(TYPRHO1), wg_rf2ftg) : TYPRHO1;
+
+    wg_gz2ftg  = _wg_gz2ftg.fixedflag ?  ((void)(ZGRAD), wg_gz2ftg) : ZGRAD;
+
+  flip_rf3ftg  = _flip_rf3ftg.fixedflag ?  ((void)(flip_rf3ftg), flip_rf3ftg) : flip_rf3ftg;
+  a_rf3ftg  = _a_rf3ftg.fixedflag ?  ((void)(flip_rf3ftg/180), a_rf3ftg) : flip_rf3ftg/180;
+  pw_gzrf3ftg  = _pw_gzrf3ftg.fixedflag ?  ((void)(pw_rf3ftg), pw_gzrf3ftg) : pw_rf3ftg;
+  pw_rf3ftg  = _pw_rf3ftg.fixedflag ?  ((void)(pw_rf3ftg), pw_rf3ftg) : pw_rf3ftg;
+  cyc_rf3ftg  = _cyc_rf3ftg.fixedflag ?  ((void)(cyc_rf2ftg), cyc_rf3ftg) : cyc_rf2ftg;
+  thk_rf3ftg  = _thk_rf3ftg.fixedflag ?  ((void)(FTGopslthickz3), thk_rf3ftg) : FTGopslthickz3;
+  wg_rf3ftg  = _wg_rf3ftg.fixedflag ?  ((void)(TYPRHO1), wg_rf3ftg) : TYPRHO1;
+
+    wg_gz3ftg  = _wg_gz3ftg.fixedflag ?  ((void)(ZGRAD), wg_gz3ftg) : ZGRAD;
+
+    wg_gx1ftg  = _wg_gx1ftg.fixedflag ?  ((void)(read_axis), wg_gx1ftg) : read_axis;
+
+    wg_gx1bftg  = _wg_gx1bftg.fixedflag ?  ((void)(read_axis), wg_gx1bftg) : read_axis;
+
+    wg_gxw1ftg  = _wg_gxw1ftg.fixedflag ?  ((void)(read_axis), wg_gxw1ftg) : read_axis;
+
+    wg_postgxw1ftg  = _wg_postgxw1ftg.fixedflag ?  ((void)(read_axis), wg_postgxw1ftg) : read_axis;
+
+
+    wg_gz2bftg  = _wg_gz2bftg.fixedflag ?  ((void)(ZGRAD), wg_gz2bftg) : ZGRAD;
+
+    wg_gx2ftg  = _wg_gx2ftg.fixedflag ?  ((void)(read_axis), wg_gx2ftg) : read_axis;
+
+    wg_gxw2ftg  = _wg_gxw2ftg.fixedflag ?  ((void)(read_axis), wg_gxw2ftg) : read_axis;
+
+    wg_gx2test  = _wg_gx2test.fixedflag ?  ((void)(read_axis), wg_gx2test) : read_axis;
+
+
+
+  flip_rf1xtg  = _flip_rf1xtg.fixedflag ?  ((void)(flip_rf1xtg), flip_rf1xtg) : flip_rf1xtg;
+  a_rf1xtg  = _a_rf1xtg.fixedflag ?  ((void)(flip_rf1xtg/180), a_rf1xtg) : flip_rf1xtg/180;
+  pw_gzrf1xtg  = _pw_gzrf1xtg.fixedflag ?  ((void)(pw_rf1xtg), pw_gzrf1xtg) : pw_rf1xtg;
+  pw_rf1xtg  = _pw_rf1xtg.fixedflag ?  ((void)(pw_rf1xtg), pw_rf1xtg) : pw_rf1xtg;
+  cyc_rf1xtg  = _cyc_rf1xtg.fixedflag ?  ((void)(cyc_rf1xtg), cyc_rf1xtg) : cyc_rf1xtg;
+  thk_rf1xtg  = _thk_rf1xtg.fixedflag ?  ((void)(XTGopslthick), thk_rf1xtg) : XTGopslthick;
+  wg_rf1xtg  = _wg_rf1xtg.fixedflag ?  ((void)(TYPRHO1), wg_rf1xtg) : TYPRHO1;
+
+    wg_gykxtgl  = _wg_gykxtgl.fixedflag ?  ((void)(killer_axis), wg_gykxtgl) : killer_axis;
+
+            flip_rf3xtg  = _flip_rf3xtg.fixedflag ?  ((void)(flip_rf3xtg), flip_rf3xtg) : flip_rf3xtg;
+            a_rf3xtg  = _a_rf3xtg.fixedflag ?  ((void)(flip_rf3xtg/NOM_FA_RFMT), a_rf3xtg) : flip_rf3xtg/NOM_FA_RFMT;
+            pw_rf3xtg  = _pw_rf3xtg.fixedflag ?  ((void)(pw_bsrf), pw_rf3xtg) : pw_bsrf;
+            res_rf3xtg  = _res_rf3xtg.fixedflag ?  ((void)(RES_FERMI_BLS), res_rf3xtg) : RES_FERMI_BLS;
+            wg_rf3xtg  = _wg_rf3xtg.fixedflag ?  ((void)(TYPRHO1), wg_rf3xtg) : TYPRHO1;
+
+    wg_gz1xtg  = _wg_gz1xtg.fixedflag ?  ((void)(ZGRAD), wg_gz1xtg) : ZGRAD;
+
+  flip_rf2xtg  = _flip_rf2xtg.fixedflag ?  ((void)(flip_rf2xtg), flip_rf2xtg) : flip_rf2xtg;
+  a_rf2xtg  = _a_rf2xtg.fixedflag ?  ((void)(flip_rf2xtg/180), a_rf2xtg) : flip_rf2xtg/180;
+  pw_gzrf2xtg  = _pw_gzrf2xtg.fixedflag ?  ((void)(pw_rf2xtg), pw_gzrf2xtg) : pw_rf2xtg;
+  pw_rf2xtg  = _pw_rf2xtg.fixedflag ?  ((void)(pw_rf2xtg), pw_rf2xtg) : pw_rf2xtg;
+  cyc_rf2xtg  = _cyc_rf2xtg.fixedflag ?  ((void)(cyc_rf2xtg), cyc_rf2xtg) : cyc_rf2xtg;
+  thk_rf2xtg  = _thk_rf2xtg.fixedflag ?  ((void)(XTGopslthick), thk_rf2xtg) : XTGopslthick;
+  wg_rf2xtg  = _wg_rf2xtg.fixedflag ?  ((void)(TYPRHO1), wg_rf2xtg) : TYPRHO1;
+
+    wg_gz2xtg  = _wg_gz2xtg.fixedflag ?  ((void)(ZGRAD), wg_gz2xtg) : ZGRAD;
+
+            flip_rf4xtg  = _flip_rf4xtg.fixedflag ?  ((void)(flip_rf4xtg), flip_rf4xtg) : flip_rf4xtg;
+            a_rf4xtg  = _a_rf4xtg.fixedflag ?  ((void)(flip_rf4xtg/NOM_FA_RFMT), a_rf4xtg) : flip_rf4xtg/NOM_FA_RFMT;
+            pw_rf4xtg  = _pw_rf4xtg.fixedflag ?  ((void)(pw_bsrf), pw_rf4xtg) : pw_bsrf;
+            res_rf4xtg  = _res_rf4xtg.fixedflag ?  ((void)(RES_FERMI_BLS), res_rf4xtg) : RES_FERMI_BLS;
+            wg_rf4xtg  = _wg_rf4xtg.fixedflag ?  ((void)(TYPRHO1), wg_rf4xtg) : TYPRHO1;
+
+    wg_gykxtgr  = _wg_gykxtgr.fixedflag ?  ((void)(killer_axis), wg_gykxtgr) : killer_axis;
+
+    wg_gx1bxtg  = _wg_gx1bxtg.fixedflag ?  ((void)(read_axis), wg_gx1bxtg) : read_axis;
+
+    wg_gxw1xtg  = _wg_gxw1xtg.fixedflag ?  ((void)(read_axis), wg_gxw1xtg) : read_axis;
+
+
+
+  flip_rf1as  = _flip_rf1as.fixedflag ?  ((void)(flip_rf1as), flip_rf1as) : flip_rf1as;
+  a_rf1as  = _a_rf1as.fixedflag ?  ((void)(flip_rf1as/180), a_rf1as) : flip_rf1as/180;
+  pw_gzrf1as  = _pw_gzrf1as.fixedflag ?  ((void)(pw_rf1as), pw_gzrf1as) : pw_rf1as;
+  pw_rf1as  = _pw_rf1as.fixedflag ?  ((void)(pw_rf1as), pw_rf1as) : pw_rf1as;
+  cyc_rf1as  = _cyc_rf1as.fixedflag ?  ((void)(cyc_rf1as), cyc_rf1as) : cyc_rf1as;
+  thk_rf1as  = _thk_rf1as.fixedflag ?  ((void)(asslthick), thk_rf1as) : asslthick;
+  wg_rf1as  = _wg_rf1as.fixedflag ?  ((void)(TYPRHO1), wg_rf1as) : TYPRHO1;
+
+    wg_gz1as  = _wg_gz1as.fixedflag ?  ((void)(ZGRAD), wg_gz1as) : ZGRAD;
+
+    wg_gxwas  = _wg_gxwas.fixedflag ?  ((void)(XGRAD), wg_gxwas) : XGRAD;
+
+
+    wg_gx1as  = _wg_gx1as.fixedflag ?  ((void)(XGRAD), wg_gx1as) : XGRAD;
+
+   wg_gy1as  = _wg_gy1as.fixedflag ?  ((void)(YGRAD), wg_gy1as) : YGRAD;
+
+   wg_gy1ras  = _wg_gy1ras.fixedflag ?  ((void)(YGRAD), wg_gy1ras) : YGRAD;
+
+    wg_gxkas  = _wg_gxkas.fixedflag ?  ((void)(XGRAD), wg_gxkas) : XGRAD;
+
+    wg_gzkas  = _wg_gzkas.fixedflag ?  ((void)(ZGRAD), wg_gzkas) : ZGRAD;
+
+  a_xdixon  = _a_xdixon.fixedflag ?  ((void)(0.0), a_xdixon) : 0.0;
+  pw_xdixon  = _pw_xdixon.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_xdixon) : GRAD_UPDATE_TIME;
+  wg_xdixon  = _wg_xdixon.fixedflag ?  ((void)(XGRAD), wg_xdixon) : XGRAD;
+
+  a_ydixon  = _a_ydixon.fixedflag ?  ((void)(0.0), a_ydixon) : 0.0;
+  pw_ydixon  = _pw_ydixon.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_ydixon) : GRAD_UPDATE_TIME;
+  wg_ydixon  = _wg_ydixon.fixedflag ?  ((void)(YGRAD), wg_ydixon) : YGRAD;
+
+  a_zdixon  = _a_zdixon.fixedflag ?  ((void)(0.0), a_zdixon) : 0.0;
+  pw_zdixon  = _pw_zdixon.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_zdixon) : GRAD_UPDATE_TIME;
+  wg_zdixon  = _wg_zdixon.fixedflag ?  ((void)(ZGRAD), wg_zdixon) : ZGRAD;
+
+  a_sdixon  = _a_sdixon.fixedflag ?  ((void)(0.0), a_sdixon) : 0.0;
+  pw_sdixon  = _pw_sdixon.fixedflag ?  ((void)(GRAD_UPDATE_TIME), pw_sdixon) : GRAD_UPDATE_TIME;
+  wg_sdixon  = _wg_sdixon.fixedflag ?  ((void)(SSP), wg_sdixon) : SSP;
+
+  a_sdixon2  = _a_sdixon2.fixedflag ?  ((void)(0.0), a_sdixon2) : 0.0;
+  pw_sdixon2  = _pw_sdixon2.fixedflag ?  ((void)(GRAD_UPDATE_TIME+dix_timeas), pw_sdixon2) : GRAD_UPDATE_TIME+dix_timeas;
+  wg_sdixon2  = _wg_sdixon2.fixedflag ?  ((void)(SSP), wg_sdixon2) : SSP;
+
+
+
+
+

@@ -1,0 +1,32 @@
+#
+# toProduct 1.14       3/15/94 12:15:02
+# Copyright (c) 1990 The General Electric Company
+#
+# Filename Mode Dest_Dir     Tape  Integ  Group  Owner  Link        Resp  Com
+# -------- ---- --------     ----  -----  -----  -----  ----        ----  ---
+epiRT         555 /usr/g/bin   Tape  Int    Group  Owner  Link        Resp  #host code for MGD
+epiRT.psd.o   555 /usr/gvx/bin Tape  Int    Group  Owner  Link        Resp  #target code for MGD
+EPIRT         555 /usr/g/bin    Tape Int Group Owner epiRT       Resp #host psdfile
+EPIRT.psd.o   555 /usr/gvx/bin  Tape Int Group Owner epiRT.psd.o Resp #tgt  psdfile 
+epi_gre_64        555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+epi_gre_64.psd.o  555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+EPI_GRE_64        555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+EPI_GRE_64.psd.o  555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+epi_gre_128       555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+epi_gre_128.psd.o 555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+EPI_GRE_128       555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+EPI_GRE_128.psd.o 555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+epi_se_64         555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+epi_se_64.psd.o   555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+EPI_SE_64         555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+EPI_SE_64.psd.o   555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+epi_se_128        555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+epi_se_128.psd.o  555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+EPI_SE_128        555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+EPI_SE_128.psd.o  555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+epiRTespopt         555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+epiRTespopt.psd.o   555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+epiRTminesp         555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+epiRTminesp.psd.o   555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile
+epiRTra3            555 /usr/g/bin   Tape Int Group Owner epiRT Resp #host psdfile 
+epiRTra3.psd.o      555 /usr/gvx/bin Tape Int Group Owner epiRT.psd.o Resp #tgt psdfile

@@ -1,0 +1,4300 @@
+
+
+*******************
+
+*Board: XGRAD
+
+ ** Sequence (1) **
+
+   Pulse:  x_td0    Type:Const      Amp:0      
+   Instr:  Start:24     End:28     Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  wgx      Type:Const      Amp:0      
+   Instr:  Start:14740  End:14744  Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gx1a     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:14744  End:15036  Dur:292     Per: 1       Amp: 8817    
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gx1      Type:Const      Amp:32766  
+   Instr:  Start:15036  End:15044  Dur:8       Per: 2       Amp: 8817    
+           Area:0.002     Abs Area:0.002  
+
+   Pulse:  gx1d     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:15044  End:15336  Dur:292     Per: 1       Amp: 8817    
+           Area:0.040     Abs Area:0.040  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:15336  End:15492  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:15492  End:15648  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:15648  End:15804  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:15804  End:15960  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:15960  End:16116  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:16116  End:16272  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:16272  End:16428  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:16428  End:16584  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:16584  End:16740  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:16740  End:16896  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:16896  End:17052  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:17052  End:17208  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:17208  End:17364  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:17364  End:17520  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:17520  End:17676  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:17676  End:17832  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:17832  End:17988  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:17988  End:18144  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:18144  End:18300  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:18300  End:18456  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:18456  End:18612  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:18612  End:18768  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:18768  End:18924  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:18924  End:19080  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:19080  End:19236  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:19236  End:19392  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:19392  End:19548  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:19548  End:19704  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:19704  End:19860  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:19860  End:20016  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:20016  End:20172  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:20172  End:20328  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:20328  End:20484  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:20484  End:20640  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:20640  End:20796  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:20796  End:20952  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:20952  End:21108  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:21108  End:21264  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:21264  End:21420  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:21420  End:21576  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:21576  End:21732  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:21732  End:21888  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:21888  End:22044  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:22044  End:22200  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:22200  End:22356  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22356  End:22512  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:22512  End:22668  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:22668  End:22824  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22824  End:22980  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:22980  End:23136  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:23136  End:23292  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:23292  End:23448  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:23448  End:23604  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:23604  End:23760  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:23760  End:23916  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:23916  End:24072  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:24072  End:24228  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:24228  End:24384  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:24384  End:24540  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:24540  End:24696  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:24696  End:24852  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:24852  End:25008  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:25008  End:25164  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:25164  End:25320  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:25320  End:25476  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:25476  End:25632  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:25632  End:25788  Dur:156     Per: 1       Amp: -16956  
+           Area:-0.039    Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:25788  End:25944  Dur:156     Per: 39      Amp: -16956  
+           Area:-0.081    Abs Area:0.081  
+
+   Pulse:  gxwd     Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:25944  End:26100  Dur:156     Per: 1       Amp: 16956   
+           Area:-0.041    Abs Area:0.041  
+
+   Pulse:  gxwa     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:26100  End:26256  Dur:156     Per: 1       Amp: 16956   
+           Area:0.039     Abs Area:0.039  
+
+   Pulse:  gxw      Type:Const      Amp:32766  
+   Instr:  Start:26256  End:26412  Dur:156     Per: 39      Amp: 16956   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxwde    Type:Ramp       Start Amp:-32766   End Amp:0      
+   Instr:  Start:26412  End:26568  Dur:156     Per: 1       Amp: -16956  
+           Area:0.041     Abs Area:0.041  
+
+ ** Sequence (2) **
+
+   Pulse:  gx1mps1a Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:4368   End:4724   Dur:356     Per: 1       Amp: 10871   
+           Area:0.058     Abs Area:0.058  
+
+   Pulse:  gx1mps1  Type:Const      Amp:32766  
+   Instr:  Start:4724   End:4732   Dur:8       Per: 2       Amp: 10871   
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gx1mps1d Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4732   End:5088   Dur:356     Per: 1       Amp: 10871   
+           Area:0.060     Abs Area:0.060  
+
+   Pulse:  gxwmps1a Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:11768  End:11800  Dur:32      Per: 1       Amp: 962     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxwmps1  Type:Const      Amp:32766  
+   Instr:  Start:11800  End:19992  Dur:8192    Per: 2048    Amp: 962     
+           Area:0.240     Abs Area:0.240  
+
+   Pulse:  gxwmps1d Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:19992  End:20024  Dur:32      Per: 1       Amp: 962     
+           Area:0.001     Abs Area:0.001  
+
+ ** Sequence (3) **
+
+ ** Sequence (4) **
+
+   Pulse:  gxkrcvna Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1116   End:2184   Dur:1068    Per: 1       Amp: 32767   
+           Area:0.532     Abs Area:0.532  
+
+   Pulse:  gxkrcvn  Type:Const      Amp:32766  
+   Instr:  Start:2184   End:3116   Dur:932     Per: 233     Amp: 32767   
+           Area:0.932     Abs Area:0.932  
+
+   Pulse:  gxkrcvnd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:3116   End:4184   Dur:1068    Per: 1       Amp: 32767   
+           Area:0.536     Abs Area:0.536  
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+   Pulse:  xticfh   Type:Const      Amp:0      
+   Instr:  Start:11628  End:122776 Dur:111148  Per: 27787   Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxrf2cfha Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:148808 End:148816 Dur:8       Per: 1       Amp: 48      
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxrf2cfh Type:Const      Amp:32766  
+   Instr:  Start:148816 End:152016 Dur:3200    Per: 800     Amp: 48      
+           Area:0.005     Abs Area:0.005  
+
+   Pulse:  gxrf2cfhd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:152016 End:152024 Dur:8       Per: 1       Amp: 48      
+           Area:0.000     Abs Area:0.000  
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+   Pulse:  gx1ftga  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:8680   End:8932   Dur:252     Per: 1       Amp: 7585    
+           Area:0.029     Abs Area:0.029  
+
+   Pulse:  gx1ftg   Type:Const      Amp:32766  
+   Instr:  Start:8932   End:8940   Dur:8       Per: 2       Amp: 7585    
+           Area:0.002     Abs Area:0.002  
+
+   Pulse:  gx1ftgd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:8940   End:9192   Dur:252     Per: 1       Amp: 7585    
+           Area:0.030     Abs Area:0.030  
+
+   Pulse:  gx1bftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:12408  End:12584  Dur:176     Per: 1       Amp: 5358    
+           Area:0.014     Abs Area:0.014  
+
+   Pulse:  gx1bftg  Type:Const      Amp:32766  
+   Instr:  Start:12584  End:12592  Dur:8       Per: 2       Amp: 5358    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gx1bftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:12592  End:12768  Dur:176     Per: 1       Amp: 5358    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  gxw1ftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:14888  End:14896  Dur:8       Per: 1       Amp: 240     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxw1ftg  Type:Const      Amp:32766  
+   Instr:  Start:14896  End:23088  Dur:8192    Per: 2048    Amp: 240     
+           Area:0.060     Abs Area:0.060  
+
+   Pulse:  gxw1ftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23088  End:23096  Dur:8       Per: 1       Amp: 240     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  postgxw1ftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:23096  End:23404  Dur:308     Per: 1       Amp: 9358    
+           Area:0.043     Abs Area:0.043  
+
+   Pulse:  postgxw1ftg Type:Const      Amp:32766  
+   Instr:  Start:23404  End:23412  Dur:8       Per: 2       Amp: 9358    
+           Area:0.002     Abs Area:0.002  
+
+   Pulse:  postgxw1ftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23412  End:23720  Dur:308     Per: 1       Amp: 9358    
+           Area:0.045     Abs Area:0.045  
+
+   Pulse:  gx2ftga  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:37068  End:37244  Dur:176     Per: 1       Amp: 5353    
+           Area:0.014     Abs Area:0.014  
+
+   Pulse:  gx2ftg   Type:Const      Amp:32766  
+   Instr:  Start:37244  End:37252  Dur:8       Per: 2       Amp: 5353    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gx2ftgd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:37252  End:37428  Dur:176     Per: 1       Amp: 5353    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  gxw2ftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:39496  End:39504  Dur:8       Per: 1       Amp: 240     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxw2ftg  Type:Const      Amp:32766  
+   Instr:  Start:39504  End:72272  Dur:32768   Per: 8192    Amp: 240     
+           Area:0.240     Abs Area:0.240  
+
+   Pulse:  gxw2ftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:72272  End:72280  Dur:8       Per: 1       Amp: 240     
+           Area:0.000     Abs Area:0.000  
+
+ ** Sequence (10) **
+
+   Pulse:  gx1bxtga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22652  End:23476  Dur:824     Per: 1       Amp: -25168  
+           Area:-0.315    Abs Area:0.315  
+
+   Pulse:  gx1bxtg  Type:Const      Amp:32766  
+   Instr:  Start:23476  End:23484  Dur:8       Per: 2       Amp: -25168  
+           Area:-0.006    Abs Area:0.006  
+
+   Pulse:  gx1bxtgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23484  End:24308  Dur:824     Per: 1       Amp: -25168  
+           Area:-0.318    Abs Area:0.318  
+
+   Pulse:  gxw1xtga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:24308  End:24472  Dur:164     Per: 1       Amp: 5012    
+           Area:0.012     Abs Area:0.012  
+
+   Pulse:  gxw1xtg  Type:Const      Amp:32766  
+   Instr:  Start:24472  End:32664  Dur:8192    Per: 2048    Amp: 5012    
+           Area:1.253     Abs Area:1.253  
+
+   Pulse:  gxw1xtgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:32664  End:32828  Dur:164     Per: 1       Amp: 5012    
+           Area:0.013     Abs Area:0.013  
+
+ ** Sequence (11) **
+
+   Pulse:  xdixon   Type:Const      Amp:32766  
+   Instr:  Start:80     End:84     Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gx1asa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:4332   End:4580   Dur:248     Per: 1       Amp: -8537   
+           Area:-0.032    Abs Area:0.032  
+
+   Pulse:  gx1as    Type:Const      Amp:32766  
+   Instr:  Start:4580   End:4588   Dur:8       Per: 2       Amp: -8537   
+           Area:-0.002    Abs Area:0.002  
+
+   Pulse:  gx1asd   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4588   End:4836   Dur:248     Per: 1       Amp: -8537   
+           Area:-0.033    Abs Area:0.033  
+
+   Pulse:  gxwasa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:4836   End:4948   Dur:112     Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxwas    Type:Const      Amp:32766  
+   Instr:  Start:4948   End:5972   Dur:1024    Per: 256     Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxwasd   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:5972   End:6084   Dur:112     Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gxkasa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:6084   End:6444   Dur:360     Per: 1       Amp: 14958   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gxkas    Type:Const      Amp:32766  
+   Instr:  Start:6444   End:6452   Dur:8       Per: 2       Amp: 14958   
+           Area:0.004     Abs Area:0.004  
+
+   Pulse:  gxkasd   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:6452   End:6812   Dur:360     Per: 1       Amp: 14958   
+           Area:0.083     Abs Area:0.083  
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **
+
+
+*******************
+
+*Board: YGRAD
+
+ ** Sequence (1) **
+
+   Pulse:  y_td0    Type:Const      Amp:0      
+   Instr:  Start:24     End:28     Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  wgy      Type:Const      Amp:0      
+   Instr:  Start:14912  End:14916  Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gy1a     Type:Ramp       Start Amp:0        End Amp:-5460  
+   Instr:  Start:14916  End:15116  Dur:200     Per: 1       Amp: 32766   
+           Area:-0.016    Abs Area:0.016  
+
+   Pulse:  gy1      Type:Ramp       Start Amp:-5460    End Amp:-5471  
+   Instr:  Start:15116  End:15136  Dur:20      Per: 1       Amp: 32766   
+           Area:-0.003    Abs Area:0.003  
+
+   Pulse:  gy1d     Type:Ramp       Start Amp:-5471    End Amp:0      
+   Instr:  Start:15136  End:15336  Dur:200     Per: 1       Amp: 32766   
+           Area:-0.017    Abs Area:0.017  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:15764  End:15788  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:15788  End:15820  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:15820  End:15844  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:16232  End:16256  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:16256  End:16288  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:16288  End:16312  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:16700  End:16724  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:16724  End:16756  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:16756  End:16780  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:17168  End:17192  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:17192  End:17224  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:17224  End:17248  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:17636  End:17660  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:17660  End:17692  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:17692  End:17716  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:18104  End:18128  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:18128  End:18160  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:18160  End:18184  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:18572  End:18596  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:18596  End:18628  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:18628  End:18652  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:19040  End:19064  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:19064  End:19096  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:19096  End:19120  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:19508  End:19532  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:19532  End:19564  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:19564  End:19588  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:19976  End:20000  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:20000  End:20032  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:20032  End:20056  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:20444  End:20468  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:20468  End:20500  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:20500  End:20524  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:20912  End:20936  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:20936  End:20968  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:20968  End:20992  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:21380  End:21404  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:21404  End:21436  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:21436  End:21460  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:21848  End:21872  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:21872  End:21904  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:21904  End:21928  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22316  End:22340  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:22340  End:22372  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:22372  End:22396  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22784  End:22808  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:22808  End:22840  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:22840  End:22864  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:23252  End:23276  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:23276  End:23308  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23308  End:23332  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:23720  End:23744  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:23744  End:23776  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23776  End:23800  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:24188  End:24212  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:24212  End:24244  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:24244  End:24268  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:24656  End:24680  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:24680  End:24712  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:24712  End:24736  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:25124  End:25148  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:25148  End:25180  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:25180  End:25204  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:25592  End:25616  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:25616  End:25648  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:25648  End:25672  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyba     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:26060  End:26084  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyb      Type:Const      Amp:32766  
+   Instr:  Start:26084  End:26116  Dur:32      Per: 8       Amp: 2863    
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gybd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:26116  End:26140  Dur:24      Per: 1       Amp: 2863    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gyka     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:26668  End:27024  Dur:356     Per: 1       Amp: 10900   
+           Area:0.059     Abs Area:0.059  
+
+   Pulse:  gyk      Type:Const      Amp:32766  
+   Instr:  Start:27024  End:27032  Dur:8       Per: 2       Amp: 10900   
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gykd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:27032  End:27388  Dur:356     Per: 1       Amp: 10900   
+           Area:0.060     Abs Area:0.060  
+
+ ** Sequence (2) **
+
+ ** Sequence (3) **
+
+   Pulse:  gykcfla  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:71840  End:72392  Dur:552     Per: 1       Amp: 16851   
+           Area:0.141     Abs Area:0.141  
+
+   Pulse:  gykcfl   Type:Const      Amp:32766  
+   Instr:  Start:72392  End:72400  Dur:8       Per: 2       Amp: 16851   
+           Area:0.004     Abs Area:0.004  
+
+   Pulse:  gykcfld  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:72400  End:72952  Dur:552     Per: 1       Amp: 16851   
+           Area:0.143     Abs Area:0.143  
+
+ ** Sequence (4) **
+
+   Pulse:  gykrcvna Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1116   End:2184   Dur:1068    Per: 1       Amp: 32767   
+           Area:0.532     Abs Area:0.532  
+
+   Pulse:  gykrcvn  Type:Const      Amp:32766  
+   Instr:  Start:2184   End:3116   Dur:932     Per: 233     Amp: 32767   
+           Area:0.932     Abs Area:0.932  
+
+   Pulse:  gykrcvnd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:3116   End:4184   Dur:1068    Per: 1       Amp: 32767   
+           Area:0.536     Abs Area:0.536  
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+   Pulse:  gyrf0kcfha Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:9756   End:10688  Dur:932     Per: 1       Amp: 28486   
+           Area:0.403     Abs Area:0.403  
+
+   Pulse:  gyrf0kcfh Type:Const      Amp:32766  
+   Instr:  Start:10688  End:10696  Dur:8       Per: 2       Amp: 28486   
+           Area:0.007     Abs Area:0.007  
+
+   Pulse:  gyrf0kcfhd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:10696  End:11628  Dur:932     Per: 1       Amp: 28486   
+           Area:0.407     Abs Area:0.407  
+
+   Pulse:  yticfh   Type:Const      Amp:0      
+   Instr:  Start:11628  End:122776 Dur:111148  Per: 27787   Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gykcfha  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:410872 End:411424 Dur:552     Per: 1       Amp: 16851   
+           Area:0.141     Abs Area:0.141  
+
+   Pulse:  gykcfh   Type:Const      Amp:32766  
+   Instr:  Start:411424 End:411432 Dur:8       Per: 2       Amp: 16851   
+           Area:0.004     Abs Area:0.004  
+
+   Pulse:  gykcfhd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:411432 End:411984 Dur:552     Per: 1       Amp: 16851   
+           Area:0.143     Abs Area:0.143  
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+ ** Sequence (10) **
+
+   Pulse:  gykxtgla Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:4352   End:4904   Dur:552     Per: 1       Amp: 16851   
+           Area:0.141     Abs Area:0.141  
+
+   Pulse:  gykxtgl  Type:Const      Amp:32766  
+   Instr:  Start:4904   End:4912   Dur:8       Per: 2       Amp: 16851   
+           Area:0.004     Abs Area:0.004  
+
+   Pulse:  gykxtgld Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4912   End:5464   Dur:552     Per: 1       Amp: 16851   
+           Area:0.143     Abs Area:0.143  
+
+   Pulse:  gykxtgra Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22600  End:23152  Dur:552     Per: 1       Amp: 16851   
+           Area:0.141     Abs Area:0.141  
+
+   Pulse:  gykxtgr  Type:Const      Amp:32766  
+   Instr:  Start:23152  End:23160  Dur:8       Per: 2       Amp: 16851   
+           Area:0.004     Abs Area:0.004  
+
+   Pulse:  gykxtgrd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23160  End:23712  Dur:552     Per: 1       Amp: 16851   
+           Area:0.143     Abs Area:0.143  
+
+ ** Sequence (11) **
+
+   Pulse:  ydixon   Type:Const      Amp:32766  
+   Instr:  Start:80     End:84     Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gy1asa   Type:Ramp       Start Amp:0        End Amp:5154   
+   Instr:  Start:3976   End:4144   Dur:168     Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gy1as    Type:Ramp       Start Amp:5154     End Amp:5164   
+   Instr:  Start:4144   End:4164   Dur:20      Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gy1asd   Type:Ramp       Start Amp:5164     End Amp:0      
+   Instr:  Start:4164   End:4332   Dur:168     Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gy1rasa  Type:Ramp       Start Amp:0        End Amp:5154   
+   Instr:  Start:5972   End:6140   Dur:168     Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gy1ras   Type:Ramp       Start Amp:5154     End Amp:5164   
+   Instr:  Start:6140   End:6160   Dur:20      Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gy1rasd  Type:Ramp       Start Amp:5164     End Amp:0      
+   Instr:  Start:6160   End:6328   Dur:168     Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **
+
+
+*******************
+
+*Board: ZGRAD
+
+ ** Sequence (1) **
+
+   Pulse:  z_td0    Type:Const      Amp:0      
+   Instr:  Start:24     End:28     Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gzrf1    Type:External
+   Instr:  Start:160    End:14560  Dur:14400   Per: 1       Amp: 3957    
+           Area:-0.000    Abs Area:1.321  
+
+   Pulse:  gz1a     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:14652  End:14888  Dur:236     Per: 1       Amp: -7030   
+           Area:-0.025    Abs Area:0.025  
+
+   Pulse:  gz1      Type:Const      Amp:32766  
+   Instr:  Start:14888  End:14896  Dur:8       Per: 2       Amp: -7030   
+           Area:-0.002    Abs Area:0.002  
+
+   Pulse:  gz1d     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:14896  End:15132  Dur:236     Per: 1       Amp: -7030   
+           Area:-0.026    Abs Area:0.026  
+
+   Pulse:  wgz      Type:Const      Amp:0      
+   Instr:  Start:15132  End:15136  Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gzka     Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:26668  End:27024  Dur:356     Per: 1       Amp: 10900   
+           Area:0.059     Abs Area:0.059  
+
+   Pulse:  gzk      Type:Const      Amp:32766  
+   Instr:  Start:27024  End:27032  Dur:8       Per: 2       Amp: 10900   
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gzkd     Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:27032  End:27388  Dur:356     Per: 1       Amp: 10900   
+           Area:0.060     Abs Area:0.060  
+
+ ** Sequence (2) **
+
+   Pulse:  gzrf1mps1a Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1056   End:1116   Dur:60      Per: 1       Amp: 1749    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gzrf1mps1 Type:Const      Amp:32766  
+   Instr:  Start:1116   End:4316   Dur:3200    Per: 800     Amp: 1749    
+           Area:0.171     Abs Area:0.171  
+
+   Pulse:  gzrf1mps1d Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4316   End:4376   Dur:60      Per: 1       Amp: 1749    
+           Area:0.002     Abs Area:0.002  
+
+   Pulse:  gz1mps1a Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:4376   End:4688   Dur:312     Per: 1       Amp: -9346   
+           Area:-0.044    Abs Area:0.044  
+
+   Pulse:  gz1mps1  Type:Const      Amp:32766  
+   Instr:  Start:4688   End:4696   Dur:8       Per: 2       Amp: -9346   
+           Area:-0.002    Abs Area:0.002  
+
+   Pulse:  gz1mps1d Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4696   End:5008   Dur:312     Per: 1       Amp: -9346   
+           Area:-0.045    Abs Area:0.045  
+
+   Pulse:  gzrf2lmps1a Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:6824   End:7212   Dur:388     Per: 1       Amp: 11815   
+           Area:0.069     Abs Area:0.069  
+
+   Pulse:  gzrf2lmps1 Type:Const      Amp:32766  
+   Instr:  Start:7212   End:7220   Dur:8       Per: 2       Amp: 11815   
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gzrf2lmps1d Type:Ramp       Start Amp:11815    End Amp:874    
+   Instr:  Start:7220   End:7608   Dur:388     Per: 1       Amp: 32767   
+           Area:0.076     Abs Area:0.076  
+
+   Pulse:  gzrf2mps1 Type:Const      Amp:32766  
+   Instr:  Start:7608   End:10808  Dur:3200    Per: 800     Amp: 874     
+           Area:0.085     Abs Area:0.085  
+
+   Pulse:  gzrf2rmps1a Type:Ramp       Start Amp:874      End Amp:11815  
+   Instr:  Start:10808  End:11196  Dur:388     Per: 1       Amp: 32767   
+           Area:0.074     Abs Area:0.074  
+
+   Pulse:  gzrf2rmps1 Type:Const      Amp:32766  
+   Instr:  Start:11196  End:11204  Dur:8       Per: 2       Amp: 11815   
+           Area:0.003     Abs Area:0.003  
+
+   Pulse:  gzrf2rmps1d Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:11204  End:11592  Dur:388     Per: 1       Amp: 11815   
+           Area:0.071     Abs Area:0.071  
+
+ ** Sequence (3) **
+
+   Pulse:  gzrf1cfla Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1000   End:1116   Dur:116     Per: 1       Amp: 3498    
+           Area:0.006     Abs Area:0.006  
+
+   Pulse:  gzrf1cfl Type:Const      Amp:32766  
+   Instr:  Start:1116   End:4316   Dur:3200    Per: 800     Amp: 3498    
+           Area:0.342     Abs Area:0.342  
+
+   Pulse:  gzrf1cfld Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4316   End:4432   Dur:116     Per: 1       Amp: 3498    
+           Area:0.006     Abs Area:0.006  
+
+   Pulse:  gz1cfla  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:4432   End:4864   Dur:432     Per: 1       Amp: -13182  
+           Area:-0.086    Abs Area:0.086  
+
+   Pulse:  gz1cfl   Type:Const      Amp:32766  
+   Instr:  Start:4864   End:4872   Dur:8       Per: 2       Amp: -13182  
+           Area:-0.003    Abs Area:0.003  
+
+   Pulse:  gz1cfld  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4872   End:5304   Dur:432     Per: 1       Amp: -13182  
+           Area:-0.088    Abs Area:0.088  
+
+ ** Sequence (4) **
+
+   Pulse:  gzkrcvna Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1116   End:2184   Dur:1068    Per: 1       Amp: 32767   
+           Area:0.532     Abs Area:0.532  
+
+   Pulse:  gzkrcvn  Type:Const      Amp:32766  
+   Instr:  Start:2184   End:3116   Dur:932     Per: 233     Amp: 32767   
+           Area:0.932     Abs Area:0.932  
+
+   Pulse:  gzkrcvnd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:3116   End:4184   Dur:1068    Per: 1       Amp: 32767   
+           Area:0.536     Abs Area:0.536  
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+   Pulse:  gzrf0cfha Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1064   End:1116   Dur:52      Per: 1       Amp: 1586    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gzrf0cfh Type:Const      Amp:32766  
+   Instr:  Start:1116   End:9756   Dur:8640    Per: 2160    Amp: 1586    
+           Area:0.418     Abs Area:0.418  
+
+   Pulse:  gzrf0cfhd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:9756   End:9808   Dur:52      Per: 1       Amp: 1586    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  zticfh   Type:Const      Amp:0      
+   Instr:  Start:11628  End:122776 Dur:111148  Per: 27787   Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gzrf1cfha Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:123836 End:123896 Dur:60      Per: 1       Amp: 1749    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gzrf1cfh Type:Const      Amp:32766  
+   Instr:  Start:123896 End:127096 Dur:3200    Per: 800     Amp: 1749    
+           Area:0.171     Abs Area:0.171  
+
+   Pulse:  gzrf1cfhd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:127096 End:127156 Dur:60      Per: 1       Amp: 1749    
+           Area:0.002     Abs Area:0.002  
+
+   Pulse:  gzrf2lcfha Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:147072 End:147940 Dur:868     Per: 1       Amp: 26509   
+           Area:0.349     Abs Area:0.349  
+
+   Pulse:  gzrf2lcfh Type:Const      Amp:32766  
+   Instr:  Start:147940 End:147948 Dur:8       Per: 2       Amp: 26509   
+           Area:0.006     Abs Area:0.006  
+
+   Pulse:  gzrf2lcfhd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:147948 End:148816 Dur:868     Per: 1       Amp: 26509   
+           Area:0.353     Abs Area:0.353  
+
+   Pulse:  gzrf2rcfha Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:152016 End:152940 Dur:924     Per: 1       Amp: 28126   
+           Area:0.395     Abs Area:0.395  
+
+   Pulse:  gzrf2rcfh Type:Const      Amp:32766  
+   Instr:  Start:152940 End:152948 Dur:8       Per: 2       Amp: 28126   
+           Area:0.007     Abs Area:0.007  
+
+   Pulse:  gzrf2rcfhd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:152948 End:153872 Dur:924     Per: 1       Amp: 28126   
+           Area:0.398     Abs Area:0.398  
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+   Pulse:  gzrf1ftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1000   End:1008   Dur:8       Per: 1       Amp: 218     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gzrf1ftg Type:Const      Amp:32766  
+   Instr:  Start:1008   End:4208   Dur:3200    Per: 800     Amp: 218     
+           Area:0.021     Abs Area:0.021  
+
+   Pulse:  gzrf1ftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4208   End:4216   Dur:8       Per: 1       Amp: 218     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gz1ftga  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:4216   End:4364   Dur:148     Per: 1       Amp: -4496   
+           Area:-0.010    Abs Area:0.010  
+
+   Pulse:  gz1ftg   Type:Const      Amp:32766  
+   Instr:  Start:4364   End:4372   Dur:8       Per: 2       Amp: -4496   
+           Area:-0.001    Abs Area:0.001  
+
+   Pulse:  gz1ftgd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4372   End:4520   Dur:148     Per: 1       Amp: -4496   
+           Area:-0.010    Abs Area:0.010  
+
+   Pulse:  gzrf2ftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:9192   End:9200   Dur:8       Per: 1       Amp: 218     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gzrf2ftg Type:Const      Amp:32766  
+   Instr:  Start:9200   End:12400  Dur:3200    Per: 800     Amp: 218     
+           Area:0.021     Abs Area:0.021  
+
+   Pulse:  gzrf2ftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:12400  End:12408  Dur:8       Per: 1       Amp: 218     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gz2ftga  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:12408  End:12512  Dur:104     Per: 1       Amp: -3131   
+           Area:-0.005    Abs Area:0.005  
+
+   Pulse:  gz2ftg   Type:Const      Amp:32766  
+   Instr:  Start:12512  End:12520  Dur:8       Per: 2       Amp: -3131   
+           Area:-0.001    Abs Area:0.001  
+
+   Pulse:  gz2ftgd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:12520  End:12624  Dur:104     Per: 1       Amp: -3131   
+           Area:-0.005    Abs Area:0.005  
+
+   Pulse:  gz2bftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:33280  End:33492  Dur:212     Per: 1       Amp: -6424   
+           Area:-0.020    Abs Area:0.020  
+
+   Pulse:  gz2bftg  Type:Const      Amp:32766  
+   Instr:  Start:33492  End:33500  Dur:8       Per: 2       Amp: -6424   
+           Area:-0.002    Abs Area:0.002  
+
+   Pulse:  gz2bftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:33500  End:33712  Dur:212     Per: 1       Amp: -6424   
+           Area:-0.021    Abs Area:0.021  
+
+   Pulse:  gzrf3ftga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:33744  End:33776  Dur:32      Per: 1       Amp: 874     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gzrf3ftg Type:Const      Amp:32766  
+   Instr:  Start:33776  End:36976  Dur:3200    Per: 800     Amp: 874     
+           Area:0.085     Abs Area:0.085  
+
+   Pulse:  gzrf3ftgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:36976  End:37008  Dur:32      Per: 1       Amp: 874     
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gz3ftga  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:37008  End:37220  Dur:212     Per: 1       Amp: -6424   
+           Area:-0.020    Abs Area:0.020  
+
+   Pulse:  gz3ftg   Type:Const      Amp:32766  
+   Instr:  Start:37220  End:37228  Dur:8       Per: 2       Amp: -6424   
+           Area:-0.002    Abs Area:0.002  
+
+   Pulse:  gz3ftgd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:37228  End:37440  Dur:212     Per: 1       Amp: -6424   
+           Area:-0.021    Abs Area:0.021  
+
+ ** Sequence (10) **
+
+   Pulse:  gzrf1xtga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:1000   End:1060   Dur:60      Per: 1       Amp: 1749    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gzrf1xtg Type:Const      Amp:32766  
+   Instr:  Start:1060   End:4260   Dur:3200    Per: 800     Amp: 1749    
+           Area:0.171     Abs Area:0.171  
+
+   Pulse:  gzrf1xtgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:4260   End:4320   Dur:60      Per: 1       Amp: 1749    
+           Area:0.002     Abs Area:0.002  
+
+   Pulse:  gz1xtga  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:12796  End:13348  Dur:552     Per: 1       Amp: 16851   
+           Area:0.141     Abs Area:0.141  
+
+   Pulse:  gz1xtg   Type:Const      Amp:32766  
+   Instr:  Start:13348  End:13356  Dur:8       Per: 2       Amp: 16851   
+           Area:0.004     Abs Area:0.004  
+
+   Pulse:  gz1xtgd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:13356  End:13908  Dur:552     Per: 1       Amp: 16851   
+           Area:0.143     Abs Area:0.143  
+
+   Pulse:  gzrf2xtga Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:13908  End:13968  Dur:60      Per: 1       Amp: 1749    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gzrf2xtg Type:Const      Amp:32766  
+   Instr:  Start:13968  End:17168  Dur:3200    Per: 800     Amp: 1749    
+           Area:0.171     Abs Area:0.171  
+
+   Pulse:  gzrf2xtgd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:17168  End:17228  Dur:60      Per: 1       Amp: 1749    
+           Area:0.002     Abs Area:0.002  
+
+   Pulse:  gz2xtga  Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:17228  End:17864  Dur:636     Per: 1       Amp: 19297   
+           Area:0.186     Abs Area:0.186  
+
+   Pulse:  gz2xtg   Type:Const      Amp:32766  
+   Instr:  Start:17864  End:17872  Dur:8       Per: 2       Amp: 19297   
+           Area:0.005     Abs Area:0.005  
+
+   Pulse:  gz2xtgd  Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:17872  End:18508  Dur:636     Per: 1       Amp: 19297   
+           Area:0.188     Abs Area:0.188  
+
+ ** Sequence (11) **
+
+   Pulse:  gzrf1asa Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:80     End:132    Dur:52      Per: 1       Amp: 1749    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gzrf1as  Type:Const      Amp:32766  
+   Instr:  Start:132    End:3332   Dur:3200    Per: 800     Amp: 1749    
+           Area:0.171     Abs Area:0.171  
+
+   Pulse:  gzrf1asd Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:3332   End:3384   Dur:52      Per: 1       Amp: 1749    
+           Area:0.001     Abs Area:0.001  
+
+   Pulse:  gz1asa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:3384   End:3676   Dur:292     Per: 1       Amp: -9946   
+           Area:-0.044    Abs Area:0.044  
+
+   Pulse:  gz1as    Type:Const      Amp:32766  
+   Instr:  Start:3676   End:3684   Dur:8       Per: 2       Amp: -9946   
+           Area:-0.002    Abs Area:0.002  
+
+   Pulse:  gz1asd   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:3684   End:3976   Dur:292     Per: 1       Amp: -9946   
+           Area:-0.045    Abs Area:0.045  
+
+   Pulse:  zdixon   Type:Const      Amp:32766  
+   Instr:  Start:3976   End:3980   Dur:4       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  gzkasa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:6084   End:6444   Dur:360     Per: 1       Amp: 14958   
+           Area:0.081     Abs Area:0.081  
+
+   Pulse:  gzkas    Type:Const      Amp:32766  
+   Instr:  Start:6444   End:6452   Dur:8       Per: 2       Amp: 14958   
+           Area:0.004     Abs Area:0.004  
+
+   Pulse:  gzkasd   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:6452   End:6812   Dur:360     Per: 1       Amp: 14958   
+           Area:0.083     Abs Area:0.083  
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **
+
+
+*******************
+
+*Board: RHO1 
+
+ ** Sequence (1) **
+
+   Pulse:  rho_td0  Type:Const      Amp:0      
+   Instr:  Start:24     End:28     Dur:4       Per: 2       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  rf1      Type:External
+   Instr:  Start:252    End:14652  Dur:14400   Per: 2       Amp: 32767   
+           Area:2.116     Abs Area:2.116  
+
+   Pulse:  rho_killer Type:Const      Amp:32766  
+   Instr:  Start:27024  End:27026  Dur:2       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+ ** Sequence (2) **
+
+   Pulse:  rf1mps1  Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:1208   End:4408   Dur:3200    Per: 1       Amp: 16383   
+           Area:0.401     Abs Area:0.456  
+
+   Pulse:  rf2mps1  Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:7700   End:10900  Dur:3200    Per: 1       Amp: 32767   
+           Area:0.803     Abs Area:0.913  
+
+ ** Sequence (3) **
+
+   Pulse:  rf1cfl   Type:Sinc       Amp:32766   Nsinc Cycl:2.00  Alpha:0.460
+   Instr:  Start:1208   End:4408   Dur:3200    Per: 1       Amp: 32767   
+           Area:0.399     Abs Area:0.570  
+
+ ** Sequence (4) **
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+   Pulse:  rf0cfh   Type:External
+   Instr:  Start:1208   End:9848   Dur:8640    Per: 10      Amp: 26974   
+           Area:3.295     Abs Area:3.295  
+
+   Pulse:  rticfh   Type:Const      Amp:0      
+   Instr:  Start:11628  End:122776 Dur:111148  Per: 55574   Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  rf1cfh   Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:123988 End:127188 Dur:3200    Per: 1       Amp: 16383   
+           Area:0.401     Abs Area:0.456  
+
+   Pulse:  rf2cfh   Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:148908 End:152108 Dur:3200    Per: 1       Amp: 32767   
+           Area:0.803     Abs Area:0.913  
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+   Pulse:  rf1ftg   Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:1100   End:4300   Dur:3200    Per: 2       Amp: 16383   
+           Area:0.401     Abs Area:0.456  
+
+   Pulse:  rf2ftg   Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:9292   End:12492  Dur:3200    Per: 2       Amp: 32767   
+           Area:0.802     Abs Area:0.913  
+
+   Pulse:  rf3ftg   Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:33868  End:37068  Dur:3200    Per: 2       Amp: 32767   
+           Area:0.802     Abs Area:0.913  
+
+ ** Sequence (10) **
+
+   Pulse:  rf1xtg   Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:1152   End:4352   Dur:3200    Per: 2       Amp: 16383   
+           Area:0.401     Abs Area:0.456  
+
+   Pulse:  rf3xtg   Type:External
+   Instr:  Start:5556   End:9556   Dur:4000    Per: 2       Amp: -16016  
+           Area:-1.404    Abs Area:1.404  
+
+   Pulse:  rf2xtg   Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:14060  End:17260  Dur:3200    Per: 2       Amp: 32767   
+           Area:0.802     Abs Area:0.913  
+
+   Pulse:  rf4xtg   Type:External
+   Instr:  Start:18600  End:22600  Dur:4000    Per: 2       Amp: 16016   
+           Area:1.404     Abs Area:1.404  
+
+ ** Sequence (11) **
+
+   Pulse:  rf1as    Type:Sinc       Amp:32766   Nsinc Cycl:1.00  Alpha:0.460
+   Instr:  Start:224    End:3424   Dur:3200    Per: 1       Amp: 32767   
+           Area:0.803     Abs Area:0.913  
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **
+
+
+*******************
+
+*Board: RHO2 
+
+ ** Sequence (1) **
+
+ ** Sequence (2) **
+
+ ** Sequence (3) **
+
+ ** Sequence (4) **
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+ ** Sequence (10) **
+
+ ** Sequence (11) **
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **
+
+
+*******************
+
+*Board: THETA
+
+ ** Sequence (1) **
+
+   Pulse:  theta_td0 Type:Const      Amp:0      
+   Instr:  Start:24     End:28     Dur:4       Per: 2       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+ ** Sequence (2) **
+
+ ** Sequence (3) **
+
+ ** Sequence (4) **
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+   Pulse:  omegarf0cfh Type:External
+   Instr:  Start:1208   End:9848   Dur:8640    Per: 10      Amp: -32767  
+           Area:0.263     Abs Area:3.877  
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+ ** Sequence (10) **
+
+   Pulse:  phs_rf3xtg Type:Const      Amp:32766  
+   Instr:  Start:5556   End:9556   Dur:4000    Per: 2000    Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  phs_rf4xtg Type:Const      Amp:32766  
+   Instr:  Start:18600  End:22600  Dur:4000    Per: 2000    Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+ ** Sequence (11) **
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **
+
+
+*******************
+
+*Board: OMEGA
+
+ ** Sequence (1) **
+
+   Pulse:  omega_td0 Type:Const      Amp:0      
+   Instr:  Start:24     End:28     Dur:4       Per: 2       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  thetarf1 Type:External
+   Instr:  Start:252    End:14652  Dur:14400   Per: 2       Amp: 3957    
+           Area:-0.000    Abs Area:1.321  
+
+   Pulse:  omegadelay Type:Const      Amp:0      
+   Instr:  Start:14724  End:14726  Dur:2       Per: 1       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  womega   Type:Const      Amp:0      
+   Instr:  Start:14726  End:14730  Dur:4       Per: 2       Amp: 0       
+           Area:0.000     Abs Area:0.000  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:15436  End:15592  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:15592  End:15748  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:15748  End:15904  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:15904  End:16060  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:16060  End:16216  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:16216  End:16372  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:16372  End:16528  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:16528  End:16684  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:16684  End:16840  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:16840  End:16996  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:16996  End:17152  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:17152  End:17308  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:17308  End:17464  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:17464  End:17620  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:17620  End:17776  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:17776  End:17932  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:17932  End:18088  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:18088  End:18244  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:18244  End:18400  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:18400  End:18556  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:18556  End:18712  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:18712  End:18868  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:18868  End:19024  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:19024  End:19180  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:19180  End:19336  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:19336  End:19492  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:19492  End:19648  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:19648  End:19804  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:19804  End:19960  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:19960  End:20116  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:20116  End:20272  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:20272  End:20428  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:20428  End:20584  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:20584  End:20740  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:20740  End:20896  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:20896  End:21052  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:21052  End:21208  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:21208  End:21364  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:21364  End:21520  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:21520  End:21676  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:21676  End:21832  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:21832  End:21988  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:21988  End:22144  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:22144  End:22300  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:22300  End:22456  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22456  End:22612  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:22612  End:22768  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:22768  End:22924  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:22924  End:23080  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:23080  End:23236  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23236  End:23392  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:23392  End:23548  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:23548  End:23704  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:23704  End:23860  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:23860  End:24016  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:24016  End:24172  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:24172  End:24328  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:24328  End:24484  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:24484  End:24640  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:24640  End:24796  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:24796  End:24952  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:24952  End:25108  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:25108  End:25264  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:25264  End:25420  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:25420  End:25576  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:25576  End:25732  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:25732  End:25888  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:25888  End:26044  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:26044  End:26200  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+   Pulse:  omegaa   Type:Ramp       Start Amp:0        End Amp:32766  
+   Instr:  Start:26200  End:26356  Dur:156     Per: 2       Amp: 6553    
+           Area:0.015     Abs Area:0.015  
+
+   Pulse:  omega    Type:Const      Amp:32766  
+   Instr:  Start:26356  End:26512  Dur:156     Per: 78      Amp: 6553    
+           Area:0.031     Abs Area:0.031  
+
+   Pulse:  omegad   Type:Ramp       Start Amp:32766    End Amp:0      
+   Instr:  Start:26512  End:26668  Dur:156     Per: 2       Amp: 6553    
+           Area:0.016     Abs Area:0.016  
+
+ ** Sequence (2) **
+
+ ** Sequence (3) **
+
+ ** Sequence (4) **
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+ ** Sequence (10) **
+
+ ** Sequence (11) **
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **
+
+
+*******************
+
+*Board: SSP  
+
+ ** Sequence (1) **
+
+   Pulse:  seqcoresync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqcorescp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  ssp_td0  Type:Const   
+   Instr:  Start:24      End:28      Dur:4       Per: 4      
+   CtrlW:  Period:4       
+
+   Pulse:  rf1frq   Type:Bits    
+   Instr:  Start:188     End:202     Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf1pa    Type:Const   
+   Instr:  Start:202     End:252     Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1pem   Type:Const   
+   Instr:  Start:252     End:14652   Dur:14400   Per: 14400  
+   CtrlW:  Unblank1  RFUnblank1  Period:14400   
+
+   Pulse:  rf1pd    Type:Const   
+   Instr:  Start:14652   End:14702   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1ubr   Type:Bits    
+   Instr:  Start:14702   End:14706   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  hyperdab Type:Bits    
+   Instr:  Start:14706   End:14724   Dur:18     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       40C    DHYPER
+       2)  DAT       600      DATA BYTE  1 (0x 0)  Echo number
+       3)  DAT       600      DATA BYTE  2 (0x 0)  Dab operation
+       4)  DAT       600      DATA BYTE  3 (0x 0)  Card repeat
+       5)  DAT       600      DATA BYTE  4 (0x 0)  Frame flipping mode
+       6)  DAT       600      DATA BYTE  5 (0x 0)  Slice number BYTE 1
+       7)  DAT       600      DATA BYTE  6 (0x 0)  Slice number BYTE 0
+       8)  DAT       600      DATA BYTE  7 (0x 0)  Start view nbr BYTE 1
+       9)  DAT       600      DATA BYTE  8 (0x 0)  Start view nbr BYTE 0
+      10)  DAT       600      DATA BYTE  9 (0x 0)  View skip BYTE 1
+      11)  DAT       600      DATA BYTE 10 (0x 0)  View skip BYTE 0
+      12)  DAT       600      DATA BYTE 11 (0x 0)  Number of views BYTE 1
+      13)  DAT       600      DATA BYTE 12 (0x 0)  Number of views BYTE 0
+      14)  DVC       210  Master Exc/Rec
+      15)  OPC       442    Digital filter select
+      16)  DAT       600      Digital filter 0
+      17)  DVC       201  End packet + EOW
+
+   Pulse:  wssp     Type:Const   
+   Instr:  Start:14724   End:14728   Dur:4       Per: 4      
+   CtrlW:  Period:4       
+
+   Pulse:  sspdelay Type:Const   
+   Instr:  Start:14728   End:14729   Dur:1       Per: 1      
+   CtrlW:  Period:1       
+
+   Pulse:  rec_unblank Type:Bits    
+   Instr:  Start:15320   End:15324   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0000xtr Type:Bits    
+   Instr:  Start:15420   End:15437   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0000rba Type:Bits    
+   Instr:  Start:15472   End:15476   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  e1entns  Type:Bits    
+   Instr:  Start:15476   End:15480   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FE    DABOUT register
+       2)  DAT       604      DATA BYTE 0 (0x 2)  (=2)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0001xtr Type:Bits    
+   Instr:  Start:15888   End:15905   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0001rba Type:Bits    
+   Instr:  Start:15940   End:15944   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0002xtr Type:Bits    
+   Instr:  Start:16356   End:16373   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0002rba Type:Bits    
+   Instr:  Start:16408   End:16412   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0003xtr Type:Bits    
+   Instr:  Start:16824   End:16841   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0003rba Type:Bits    
+   Instr:  Start:16876   End:16880   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0004xtr Type:Bits    
+   Instr:  Start:17292   End:17309   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0004rba Type:Bits    
+   Instr:  Start:17344   End:17348   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0005xtr Type:Bits    
+   Instr:  Start:17760   End:17777   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0005rba Type:Bits    
+   Instr:  Start:17812   End:17816   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0006xtr Type:Bits    
+   Instr:  Start:18228   End:18245   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0006rba Type:Bits    
+   Instr:  Start:18280   End:18284   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0007xtr Type:Bits    
+   Instr:  Start:18696   End:18713   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0007rba Type:Bits    
+   Instr:  Start:18748   End:18752   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0008xtr Type:Bits    
+   Instr:  Start:19164   End:19181   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0008rba Type:Bits    
+   Instr:  Start:19216   End:19220   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0009xtr Type:Bits    
+   Instr:  Start:19632   End:19649   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0009rba Type:Bits    
+   Instr:  Start:19684   End:19688   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0010xtr Type:Bits    
+   Instr:  Start:20100   End:20117   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0010rba Type:Bits    
+   Instr:  Start:20152   End:20156   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0011xtr Type:Bits    
+   Instr:  Start:20568   End:20585   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0011rba Type:Bits    
+   Instr:  Start:20620   End:20624   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0012xtr Type:Bits    
+   Instr:  Start:21036   End:21053   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0012rba Type:Bits    
+   Instr:  Start:21088   End:21092   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0013xtr Type:Bits    
+   Instr:  Start:21504   End:21521   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0013rba Type:Bits    
+   Instr:  Start:21556   End:21560   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0014xtr Type:Bits    
+   Instr:  Start:21972   End:21989   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0014rba Type:Bits    
+   Instr:  Start:22024   End:22028   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0015xtr Type:Bits    
+   Instr:  Start:22440   End:22457   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0015rba Type:Bits    
+   Instr:  Start:22492   End:22496   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0016xtr Type:Bits    
+   Instr:  Start:22908   End:22925   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0016rba Type:Bits    
+   Instr:  Start:22960   End:22964   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0017xtr Type:Bits    
+   Instr:  Start:23376   End:23393   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0017rba Type:Bits    
+   Instr:  Start:23428   End:23432   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0018xtr Type:Bits    
+   Instr:  Start:23844   End:23861   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0018rba Type:Bits    
+   Instr:  Start:23896   End:23900   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0019xtr Type:Bits    
+   Instr:  Start:24312   End:24329   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0019rba Type:Bits    
+   Instr:  Start:24364   End:24368   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0020xtr Type:Bits    
+   Instr:  Start:24780   End:24797   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0020rba Type:Bits    
+   Instr:  Start:24832   End:24836   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0021xtr Type:Bits    
+   Instr:  Start:25248   End:25265   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0021rba Type:Bits    
+   Instr:  Start:25300   End:25304   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0022xtr Type:Bits    
+   Instr:  Start:25716   End:25733   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0022rba Type:Bits    
+   Instr:  Start:25768   End:25772   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo0023xtr Type:Bits    
+   Instr:  Start:26184   End:26201   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       600      Digital filter 0
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo0023rba Type:Bits    
+   Instr:  Start:26236   End:26240   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  e1distns Type:Bits    
+   Instr:  Start:26630   End:26634   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FE    DABOUT register
+       2)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  atten    Type:Bits    
+   Instr:  Start:26634   End:26640   Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  sspshift Type:Const   
+   Instr:  Start:26641   End:27041   Dur:400     Per: 400    
+   CtrlW:  Period:400     
+
+   Pulse:  ssp_pass_delay Type:Const   
+   Instr:  Start:27041   End:27042   Dur:1       Per: 1      
+   CtrlW:  Period:1       
+
+   Pulse:  pass_pulse Type:Bits    
+   Instr:  Start:27042   End:27049   Dur:7      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       400    DPASS
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DVC       200  End packet
+       5)  DVC       200  End packet
+       6)  DVC       201  End packet + EOW
+
+   Pulse:  jwg_delay Type:Const   
+   Instr:  Start:27049   End:27053   Dur:4       Per: 4      
+   CtrlW:  Period:4       
+
+   Pulse:  seqcore  Type:Const   
+   Instr:  Start:27388   End:38800   Dur:11412   Per: 11412  
+   CtrlW:  Period:11412   
+
+ ** Sequence (2) **
+
+   Pulse:  seqmps1sync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqmps1scp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  rf1mps1frq Type:Bits    
+   Instr:  Start:1144    End:1158    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf1mps1pa Type:Const   
+   Instr:  Start:1158    End:1208    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1mps1pem Type:Const   
+   Instr:  Start:1208    End:4408    Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf1mps1pd Type:Const   
+   Instr:  Start:4408    End:4458    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1mps1ubr Type:Bits    
+   Instr:  Start:4458    End:4462    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rf2mps1frq Type:Bits    
+   Instr:  Start:7636    End:7650    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf2mps1pa Type:Const   
+   Instr:  Start:7650    End:7700    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2mps1pem Type:Const   
+   Instr:  Start:7700    End:10900   Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf2mps1pd Type:Const   
+   Instr:  Start:10900   End:10950   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2mps1ubr Type:Bits    
+   Instr:  Start:10950   End:10954   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo1mps1dab Type:Bits    
+   Instr:  Start:11700   End:11716   Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  echo1mps1xtr Type:Bits    
+   Instr:  Start:11753   End:11770   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       608      Digital filter 4
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo1mps1rba Type:Bits    
+   Instr:  Start:11896   End:11900   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  attenuator_keymps1 Type:Bits    
+   Instr:  Start:19992   End:19998   Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  seqmps1  Type:Const   
+   Instr:  Start:20024   End:2000000 Dur:1979976 Per: 1979976
+   CtrlW:  Period:1979976 
+
+ ** Sequence (3) **
+
+   Pulse:  seqcflsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqcflscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  rf1cflfrq Type:Bits    
+   Instr:  Start:1144    End:1158    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       780      Offset freq phase reset + SSP Lock flag
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf1cflpa Type:Const   
+   Instr:  Start:1158    End:1208    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1cflpem Type:Const   
+   Instr:  Start:1208    End:4408    Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf1cflpd Type:Const   
+   Instr:  Start:4408    End:4458    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1cflubr Type:Bits    
+   Instr:  Start:4458    End:4462    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  cfl_fiddab Type:Bits    
+   Instr:  Start:6104    End:6120    Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  cfl_fidxtr Type:Bits    
+   Instr:  Start:6157    End:6174    Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       602      Digital filter 1
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  cfl_fidrba Type:Bits    
+   Instr:  Start:6300    End:6304    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  cfl_attenkey Type:Bits    
+   Instr:  Start:72392   End:72398   Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  seqcfl   Type:Const   
+   Instr:  Start:72952   End:398000  Dur:325048  Per: 325048 
+   CtrlW:  Period:325048  
+
+ ** Sequence (4) **
+
+   Pulse:  pre_rcvnsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  pre_rcvnscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  pre_rcvn Type:Const   
+   Instr:  Start:4184    End:21116   Dur:16932   Per: 16932  
+   CtrlW:  Period:16932   
+
+ ** Sequence (5) **
+
+   Pulse:  seqrcvnsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqrcvnscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  rcvrbl   Type:Bits    
+   Instr:  Start:1000    End:1004    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rcvn_fiddab Type:Bits    
+   Instr:  Start:1800    End:1816    Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  rcvn_fidxtr Type:Bits    
+   Instr:  Start:1853    End:1870    Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       604      Digital filter 2
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  rcvn_fidrba Type:Bits    
+   Instr:  Start:1996    End:2000    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rcvn_attenkey Type:Bits    
+   Instr:  Start:133072  End:133078  Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  rcvrbl2  Type:Bits    
+   Instr:  Start:134072  End:134076  Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  seqrcvn  Type:Const   
+   Instr:  Start:134076  End:250000  Dur:115924  Per: 115924 
+   CtrlW:  Period:115924  
+
+ ** Sequence (6) **
+
+   Pulse:  seqcfhsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqcfhscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  rf0cfhfrq Type:Bits    
+   Instr:  Start:1144    End:1158    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf0cfhpa Type:Const   
+   Instr:  Start:1158    End:1208    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf0cfhpem Type:Const   
+   Instr:  Start:1208    End:9848    Dur:8640    Per: 8640   
+   CtrlW:  Unblank1  RFUnblank1  Period:8640    
+
+   Pulse:  rf0cfhpd Type:Const   
+   Instr:  Start:9848    End:9898    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf0cfhubr Type:Bits    
+   Instr:  Start:9898    End:9902    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  sticfh   Type:Const   
+   Instr:  Start:11628   End:122776  Dur:111148  Per: 111148 
+   CtrlW:  Period:111148  
+
+   Pulse:  rf1cfhfrq Type:Bits    
+   Instr:  Start:123924  End:123938  Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       780      Offset freq phase reset + SSP Lock flag
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf1cfhpa Type:Const   
+   Instr:  Start:123938  End:123988  Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1cfhpem Type:Const   
+   Instr:  Start:123988  End:127188  Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf1cfhpd Type:Const   
+   Instr:  Start:127188  End:127238  Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1cfhubr Type:Bits    
+   Instr:  Start:127238  End:127242  Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rf2cfhfrq Type:Bits    
+   Instr:  Start:148844  End:148858  Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       780      Offset freq phase reset + SSP Lock flag
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf2cfhpa Type:Const   
+   Instr:  Start:148858  End:148908  Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2cfhpem Type:Const   
+   Instr:  Start:148908  End:152108  Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf2cfhpd Type:Const   
+   Instr:  Start:152108  End:152158  Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2cfhubr Type:Bits    
+   Instr:  Start:152158  End:152162  Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  cfh_fiddab Type:Bits    
+   Instr:  Start:154672  End:154688  Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  cfh_fidxtr Type:Bits    
+   Instr:  Start:154725  End:154742  Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       606      Digital filter 3
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  cfh_fidrba Type:Bits    
+   Instr:  Start:154868  End:154872  Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  cfh_attenkey Type:Bits    
+   Instr:  Start:411424  End:411430  Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  seqcfh   Type:Const   
+   Instr:  Start:411984  End:1500000 Dur:1088016 Per: 1088016
+   CtrlW:  Period:1088016 
+
+ ** Sequence (7) **
+
+   Pulse:  seqcswsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqcswscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  contrfhubsel Type:Bits    
+   Instr:  Start:35      End:39      Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       200  End packet
+       1)  OPC       446    RF input select reg
+       2)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  contrfsel Type:Bits    
+   Instr:  Start:39      End:43      Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       200  End packet
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       7FC      DATA BYTE 0 (0xFE)  (=254)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  csw_wait Type:Const   
+   Instr:  Start:43      End:44      Dur:1       Per: 1      
+   CtrlW:  Period:1       
+
+   Pulse:  seqcsw   Type:Const   
+   Instr:  Start:58      End:952     Dur:894     Per: 894    
+   CtrlW:  Period:894     
+
+ ** Sequence (8) **
+
+   Pulse:  seqcswWaitBeforesync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqcswWaitBeforescp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  seqcswWaitBefore Type:Const   
+   Instr:  Start:58      End:10000   Dur:9942    Per: 9942   
+   CtrlW:  Period:9942    
+
+ ** Sequence (9) **
+
+   Pulse:  seqftgsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqftgscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  rf1ftgfrq Type:Bits    
+   Instr:  Start:1036    End:1050    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf1ftgpa Type:Const   
+   Instr:  Start:1050    End:1100    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1ftgpem Type:Const   
+   Instr:  Start:1100    End:4300    Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf1ftgpd Type:Const   
+   Instr:  Start:4300    End:4350    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1ftgubr Type:Bits    
+   Instr:  Start:4350    End:4354    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rf2ftgfrq Type:Bits    
+   Instr:  Start:9228    End:9242    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf2ftgpa Type:Const   
+   Instr:  Start:9242    End:9292    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2ftgpem Type:Const   
+   Instr:  Start:9292    End:12492   Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf2ftgpd Type:Const   
+   Instr:  Start:12492   End:12542   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2ftgubr Type:Bits    
+   Instr:  Start:12542   End:12546   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo1ftgdab Type:Bits    
+   Instr:  Start:14796   End:14812   Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  echo1ftgxtr Type:Bits    
+   Instr:  Start:14849   End:14866   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       60A      Digital filter 5
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo1ftgrba Type:Bits    
+   Instr:  Start:14992   End:14996   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rf3ftgfrq Type:Bits    
+   Instr:  Start:33804   End:33818   Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf3ftgpa Type:Const   
+   Instr:  Start:33818   End:33868   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf3ftgpem Type:Const   
+   Instr:  Start:33868   End:37068   Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf3ftgpd Type:Const   
+   Instr:  Start:37068   End:37118   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf3ftgubr Type:Bits    
+   Instr:  Start:37118   End:37122   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo2ftgdab Type:Bits    
+   Instr:  Start:39404   End:39420   Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  echo2ftgxtr Type:Bits    
+   Instr:  Start:39457   End:39474   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       60A      Digital filter 5
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo2ftgrba Type:Bits    
+   Instr:  Start:39600   End:39604   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  ftg_attenkey Type:Bits    
+   Instr:  Start:73264   End:73270   Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  seqftg   Type:Const   
+   Instr:  Start:73270   End:2000000 Dur:1926730 Per: 1926730
+   CtrlW:  Period:1926730 
+
+ ** Sequence (10) **
+
+   Pulse:  seqxtgsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqxtgscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  rf1xtgfrq Type:Bits    
+   Instr:  Start:1088    End:1102    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf1xtgpa Type:Const   
+   Instr:  Start:1102    End:1152    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1xtgpem Type:Const   
+   Instr:  Start:1152    End:4352    Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf1xtgpd Type:Const   
+   Instr:  Start:4352    End:4402    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1xtgubr Type:Bits    
+   Instr:  Start:4402    End:4406    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rf3xtgfrq Type:Bits    
+   Instr:  Start:5492    End:5506    Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf3xtgpa Type:Const   
+   Instr:  Start:5506    End:5556    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf3xtgpem Type:Const   
+   Instr:  Start:5556    End:9556    Dur:4000    Per: 4000   
+   CtrlW:  Unblank1  RFUnblank1  Period:4000    
+
+   Pulse:  rf3xtgpd Type:Const   
+   Instr:  Start:9556    End:9606    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf3xtgubr Type:Bits    
+   Instr:  Start:9606    End:9610    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rf2xtgfrq Type:Bits    
+   Instr:  Start:13996   End:14010   Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf2xtgpa Type:Const   
+   Instr:  Start:14010   End:14060   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2xtgpem Type:Const   
+   Instr:  Start:14060   End:17260   Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf2xtgpd Type:Const   
+   Instr:  Start:17260   End:17310   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf2xtgubr Type:Bits    
+   Instr:  Start:17310   End:17314   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  rf4xtgfrq Type:Bits    
+   Instr:  Start:18536   End:18550   Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf4xtgpa Type:Const   
+   Instr:  Start:18550   End:18600   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf4xtgpem Type:Const   
+   Instr:  Start:18600   End:22600   Dur:4000    Per: 4000   
+   CtrlW:  Unblank1  RFUnblank1  Period:4000    
+
+   Pulse:  rf4xtgpd Type:Const   
+   Instr:  Start:22600   End:22650   Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf4xtgubr Type:Bits    
+   Instr:  Start:22650   End:22654   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  echo1xtgdab Type:Bits    
+   Instr:  Start:24372   End:24388   Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  echo1xtgxtr Type:Bits    
+   Instr:  Start:24425   End:24442   Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       60C      Digital filter 6
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo1xtgrba Type:Bits    
+   Instr:  Start:24568   End:24572   Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  xtg_attenkey Type:Bits    
+   Instr:  Start:33500   End:33506   Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  seqxtg   Type:Const   
+   Instr:  Start:33506   End:200000  Dur:166494  Per: 166494 
+   CtrlW:  Period:166494  
+
+ ** Sequence (11) **
+
+   Pulse:  seqaushimsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       700      SSP Lock flag
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqaushimscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  rf1asfrq Type:Bits    
+   Instr:  Start:160     End:174     Dur:14     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       780      Offset freq phase reset + SSP Lock flag
+      10)  OPC       448    Receiver unblank
+      11)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+      12)  DVC       200  End packet
+      13)  DVC       201  End packet + EOW
+
+   Pulse:  rf1aspa  Type:Const   
+   Instr:  Start:174     End:224     Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1aspem Type:Const   
+   Instr:  Start:224     End:3424    Dur:3200    Per: 3200   
+   CtrlW:  Unblank1  RFUnblank1  Period:3200    
+
+   Pulse:  rf1aspd  Type:Const   
+   Instr:  Start:3424    End:3474    Dur:50      Per: 50     
+   CtrlW:  Unblank1  RFUnblank1  Period:50      
+
+   Pulse:  rf1asubr Type:Bits    
+   Instr:  Start:3474    End:3478    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  sdixon   Type:Const   
+   Instr:  Start:3486    End:3490    Dur:4       Per: 4      
+   CtrlW:  Period:4       
+
+   Pulse:  echo1asdab Type:Bits    
+   Instr:  Start:4848    End:4864    Dur:16     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       402    DXCT
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DAT       600      DATA BYTE  3 (0x 0)  
+       5)  DAT       600      DATA BYTE  4 (0x 0)  
+       6)  DAT       600      DATA BYTE  5 (0x 0)  
+       7)  DAT       602      DATA BYTE  6 (0x 1)  
+       8)  DAT       600      DATA BYTE  7 (0x 0)  
+       9)  DAT       600      DATA BYTE  8 (0x 0)  
+      10)  DAT       600      DATA BYTE  9 (0x 0)  
+      11)  DAT       600      DATA BYTE 10 (0x 0)  
+      12)  DAT       600      DATA BYTE 11 (0x 0)  
+      13)  DAT       600      DATA BYTE 12 (0x 0)  
+      14)  DVC       200  End packet
+      15)  DVC       201  End packet + EOW
+
+   Pulse:  echo1asxtr Type:Bits    
+   Instr:  Start:4901    End:4918    Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       780      Offset freq phase reset + SSP Lock flag
+      10)  OPC       442    Digital filter select
+      11)  DAT       60E      Digital filter 7
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  echo1asrba Type:Bits    
+   Instr:  Start:5044    End:5048    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  attenuator_keyas Type:Bits    
+   Instr:  Start:5972    End:5978    Dur:6      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       416    Exctr unblank register
+       2)  DAT       600          DATA BYTE 0
+       3)  DVC       202  DAB or CAP Device
+       4)  OPC       40A    DUNL
+       5)  DVC       201  End packet + EOW
+
+   Pulse:  sdixon2  Type:Const   
+   Instr:  Start:6444    End:10996   Dur:4552    Per: 4552   
+   CtrlW:  Period:4552    
+
+   Pulse:  seqaushim Type:Const   
+   Instr:  Start:10996   End:12040   Dur:1044    Per: 1044   
+   CtrlW:  Period:1044    
+
+ ** Sequence (12) **
+
+   Pulse:  seqpassassync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqpassasscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  pass_aushim Type:Bits    
+   Instr:  Start:549000  End:549007  Dur:7      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       400    DPASS
+       2)  DAT       600      DATA BYTE  1 (0x 0)  
+       3)  DAT       600      DATA BYTE  2 (0x 0)  
+       4)  DVC       200  End packet
+       5)  DVC       200  End packet
+       6)  DVC       201  End packet + EOW
+
+   Pulse:  seqpassas Type:Const   
+   Instr:  Start:549007  End:550000  Dur:993     Per: 993    
+   CtrlW:  Period:993     
+
+ ** Sequence (13) **
+
+   Pulse:  seqblineacqsync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqblineacqscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  hyperdabbl Type:Bits    
+   Instr:  Start:1000    End:1018    Dur:18     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       202  DAB or CAP Device
+       1)  OPC       40C    DHYPER
+       2)  DAT       600      DATA BYTE  1 (0x 0)  Echo number
+       3)  DAT       600      DATA BYTE  2 (0x 0)  Dab operation
+       4)  DAT       600      DATA BYTE  3 (0x 0)  Card repeat
+       5)  DAT       600      DATA BYTE  4 (0x 0)  Frame flipping mode
+       6)  DAT       600      DATA BYTE  5 (0x 0)  Slice number BYTE 1
+       7)  DAT       600      DATA BYTE  6 (0x 0)  Slice number BYTE 0
+       8)  DAT       600      DATA BYTE  7 (0x 0)  Start view nbr BYTE 1
+       9)  DAT       600      DATA BYTE  8 (0x 0)  Start view nbr BYTE 0
+      10)  DAT       600      DATA BYTE  9 (0x 0)  View skip BYTE 1
+      11)  DAT       600      DATA BYTE 10 (0x 0)  View skip BYTE 0
+      12)  DAT       600      DATA BYTE 11 (0x 0)  Number of views BYTE 1
+      13)  DAT       600      DATA BYTE 12 (0x 0)  Number of views BYTE 0
+      14)  DVC       210  Master Exc/Rec
+      15)  OPC       442    Digital filter select
+      16)  DAT       600      Digital filter 0
+      17)  DVC       201  End packet + EOW
+
+   Pulse:  bline_unblank Type:Bits    
+   Instr:  Start:3000    End:3004    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       448    Receiver unblank
+       2)  DAT       7FE      DATA BYTE 0 (0xFF)  (=255)
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  blineacq1xtr Type:Bits    
+   Instr:  Start:4853    End:4870    Dur:17     
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       410    Offset freq (OMEGA) reg
+       2)  DAT       600      DATA BYTE 2 (0x 0)  (=0)
+       3)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       4)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       5)  OPC       406    THETA (phase) register
+       6)  DAT       600      DATA BYTE 1 (0x 0)  (=0)
+       7)  DAT       600      DATA BYTE 0 (0x 0)  (=0)
+       8)  OPC       416    Exctr unblank register
+       9)  DAT       680      Offset freq phase reset
+      10)  OPC       442    Digital filter select
+      11)  DAT       60E      Digital filter 7
+      12)  NOP         0      NOP BYTE (0x 0)  
+      13)  NOP         0      NOP BYTE (0x 0)  
+      14)  NOP         0      NOP BYTE (0x 0)  
+      15)  NOP         0      NOP BYTE (0x 0)  
+      16)  DVC       201  End packet + EOW
+
+   Pulse:  blineacq1rba Type:Bits    
+   Instr:  Start:4996    End:5000    Dur:4      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       218  Master Exc/Rec + Slave Exc/Rec
+       1)  OPC       444    Digital receiver ADC
+       2)  DAT       610      Start of acquisition
+       3)  DVC       201  End packet + EOW
+
+   Pulse:  seqblineacq Type:Const   
+   Instr:  Start:5000    End:300000  Dur:295000  Per: 295000 
+   CtrlW:  Period:295000  
+
+ ** Sequence (14) **
+
+   Pulse:  seqRTclocksync Type:Bits    
+   Instr:  Start:0       End:8       Dur:8      
+   CtrlW:  Period:1       
+   WaveM:
+       0)  DVC       210  Master Exc/Rec
+       1)  OPC       5FC    ** Unknown opcode
+       2)  DAT       602  ** Expecting an opcode
+       3)  OPC       444    Digital receiver ADC
+       4)  DAT       600      DATA BYTE 0
+       5)  OPC       416    Exctr unblank register
+       6)  DAT       600          DATA BYTE 0
+       7)  DVC       201  End packet + EOW
+
+   Pulse:  seqRTclockscp Type:Const   
+   Instr:  Start:8       End:9       Dur:1       Per: 1      
+   CtrlW:  ScopeTrig  Period:1       
+
+   Pulse:  seqRTclock Type:Const   
+   Instr:  Start:58      End:1204    Dur:1146    Per: 1146   
+   CtrlW:  Period:1146    
+
+
+*******************
+
+*Board: AUX  
+
+ ** Sequence (1) **
+
+ ** Sequence (2) **
+
+ ** Sequence (3) **
+
+ ** Sequence (4) **
+
+ ** Sequence (5) **
+
+ ** Sequence (6) **
+
+ ** Sequence (7) **
+
+ ** Sequence (8) **
+
+ ** Sequence (9) **
+
+ ** Sequence (10) **
+
+ ** Sequence (11) **
+
+ ** Sequence (12) **
+
+ ** Sequence (13) **
+
+ ** Sequence (14) **

@@ -1,0 +1,416 @@
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Mon Mar 17 15:59:52 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Mon Mar 17 16:46:37 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Tue Mar 18 16:01:43 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Wed Mar 19 09:50:01 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Wed Mar 19 09:58:08 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Wed Mar 19 10:01:47 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Thu Mar 20 13:56:48 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible
+
+~~~~~~~~~~~ EPI ~~~~~~~~~~~~
+Thu Mar 20 14:38:54 2014
+
+Cardiac Gate: Visible Enabled
+	Incompatible with Cardiac Comp, Functional MRI, Dynamic Plan
+Resp. Comp: Invisible
+Flow Comp: Visible Enabled
+	Incompatible with Functional MRI
+Classic: Invisible
+No Phase Wrap: Invisible
+EDR: Invisible
+Sequential: Visible Enabled
+	Incompatible with Functional MRI
+Multi-Phase: Visible Enabled
+	Incompatible with Functional MRI, Dynamic Plan
+Sq. Pixel: Visible Enabled
+	Incompatible with ASSET Scan, No Phase Wrap
+Mag. Transfer: Invisible
+Tailored RF: Invisible
+Resp. Trig: Invisible
+Full Echo Train: Invisible
+ZIP 1024: Invisible
+Cardiac Comp: Invisible
+ZIP 512: Invisible
+Slice ZIP x2: Invisible
+Slice ZIP x4: Invisible
+SmartPrep: Invisible
+Functional MRI: Visible Enabled
+	Incompatible with IR Prep, Dynamic Plan, Cardiac Gate, Flow Comp, Sequential, Multi-Phase
+Real-Time: Invisible
+Multi-Station: Invisible
+Blood Suppression: Invisible
+T2 Prep: Invisible
+SSRF: Invisible
+Real-Time Blurring Cancellation: Invisible
+Navigator: Invisible
+Fluoro-Trigger: Invisible
+Bilateral: Invisible
+ASSET Scan: Visible Enabled
+	Incompatible with ARC, No Phase Wrap, Sq. Pixel, ZIP 1024
+DE Prep: Invisible
+IR Prep: Visible Enabled
+	Incompatible with Functional MRI
+VERSE: Invisible
+MART: Invisible
+Dynamic Plan: Visible Enabled
+	Incompatible with Cardiac Gate, Multi-Phase, Functional MRI
+Mild Note: Visible Enabled
+Ideal: Invisible
+MRCP: Invisible
+ARC: Invisible

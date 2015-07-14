@@ -1,0 +1,30 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Start Error Dump: Fri Jan 31 15:12:37 2014
+
+aps1 Entry Point
+
+Body average SAR (W/kg):           0.010711
+Coil average SAR (W/kg):           0.010711
+Peak SAR (W/kg):                   0.021423
+
+	Begin Entry Point Table
+Predicted avg SAR (W/kg x0.1):           1
+Open-ended mode:                      true
+
+-->Active Monitor Mode: Pulse      
+EP Head amplitude limit:                 0
+EP Body amplitude limit:             22000
+EP Spectro amplitude limit:              0
+
+EP Head width limit:                     0
+EP Body width limit:                  1601
+EP Spectro width limit:                  0
+
+EP Head duty cycle limit:                0
+EP Body duty cycle limit:               17
+EP Spectro duty cycle limit:             0
+
+	End Entry Point Table
+End Error Dump
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

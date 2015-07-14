@@ -1,0 +1,23 @@
+         1 		 #Spectral-Spatial
+      5094 		 #res
+     20376 		 #pw
+90.0000000 		 #nom_flip 
+ 0.1746384 		 #abswidth 
+ 0.0938966 		 #effwidth 
+ 0.1746384 		 #area 
+ 0.2732627 		 #dtycyc 
+ 0.0088339 		 #maxpw 
+ 0.0207110 		 #max_b1 
+ 0.0008207 		 #max_int_b1_sqr 
+ 0.0000224 		 #max_rms_b1 
+     4.972 		 #a_gzs 
+     2.514 		 #nom_thk(mm) 
+     10188 		 #isodelay
+         0 		 #g_pow 
+         0 		 #g_pos_pow 
+         0 		 #g_neg_pow 
+         0 		 #g_abs 
+         0 		 #g_dgdt 
+         0 		 #g_pwm 
+         0 		 #g_pwm_abs 
+# *************************************

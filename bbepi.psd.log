@@ -1,0 +1,307 @@
+2014/04/07 11:47:05.421212|bbepi|12606|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: scan_time': CV not found
+2014/04/07 11:47:28.707889|bbepi|12606|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opfphaes: CV not found
+2014/04/07 11:47:30.876218|bbepi|12606|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opfphase: CV not found
+2014/04/09 13:19:45.733410|bbepi|9472|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opacqo
+2014/04/09 13:19:45.733437|bbepi|9472|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: opacqo is out of range: min=0, max=2, requested=5
+2014/04/09 13:26:10.313984|bbepi|9472|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opacqo
+2014/04/09 13:26:10.314005|bbepi|9472|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: opacqo is out of range: min=0, max=2, requested=4
+2014/04/09 13:26:31.896593|bbepi|9472|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/04/09 13:29:43.355616|bbepi|10784|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opslquant
+2014/04/09 13:29:43.355641|bbepi|10784|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opslquant is out of range
+2014/04/09 13:42:03.413557|bbepi|10784|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opslspace
+2014/04/09 13:42:03.414193|bbepi|10784|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opslspace is out of range
+2014/04/09 14:01:16.019371|bbepi|10784|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to ghost_check
+2014/04/09 14:01:16.019392|bbepi|10784|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: ghost_check is out of range: min=0, max=2, requested=3
+2014/04/16 19:30:42.639495|bbepi|18337|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/04/16 19:31:13.407578|bbepi|18349|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opfphaes: CV not found
+2014/04/16 19:31:39.304161|bbepi|18349|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: x_td0: CV not found
+2014/04/16 19:50:20.925418|bbepi|18349|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/04/17 11:28:44.769245|bbepi|6211|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser24
+2014/04/17 11:28:57.328445|bbepi|6211|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opfphaes: CV not found
+2014/04/17 11:30:20.007037|bbepi|6211|psd_syserr|ERROR|../bbepi.host.c|2263|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2242710, Msg: fMRI is incompatible with EPI (must use epiRT).
+2014/04/17 11:32:15.972097|bbepi|6211|psd_syserr|ERROR|../bbepi.host.c|8379|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2242710, Msg: This PSD is incompatible with the selected coil.
+2014/04/17 12:10:15.638995|bbepi|6211|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opslquantr: CV not found
+2014/04/17 12:10:20.758925|bbepi|6211|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opslgap: CV not found
+2014/04/17 12:24:08.519212|bbepi|13956|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pi_overlap: CV not found
+2014/04/17 14:29:24.938071|bbepi|4230|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/04/17 14:58:36.662866|bbepi|11880|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/04/17 15:32:04.492019|bbepi|19436|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opfphaes: CV not found
+2014/04/28 12:06:59.052487|bbepi|7906|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: freq_ctr: CV not found
+2014/04/28 12:09:24.472432|bbepi|7906|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rspacq: CV not found
+2014/04/29 15:41:09.567993|bbepi|2659|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_phasef1: CV not found
+2014/04/29 15:45:56.887119|bbepi|3439|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_omegarf1: CV not found
+2014/04/29 15:45:58.967468|bbepi|3439|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_omegaro1: CV not found
+2014/04/29 15:48:56.041629|bbepi|3439|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_phasef1: CV not found
+2014/04/30 09:47:15.523751|bbepi|12900|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ia_phaserd1: CV not found
+2014/04/30 09:51:16.852689|bbepi|13691|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_omegarf1: CV not found
+2014/04/30 09:51:18.612455|bbepi|13691|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ia_omega1: CV not found
+2014/04/30 10:42:30.825261|bbepi|15668|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: theta_file: CV not found
+2014/04/30 10:42:33.312927|bbepi|15668|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: thetafile: CV not found
+2014/04/30 10:43:20.871513|bbepi|15668|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: wg_omega: CV not found
+2014/04/30 10:43:43.526915|bbepi|15668|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_phaseff1: CV not found
+2014/04/30 10:43:55.430553|bbepi|15668|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_phaseff1: CV not found
+2014/04/30 10:49:03.949261|bbepi|15668|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ia_theatrf1: CV not found
+2014/04/30 10:56:08.184827|bbepi|15668|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: max_pg_iamp: CV not found
+2014/04/30 12:25:33.570579|bbepi|15668|epic_processcmds|ERROR|../epic_processcmds.c|575| fatal error, PSD 15668 terminating
+2014/05/01 11:56:58.339546|bbepi|13524|psd_syserr|ERROR|../bbepi.host.c|10470|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 10.700000 mm
+2014/05/01 11:57:02.514057|bbepi|13524|psd_syserr|ERROR|../bbepi.host.c|10470|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 10.700000 mm
+2014/05/01 13:24:00.856086|bbepi|13524|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: phase_rf1: CV not found
+2014/05/01 13:44:09.609767|bbepi|27562|psd_syserr|ERROR|../bbepi.host.c|10472|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 10.700000 mm
+2014/05/01 13:44:53.587049|bbepi|27562|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_theta: CV not found
+2014/05/01 14:29:31.527067|bbepi|1339|psd_syserr|ERROR|../bbepi.host.c|10466|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.900000 mm
+2014/05/01 14:30:27.819858|bbepi|1339|psd_syserr|ERROR|../bbepi.host.c|10466|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.900000 mm
+2014/05/01 14:30:57.928861|bbepi|1339|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: MAX_PG_IAMP: CV not found
+2014/05/01 14:31:07.160815|bbepi|1339|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: gettarget: CV not found
+2014/05/01 14:34:45.218205|bbepi|1339|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gzs: CV not found
+2014/05/01 15:16:15.335783|bbepi|1339|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: field_strength: CV not found
+2014/05/01 15:20:28.408437|bbepi|12150|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ia_phasef1: CV not found
+2014/05/06 13:46:59.742631|bbepi|32608|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: 6: CV not found
+2014/06/19 10:52:15.250890|bbepi|12096|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/06/19 14:08:16.263054|bbepi|10310|psd_syserr|ERROR|../amppwgz1.c|136|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: Support routine amppwgrad failed.
+2014/06/19 14:08:16.263068|bbepi|10310|psd_syserr|ERROR|../bbepi.host.c|6089|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: amppwgz1 failed
+2014/06/19 14:08:17.506823|bbepi|10310|psd_syserr|ERROR|../amppwgz1.c|136|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: Support routine amppwgrad failed.
+2014/06/19 14:08:17.506833|bbepi|10310|psd_syserr|ERROR|../bbepi.host.c|6089|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: amppwgz1 failed
+2014/06/19 14:08:19.194540|bbepi|10310|psd_syserr|ERROR|../amppwgz1.c|136|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: Support routine amppwgrad failed.
+2014/06/19 14:08:19.194550|bbepi|10310|psd_syserr|ERROR|../bbepi.host.c|6089|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: amppwgz1 failed
+2014/06/19 14:08:50.231260|bbepi|10310|psd_syserr|ERROR|../amppwgz1.c|136|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: Support routine amppwgrad failed.
+2014/06/19 14:08:50.231313|bbepi|10310|psd_syserr|ERROR|../bbepi.host.c|6089|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: amppwgz1 failed
+2014/06/19 14:09:06.103087|bbepi|10310|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: aphaserf1: CV not found
+2014/06/23 12:31:57.347054|bbepi|9255|epic_processcmds|ERROR|../epic_processcmds.c|575| fatal error, PSD 9255 terminating
+2014/06/27 10:23:05.438379|bbepi|22605|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opyre: CV not found
+2014/06/27 10:25:22.462294|bbepi|22605|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opyres
+2014/06/27 10:25:22.462931|bbepi|22605|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opyres is out of range
+2014/06/27 10:26:10.552736|bbepi|22605|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opyre: CV not found
+2014/06/27 10:28:54.060155|bbepi|22605|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhrhnover_min: CV not found
+2014/06/27 10:32:45.653224|bbepi|22605|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opatuote: CV not found
+2014/06/27 10:43:55.994919|bbepi|22605|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opautote
+2014/06/27 10:43:55.994940|bbepi|22605|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: opautote is out of range: min=0, max=5, requested=6
+2014/06/27 12:33:03.346171|bbepi|22605|epic_processcmds|ERROR|../epic_processcmds.c|575| fatal error, PSD 22605 terminating
+2014/06/30 14:19:03.160582|bbepi|20936|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/06/30 14:19:03.160606|bbepi|20936|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/06/30 14:19:15.352176|bbepi|20936|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/06/30 14:19:15.352196|bbepi|20936|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/06/30 14:19:31.575872|bbepi|20936|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opyres
+2014/06/30 14:19:31.575893|bbepi|20936|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opyres is out of range
+2014/06/30 14:23:04.280613|bbepi|20936|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhnover: CV not found
+2014/06/30 14:23:06.752282|bbepi|20936|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhnover: CV not found
+2014/06/30 14:23:10.136497|bbepi|20936|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: fullk_nframes': CV not found
+2014/06/30 14:23:56.151469|bbepi|20936|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhnover: CV not found
+2014/06/30 14:32:17.320058|bbepi|20936|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: temp_nframes: CV not found
+2014/06/30 14:32:20.672279|bbepi|20936|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: temp_nframes: CV not found
+2014/06/30 14:34:32.620155|bbepi|24484|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opxyres: CV not found
+2014/06/30 14:35:07.403221|bbepi|24484|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: echoOffset: CV not found
+2014/06/30 14:36:27.931168|bbepi|24484|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: smart_numoverscan]: CV not found
+2014/06/30 14:37:09.896348|bbepi|24484|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to smart_numoverscan
+2014/06/30 14:37:09.896380|bbepi|24484|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: smart_numoverscan is out of range: min=0, max=1, requested=2
+2014/06/30 14:38:19.237300|bbepi|24484|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: extra_os_time: CV not found
+2014/06/30 14:54:14.002616|bbepi|2381|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/06/30 14:54:14.002640|bbepi|2381|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/06/30 14:54:16.177249|bbepi|2381|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/06/30 14:59:22.056375|bbepi|2381|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: icount: CV not found
+2014/06/30 15:09:42.069011|bbepi|2381|epic_processcmds|ERROR|../epic_processcmds.c|575| fatal error, PSD 2381 terminating
+2014/06/30 15:56:35.707466|bbepi|1629|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opyres
+2014/06/30 15:56:35.707491|bbepi|1629|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opyres is out of range
+2014/06/30 15:56:37.691821|bbepi|1629|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opyres
+2014/06/30 15:56:37.691840|bbepi|1629|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opyres is out of range
+2014/06/30 16:43:48.341984|bbepi|1629|epic_processcmds|ERROR|../epic_processcmds.c|575| fatal error, PSD 1629 terminating
+2014/06/30 17:09:25.825878|bbepi|16028|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opyre: CV not found
+2014/06/30 17:10:08.000543|bbepi|16028|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: temp_nframes: CV not found
+2014/06/30 17:10:11.520077|bbepi|16028|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: temp_nframes: CV not found
+2014/06/30 17:10:17.439888|bbepi|16028|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: dn: CV not found
+2014/06/30 17:15:23.287089|bbepi|16028|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: echoOffset: CV not found
+2014/06/30 17:15:26.127314|bbepi|16028|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: echoOffset: CV not found
+2014/06/30 17:15:43.631874|bbepi|16028|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/06/30 17:15:43.631893|bbepi|16028|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/06/30 17:15:45.487619|bbepi|16028|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/06/30 17:15:45.487637|bbepi|16028|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/06/30 17:19:46.688680|bbepi|16028|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opte
+2014/06/30 17:19:46.688701|bbepi|16028|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opte is out of range
+2014/06/30 17:43:41.356122|bbepi|20956|psd_syserr|ERROR|../bbepi.host.c|10510|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227324, Msg:  The acquisition matrix size in phase (y resolution) must be even for EPI 
+2014/06/30 17:49:56.763384|bbepi|20956|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/06/30 17:49:56.763404|bbepi|20956|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/06/30 17:54:12.706637|bbepi|20956|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/06/30 17:54:18.818406|bbepi|20956|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhhnover_,min: CV not found
+2014/06/30 18:09:35.535452|bbepi|20956|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhhnover_min : CV not found
+2014/06/30 18:09:52.087146|bbepi|20956|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhhnover_min : CV not found
+2014/07/02 11:30:26.539456|bbepi|25547|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opyers: CV not found
+2014/07/02 11:30:40.511495|bbepi|25547|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:30:40.511515|bbepi|25547|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/02 11:30:42.905030|bbepi|25547|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:30:42.905050|bbepi|25547|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/02 11:48:36.759818|bbepi|28208|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opyre: CV not found
+2014/07/02 11:49:08.851619|bbepi|28208|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:49:08.851639|bbepi|28208|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/02 11:49:10.954349|bbepi|28208|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:49:10.954985|bbepi|28208|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/02 11:49:12.431969|bbepi|28208|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:49:12.431988|bbepi|28208|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/02 11:49:13.450593|bbepi|28208|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:49:13.450612|bbepi|28208|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/02 11:49:14.842493|bbepi|28208|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:49:14.842512|bbepi|28208|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/02 11:51:19.715730|bbepi|28208|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opatutote: CV not found
+2014/07/02 11:52:28.657107|bbepi|28208|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser0
+2014/07/02 11:54:52.261235|bbepi|28208|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/02 11:54:52.261254|bbepi|28208|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/08 19:49:33.375673|bbepi|32445|psd_syserr|ERROR|../bbepi.host.c|10473|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2242806, Msg: The frequency encoding steps must be increased to 32 for the current prescription.
+2014/07/08 19:49:41.772355|bbepi|32445|psd_syserr|ERROR|../bbepi.host.c|10473|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2242806, Msg: The frequency encoding steps must be increased to 32 for the current prescription.
+2014/07/09 16:40:11.637222|bbepi|15498|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: vfa_ctr: CV not found
+2014/07/09 16:45:12.516707|bbepi|17301|epic_processcmds|ERROR|../epic_processcmds.c|575| fatal error, PSD 17301 terminating
+2014/07/09 16:46:16.338396|bbepi|18607|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opfhases: CV not found
+2014/07/09 16:55:08.411455|bbepi|26160|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/07/22 11:50:25.363377|bbepi|19753|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opyres
+2014/07/22 11:50:25.363401|bbepi|19753|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opyres is out of range
+2014/07/22 11:50:26.659264|bbepi|19753|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opyres
+2014/07/22 11:50:26.659284|bbepi|19753|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opyres is out of range
+2014/07/22 11:52:56.766234|bbepi|19753|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/07/22 11:52:56.766254|bbepi|19753|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/07/22 12:08:24.124487|bbepi|22513|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: MIN_HNOVER_GRE: CV not found
+2014/07/22 14:25:50.641199|bbepi|12682|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opnslices: CV not found
+2014/07/22 14:25:53.345485|bbepi|12682|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opslice: CV not found
+2014/07/22 14:31:48.703842|bbepi|12682|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: passr_shot: CV not found
+2014/07/22 14:31:51.823500|bbepi|12682|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: passr_shorts: CV not found
+2014/07/22 14:31:53.927841|bbepi|12682|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: passr_shorts: CV not found
+2014/07/29 11:49:30.035852|bbepi|5697|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/07/29 11:51:21.129745|bbepi|5707|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gxf: CV not found
+2014/07/30 11:36:07.086904|bbepi|30125|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gxwa: CV not found
+2014/07/30 11:36:15.239172|bbepi|30125|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwa: CV not found
+2014/07/30 11:36:39.407468|bbepi|30125|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwa: CV not found
+2014/07/30 11:36:40.975276|bbepi|30125|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: gxwa: CV not found
+2014/07/30 11:38:38.769653|bbepi|30125|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gy: CV not found
+2014/07/31 14:50:26.196654|bbepi|9202|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwa: CV not found
+2014/07/31 14:50:32.797119|bbepi|9202|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwa: CV not found
+2014/07/31 14:50:50.132939|bbepi|9202|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: gxwd: CV not found
+2014/07/31 14:50:56.901415|bbepi|9202|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: gxwd: CV not found
+2014/07/31 14:50:59.445094|bbepi|9202|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwd: CV not found
+2014/07/31 14:51:18.525981|bbepi|9202|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxw1: CV not found
+2014/07/31 20:34:34.469424|bbepi|22237|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_Rf1: CV not found
+2014/07/31 20:34:35.989233|bbepi|22237|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pow_rf1: CV not found
+2014/07/31 20:35:31.695146|bbepi|22237|psd_syserr|ERROR|../amppwgz1.c|142|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: the pulse width found is greater than the 'avai_ptime'
+2014/07/31 20:35:31.695160|bbepi|22237|psd_syserr|ERROR|../bbepi.host.c|19252|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: amppwgz1 for gz1cfl failed in cfl.
+2014/07/31 20:35:31.695167|bbepi|22237|psd_syserr|ERROR|../bbepi.host.c|20184|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227073, Msg: CFLcveval failed.
+2014/07/31 20:39:55.050886|bbepi|23565|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opuyser20: CV not found
+2014/07/31 20:49:16.928485|bbepi|25825|psd_syserr|ERROR|../bbepi.host.c|10595|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 2.700000 mm
+2014/07/31 20:49:20.806746|bbepi|25825|psd_syserr|ERROR|../bbepi.host.c|10595|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 2.700000 mm
+2014/08/01 10:26:34.918213|bbepi|24862|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/08/01 10:26:34.918235|bbepi|24862|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/08/01 10:26:49.246438|bbepi|24862|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/08/01 10:26:49.246457|bbepi|24862|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/08/01 10:29:44.335931|bbepi|24862|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwa: CV not found
+2014/08/01 10:42:56.781507|bbepi|24862|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/08/01 10:59:41.118257|bbepi|592|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_Rf1: CV not found
+2014/08/01 11:22:27.413237|bbepi|6820|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: avminslice: CV not found
+2014/08/01 11:22:33.719706|bbepi|6820|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: avminslthivk: CV not found
+2014/08/01 11:29:26.564805|bbepi|6820|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: gscale_r1: CV not found
+2014/08/01 11:51:26.831158|bbepi|10674|psd_syserr|ERROR|../bbepi.host.c|10606|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.600000 mm
+2014/08/01 11:51:30.890390|bbepi|10674|psd_syserr|ERROR|../bbepi.host.c|10606|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.600000 mm
+2014/08/01 11:51:32.432814|bbepi|10674|psd_syserr|ERROR|../bbepi.host.c|10606|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.600000 mm
+2014/08/01 11:51:34.678433|bbepi|10674|psd_syserr|ERROR|../bbepi.host.c|10606|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.600000 mm
+2014/08/01 12:01:36.037170|bbepi|15783|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: avminslthic: CV not found
+2014/08/01 12:02:01.246268|bbepi|15783|psd_syserr|ERROR|../bbepi.host.c|10604|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 5.000000 mm
+2014/08/11 14:08:25.491358|bbepi|22078|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser25
+2014/08/12 11:42:32.284824|bbepi|27102|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwa: CV not found
+2014/08/12 11:42:34.276895|bbepi|27102|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxwa: CV not found
+2014/08/12 11:49:56.650150|bbepi|27102|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: thtfw: CV not found
+2014/08/12 11:50:56.357700|bbepi|27102|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gxw1: CV not found
+2014/08/12 11:57:38.618570|bbepi|27102|epic_processcmds|ERROR|../epic_processcmds.c|575| fatal error, PSD 27102 terminating
+2014/08/12 15:56:20.210266|bbepi|30504|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: seqtype: CV not found
+2014/08/12 15:58:00.796034|bbepi|30504|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gxf: CV not found
+2014/08/12 15:58:03.596097|bbepi|30504|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gfb: CV not found
+2014/08/14 10:56:44.316994|bbepi|6666|psd_syserr|ERROR|../bbepi.host.c|10612|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 16.700001 mm
+2014/08/14 10:57:00.661382|bbepi|6666|psd_syserr|ERROR|../bbepi.host.c|10605|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 166.500000 mm
+2014/08/15 12:34:18.325138|bbepi|29845|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opfpbases: CV not found
+2014/08/19 10:38:12.353621|bbepi|31542|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/08/19 10:38:34.730317|bbepi|31542|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfphases
+2014/08/19 10:38:34.730341|bbepi|31542|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: opfphases is out of range: min=1, max=512, requested=600
+2014/08/19 10:59:52.384842|bbepi|3580|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opphasefov
+2014/08/19 10:59:52.384871|bbepi|3580|psd_syserr|ERROR|../epic_util.c|796|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217537, Msg: opphasefov is out of range: min=0, max=1, requested=2
+2014/08/19 11:02:16.155028|bbepi|4876|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/08/19 11:02:16.338998|bbepi|4876|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/08/19 11:02:16.530954|bbepi|4876|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/08/19 11:02:16.722918|bbepi|4876|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/08/19 11:02:22.962860|bbepi|4876|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/08/21 17:10:04.341403|bbepi|16973|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_theta: CV not found
+2014/08/21 17:20:56.801503|bbepi|16973|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rf1_freq: CV not found
+2014/08/21 17:26:02.303268|bbepi|16973|psd_syserr|ERROR|../bbepi.host.c|10622|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 10.400000 mm
+2014/08/22 11:16:53.780813|bbepi|20271|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: thetarf1ref: CV not found
+2014/08/22 11:16:57.277057|bbepi|20271|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_thetarf1ref: CV not found
+2014/09/02 17:52:59.105716|bbepi|6469|psd_syserr|ERROR|../bbepi.host.c|10623|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 10.400000 mm
+2014/10/28 15:53:07.504702|bbepi|27126|psd_syserr|ERROR|../bbepi.host.c|10616|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.900000 mm
+2014/10/28 15:53:18.065673|bbepi|27126|psd_syserr|ERROR|../bbepi.host.c|10616|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 7.900000 mm
+2014/10/28 15:55:43.300759|bbepi|27126|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: gscale_Rf1: CV not found
+2014/10/28 16:00:03.061422|bbepi|27126|psd_syserr|ERROR|../bbepi.host.c|10616|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2227001, Msg: Increase the slice thickness to 1.900000 mm
+2014/10/28 16:10:42.645258|bbepi|29525|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_Rf1: CV not found
+2014/10/28 16:11:07.789449|bbepi|29525|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: GAM: CV not found
+2014/10/28 16:17:48.316859|bbepi|29525|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: av_temp_float: CV not found
+2014/10/28 16:17:53.180932|bbepi|29525|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: av_temp_float: CV not found
+2014/11/04 15:28:49.551046|bbepi|19461|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opphasefov
+2014/11/04 15:28:49.551081|bbepi|19461|psd_syserr|ERROR|../epic_util.c|796|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217537, Msg: opphasefov is out of range: min=0, max=1, requested=2
+2014/11/14 10:28:24.437571|bbepi|18417|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhnover_min: CV not found
+2014/11/14 10:36:48.734554|bbepi|18417|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: gyb_amp: CV not found
+2014/11/14 10:48:27.266990|bbepi|18417|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: blippol: CV not found
+2014/11/14 11:54:47.665991|bbepi|30276|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: parity: CV not found
+2014/11/14 11:58:16.693731|bbepi|30276|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: -a_gy2: CV not found
+2014/11/14 11:58:18.205772|bbepi|30276|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ia_gy2: CV not found
+2014/11/14 12:01:06.112806|bbepi|30276|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: deltaAmp: CV not found
+2014/11/14 12:11:06.059459|bbepi|3136|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: percentBlipmod: CV not found
+2014/11/14 12:11:09.467521|bbepi|3136|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: percentblipmod: CV not found
+2014/11/14 14:40:53.829813|bbepi|9095|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/11/14 14:41:15.006363|bbepi|9095|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ouser21: CV not found
+2014/11/14 14:41:44.419234|bbepi|9095|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:41:44.419847|bbepi|9095|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:41:59.279226|bbepi|9095|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:41:59.279299|bbepi|9095|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:42:26.895258|bbepi|9095|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:42:26.895335|bbepi|9095|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:45:21.787292|bbepi|10512|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:45:21.787360|bbepi|10512|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:45:45.283046|bbepi|10512|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:45:45.283116|bbepi|10512|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:45:53.899322|bbepi|10512|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:45:53.899371|bbepi|10512|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:47:11.861190|bbepi|11183|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:47:11.861248|bbepi|11183|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:54:06.906045|bbepi|12851|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:54:06.906124|bbepi|12851|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:54:43.812351|bbepi|12851|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pe_end_iamp: CV not found
+2014/11/14 14:55:07.456817|bbepi|12851|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 14:55:07.456874|bbepi|12851|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 14:55:13.213657|bbepi|12851|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: iva: CV not found
+2014/11/14 14:55:14.013353|bbepi|12851|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ival: CV not found
+2014/11/14 14:55:15.349709|bbepi|12851|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ival: CV not found
+2014/11/14 14:55:16.237777|bbepi|12851|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ileave: CV not found
+2014/11/14 14:55:25.238173|bbepi|12851|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: kydir: CV not found
+2014/11/14 15:04:50.687795|bbepi|12851|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 15:04:50.697822|bbepi|12851|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 15:05:04.960171|bbepi|12851|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 15:05:04.960231|bbepi|12851|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 15:05:09.224121|bbepi|12851|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 15:05:09.224177|bbepi|12851|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 15:05:45.384252|bbepi|12851|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 15:05:45.384311|bbepi|12851|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 15:06:49.769584|bbepi|14690|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/11/14 15:08:59.700487|bbepi|14690|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to pw_gy1a
+2014/11/14 15:08:59.700547|bbepi|14690|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: pw_gy1a is out of range: min=-2147483647, max=2147483647, requested=-2147483648
+2014/11/14 15:13:49.721167|bbepi|14690|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ASSET_FACTOR: CV not found
+2014/11/17 14:12:48.518412|bbepi|17578|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: rhhn: CV not found
+2014/11/17 14:13:09.686816|bbepi|17578|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to rhhnover
+2014/11/17 14:13:09.686876|bbepi|17578|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: rhhnover is out of range: min=0, max=512, requested=-6
+2014/11/18 15:01:36.942200|bbepi|31395|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: sake_max_blips: CV not found
+2014/11/18 15:01:41.174337|bbepi|31395|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: sake_max_blip: CV not found
+2014/11/18 15:04:01.336558|bbepi|32194|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: sake_flip: CV not found
+2014/11/18 15:52:26.707883|bbepi|7386|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opuser21
+2014/11/18 17:25:20.479558|bbepi|19869|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: ia_gyba: CV not found
+2014/11/20 10:20:40.856581|bbepi|17066|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gyb1: CV not found
+2014/11/20 10:52:30.020103|bbepi|25618|psd_syserr|ERROR|../epic_util.c|2017|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: A Full Eval was not done during DOWNLOAD.
+2014/11/20 10:52:30.020158|bbepi|25618|psd_syserr|ERROR|../epic_util.c|2017|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: A Full Eval was not done during DOWNLOAD.
+2014/11/20 10:52:33.964677|bbepi|25618|psd_syserr|ERROR|../epic_util.c|2017|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: A Full Eval was not done during DOWNLOAD.
+2014/11/20 10:52:33.964706|bbepi|25618|psd_syserr|ERROR|../epic_util.c|2017|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: A Full Eval was not done during DOWNLOAD.
+2014/11/20 11:16:06.436721|bbepi|30707|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/11/20 13:42:20.945946|bbepi|17478|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: : CV not found
+2014/11/24 14:45:38.095811|bbepi|30461|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: a_gfb: CV not found
+2014/12/01 14:32:45.056670|bbepi|28281|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opfov
+2014/12/01 14:32:45.056743|bbepi|28281|psd_syserr|ERROR|../epic_util.c|779|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217520, Msg: opfov is out of range
+2014/12/01 14:47:13.230637|bbepi|30304|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: pw_gybqa: CV not found
+2014/12/02 15:23:28.825001|bbepi|25798|psd_syserr|ERROR|../epic_util.c|755|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 0, Msg: Attempt to assign out of range value to opautote
+2014/12/02 15:23:28.825051|bbepi|25798|psd_syserr|ERROR|../epic_util.c|789|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217536, Msg: opautote is out of range: min=0, max=5, requested=12
+2014/12/02 15:24:14.320587|bbepi|25798|psd_syserr|ERROR|../epic_get.c|762|  Name: EPI, Release: DV24.0_V01, Compiler v3.3, ERROR: 2217472, Msg: opauote: CV not found

@@ -1,0 +1,47 @@
+~~~~~~~~~Error Pulse: 13~~~~~~~~~
+Pulse width:                       10 us
+Nom pulse width:                14400 us
+Flip angle:                     90.00
+Nom flip angle:                 90.00
+Nom pulse B1:                  0.0381 G
+Scale factor:               1440.0000
+Actual B1:                    54.8208 G
+
+Effective RF Width:            0.0636 
+RF abswidth:                   0.1280 
+RF ext grad file:                   1 
+
+Pulse area fraction:           0.1071
+Normed pulse voltage:        160.6983
+Normed pulse integral:       205.6938 us
+
+RMS B1 value:                 13.8240 G
+RMS B1 scale factor:        1440.0000 G
+Integrated B1 squared:      2757.8880 G^2 us
+B1 squared scale factor: 2073600.0000
+Number of pulses:                   1
+Duty cycle:                    0.1828
+Pulse play time:                  110 us
+Pulse power:             548329769.0183 W
+Mean pulse power:        413182998.2847 W
+Pulse energy:                348.7378 J
+Mean pulse energy:           262.7844 J
+---
+~~~~~~~~~End Error Pulse~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Wed Jan 29 10:07:52 2014
+
+Body Port Scan Entry Point
+
+Maximum pulse energy allowed:               60.0000 J
+Maximum peak power allowed:                   16000 W
+Maximum pulse width allowed:                  20000 us
+Maximum peak B1 allowed:                     0.2500 G
+Maximum B1 squared allowed:                  0.8000 G^2 ms
+Sequence peak B1:                           54.8208 G
+Sequence peak RF output:               548329764.2489 W
+Sequence mean peak RF output:          413182994.6908 W
+Sequence JSTD:                               0.8501 J
+Sequence mean JSTD:                          0.4054 J
+

@@ -1,0 +1,14 @@
+cvfile - cvname cvvalue exist_flag fix_flag
+opuser20 1 1 1
+pw_rf1 3200 0 0
+optr 59000 1 1
+opte 13300 1 1
+opfov 96 1 1
+opxres 32 1 1
+opyres 32 1 1
+opetl 24 0 0
+opautote 2 1 0
+oprbw 50 0 0
+GAM 1070 1 1
+oppseq 2 1 1
+eesp 1144 0 0

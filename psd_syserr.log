@@ -1,0 +1,1397 @@
+
+
+Thu Jan 23 10:24:25 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opfox: CV not found
+
+Thu Jan 23 10:51:32 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opnsots: CV not found
+
+Thu Jan 23 10:52:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: spsp: CV not found
+
+Thu Jan 23 10:52:30 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ndisdaw: CV not found
+
+Thu Jan 23 10:52:31 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ndisdaq: CV not found
+
+Thu Jan 23 10:52:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ndisdaqs: CV not found
+
+Thu Jan 23 10:54:44 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: oppsseq: CV not found
+
+Thu Jan 23 10:55:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to oppseq
+
+Thu Jan 23 10:55:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: oppseq is out of range: min=1, max=57, requested=0
+
+Thu Jan 23 10:57:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to oppseq
+
+Thu Jan 23 10:57:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: oppseq is out of range: min=1, max=57, requested=575
+
+Thu Jan 23 11:24:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 7996
+ERROR 2242710: This PSD is incompatible with the selected coil.
+
+Thu Jan 23 12:08:07 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 7996
+ERROR 2242710: This PSD is incompatible with the selected coil.
+
+Thu Jan 23 14:39:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to rftype
+
+Thu Jan 23 14:39:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: rftype is out of range: min=0, max=1, requested=2
+
+Fri Jan 24 16:38:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to psd_board_type
+
+Fri Jan 24 16:38:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: psd_board_type is out of range: min=0, max=1, requested=2
+
+Tue Jan 28 10:02:10 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opyres
+
+Tue Jan 28 10:02:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opte
+
+Tue Jan 28 10:06:48 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: coil: CV not found
+
+Tue Jan 28 10:06:49 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rfcoil: CV not found
+
+Tue Jan 28 10:07:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 7996
+ERROR 2242710: This PSD is incompatible with the selected coil.
+
+Tue Jan 28 10:22:29 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to ky_dir
+
+Tue Jan 28 10:22:29 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: ky_dir is out of range: min=0, max=2, requested=5
+
+Tue Jan 28 10:37:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to ky_dir
+
+Tue Jan 28 10:37:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: ky_dir is out of range: min=0, max=2, requested=4
+
+Tue Jan 28 10:37:30 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to fract_ky
+
+Tue Jan 28 10:37:30 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: fract_ky is out of range: min=0, max=1, requested=2
+
+Tue Jan 28 10:37:40 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to fract_ky
+
+Tue Jan 28 10:37:40 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: fract_ky is out of range: min=0, max=1, requested=2
+
+Tue Jan 28 10:38:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 9917
+ERROR 2227287: Fractional NEX is not allowed with this scan.
+
+Tue Jan 28 10:38:39 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 9917
+ERROR 2227287: Fractional NEX is not allowed with this scan.
+
+Tue Jan 28 14:36:33 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser2
+
+Tue Jan 28 14:36:39 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser2
+
+Tue Jan 28 14:36:43 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser2
+
+Tue Jan 28 14:40:14 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Tue Jan 28 14:42:40 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Tue Jan 28 14:42:42 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Tue Jan 28 14:42:54 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser2
+
+Tue Jan 28 14:42:54 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 820
+ERROR 2217537: opuser2 is out of range: min=1, max=1, requested=10
+
+Tue Jan 28 14:42:55 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser2
+
+Tue Jan 28 14:42:55 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 820
+ERROR 2217537: opuser2 is out of range: min=1, max=1, requested=10
+
+Tue Jan 28 14:43:03 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Tue Jan 28 14:43:46 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser0
+
+Tue Jan 28 14:43:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser0
+
+Tue Jan 28 14:43:49 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser0
+
+Tue Jan 28 15:05:11 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Tue Jan 28 15:12:30 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Tue Jan 28 15:12:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Tue Jan 28 15:58:25 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Tue Jan 28 17:53:11 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Wed Jan 29 10:07:52 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../minseqrfamp.c line 691
+ERROR 2227308: Maximum RF Pulse Power (16000.000000) Violated: (548329792.000000)
+Reduce Patient Weight or Flip Angle
+
+Wed Jan 29 10:07:52 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../minseqrfamp.c line 309
+ERROR 2227073: Support routine rfampPulseAnalysis failed.
+
+Wed Jan 29 10:07:52 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 8478
+ERROR 2227073: minseqrfamp_b1scale failed.
+
+Wed Jan 29 10:13:41 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ssrffile: CV not found
+
+Wed Jan 29 10:58:06 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Wed Jan 29 11:08:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to ss_rf1
+
+Wed Jan 29 11:08:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: ss_rf1 is out of range: min=0, max=1, requested=2
+
+Wed Jan 29 11:17:30 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:17:30 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5777
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:17:36 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:17:36 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5777
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:17:44 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:17:44 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5777
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:18:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:18:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5777
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:20:46 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:20:46 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5777
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:20:52 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:20:52 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5777
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:30:49 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10172
+ERROR 2227001: Increase the slice thickness to 0.500000 mm
+
+Wed Jan 29 11:37:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: gz_rf1: CV not found
+
+Wed Jan 29 11:37:56 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:37:56 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5776
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:43:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:43:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5777
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 11:51:14 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../amppwgz1.c line 136
+ERROR 2227073: Support routine amppwgrad failed.
+
+Wed Jan 29 11:51:14 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 5776
+ERROR 2227073: amppwgz1 failed
+
+Wed Jan 29 13:07:05 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to optr
+
+Wed Jan 29 13:07:11 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to optr
+
+Wed Jan 29 13:12:23 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to optr
+
+Wed Jan 29 13:20:51 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10191
+ERROR 2227001: Increase the slice thickness to 47.000000 mm
+
+Wed Jan 29 13:20:54 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10191
+ERROR 2227001: Increase the slice thickness to 23.500000 mm
+
+Wed Jan 29 14:23:41 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pw_gz: CV not found
+
+Wed Jan 29 14:23:45 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pw_gz1s: CV not found
+
+Wed Jan 29 14:28:52 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pw_gz1s: CV not found
+
+Wed Jan 29 15:02:43 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pw_gzrf: CV not found
+
+Wed Jan 29 15:02:55 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to ss_rf1
+
+Wed Jan 29 15:02:55 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: ss_rf1 is out of range: min=0, max=1, requested=2
+
+Wed Jan 29 15:15:23 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: nom_pw_tmp: CV not found
+
+Wed Jan 29 15:18:12 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to ss_rf1
+
+Wed Jan 29 15:18:12 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: ss_rf1 is out of range: min=0, max=1, requested=2
+
+Wed Jan 29 15:20:01 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: nom-thk: CV not found
+
+Wed Jan 29 15:20:13 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: nom_pw_tmep: CV not found
+
+Wed Jan 29 15:20:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pw_rf12: CV not found
+
+Wed Jan 29 15:21:26 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: RF1_SLOT].nom_pw: CV not found
+
+Wed Jan 29 15:21:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rfpulse[RF1_SLOT].nom_pw: CV not found
+
+Wed Jan 29 15:48:24 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opflip
+
+Wed Jan 29 17:45:14 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10176
+ERROR 2227001: Increase the slice thickness to 1.900000 mm
+
+Wed Jan 29 17:45:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opslthick
+
+Wed Jan 29 17:46:04 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: a_gzrf1.: CV not found
+
+Wed Jan 29 17:46:17 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to ss_rf1
+
+Wed Jan 29 17:46:17 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: ss_rf1 is out of range: min=0, max=1, requested=2
+
+Wed Jan 29 17:48:01 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10183
+ERROR 2227001: Increase the slice thickness to 1.900000 mm
+
+Wed Jan 29 17:56:57 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10469
+ERROR 2242667: Flip angle is out of range
+
+Wed Jan 29 17:56:57 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10469
+ERROR 2242667: Flip angle is out of range
+
+Wed Jan 29 17:56:59 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10469
+ERROR 2242667: Flip angle is out of range
+
+Wed Jan 29 17:56:59 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10469
+ERROR 2242667: Flip angle is out of range
+
+Wed Jan 29 17:57:07 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10469
+ERROR 2242667: Flip angle is out of range
+
+Wed Jan 29 17:57:07 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10469
+ERROR 2242667: Flip angle is out of range
+
+Thu Jan 30 09:41:51 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: slice_offset: CV not found
+
+Thu Jan 30 09:42:46 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: slice_offset: CV not found
+
+Thu Jan 30 09:44:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to ss_rf1
+
+Thu Jan 30 09:44:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: ss_rf1 is out of range: min=0, max=1, requested=2
+
+Thu Jan 30 09:55:03 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: kr_fract: CV not found
+
+Thu Jan 30 09:56:03 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to fract_ky
+
+Thu Jan 30 09:56:03 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: fract_ky is out of range: min=0, max=1, requested=5
+
+Thu Jan 30 09:56:46 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: fract_ky.: CV not found
+
+Thu Jan 30 09:56:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Thu Jan 30 09:57:22 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to fract_ky
+
+Thu Jan 30 09:57:22 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: fract_ky is out of range: min=0, max=1, requested=2
+
+Thu Jan 30 10:06:35 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ky_fract: CV not found
+
+Thu Jan 30 10:52:55 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pa_gz1: CV not found
+
+Thu Jan 30 10:53:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser20
+
+Thu Jan 30 11:47:45 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: wg_thetarf1: CV not found
+
+Thu Jan 30 13:40:32 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opfov
+
+Thu Jan 30 13:40:40 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opfov
+
+Thu Jan 30 16:49:07 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rspslq: CV not found
+
+Thu Jan 30 16:50:22 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opslgap: CV not found
+
+Thu Jan 30 16:50:24 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opgap: CV not found
+
+Thu Jan 30 16:52:06 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ileave: CV not found
+
+Thu Jan 30 16:52:09 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opnshopts: CV not found
+
+Thu Jan 30 16:52:12 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opshota: CV not found
+
+Thu Jan 30 16:57:01 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 10:19:38 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 10:21:30 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opgap: CV not found
+
+Fri Jan 31 10:21:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opslgap: CV not found
+
+Fri Jan 31 10:26:36 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: excitation: CV not found
+
+Fri Jan 31 10:26:40 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rspdex: CV not found
+
+Fri Jan 31 10:26:45 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rspnex: CV not found
+
+Fri Jan 31 11:00:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: tot_etl: CV not found
+
+Fri Jan 31 11:03:41 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opnshot: CV not found
+
+Fri Jan 31 11:03:59 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to optr
+
+Fri Jan 31 11:04:33 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: psd_icnt: CV not found
+
+Fri Jan 31 11:15:01 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: slice: CV not found
+
+Fri Jan 31 11:15:04 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: core_rep: CV not found
+
+Fri Jan 31 11:15:06 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rspslq: CV not found
+
+Fri Jan 31 11:16:06 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opslquanrt: CV not found
+
+Fri Jan 31 11:16:09 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opslquantr: CV not found
+
+Fri Jan 31 11:51:45 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: core_rep: CV not found
+
+Fri Jan 31 12:13:51 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opslquant': CV not found
+
+Fri Jan 31 15:05:05 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 3678
+ERROR: SS type 0 not found
+
+Fri Jan 31 15:07:10 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to df2
+
+Fri Jan 31 15:07:10 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 820
+ERROR 2217537: df2 is out of range: min=-10000, max=10000, requested=1.35435e+19
+
+Fri Jan 31 15:07:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 15:07:56 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 15:07:57 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 15:12:37 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../powermon.c line 989
+ERROR 2227073: Support routine getActivePowerMonPeakLimits failed.
+
+Fri Jan 31 15:12:37 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../powermon.c line 903
+ERROR 2227073: Support routine setPowerMonPulseLimits failed.
+
+Fri Jan 31 15:12:37 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../powermon.c line 478
+ERROR 2227073: Support routine setupPowerMonitor failed.
+
+Fri Jan 31 15:12:37 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../powermon.c line 2732
+ERROR 2227073: Support routine powermon_sar failed.
+
+Fri Jan 31 15:12:37 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 19795
+ERROR 2227073: powermon ps1 failed.
+
+Fri Jan 31 15:12:37 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 20319
+ERROR 2227073: PS1predownload failed.
+
+Fri Jan 31 15:12:37 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../entrytabinit.c line 117
+ERROR 2227073: Support routine getPowerMonPeakLimits failed.
+
+Fri Jan 31 15:22:32 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 15:27:39 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 15:27:41 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Fri Jan 31 15:38:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Mon Feb  3 17:05:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../maxpass.c line 95
+ERROR: (0 => locsPerPass)
+
+Mon Feb  3 17:05:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 8663
+ERROR 2227073: maxpass failed.
+
+Mon Feb  3 17:05:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../maxpass.c line 95
+ERROR: (0 => locsPerPass)
+
+Mon Feb  3 17:05:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 8663
+ERROR 2227073: maxpass failed.
+
+Mon Feb  3 17:05:43 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Mon Feb  3 17:11:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: avqs: CV not found
+
+Tue Feb  4 11:49:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 312
+ERROR 2217478: rhrawsize: Can not access export variables that aren't of simple types
+
+Tue Feb  4 16:24:42 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: num_freqs: CV not found
+
+Tue Feb  4 16:27:54 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Tue Feb  4 16:27:56 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Tue Feb  4 16:49:55 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: mph-flag: CV not found
+
+Wed Feb  5 09:44:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 09:44:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 09:44:21 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 09:44:21 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 09:44:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 09:44:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 09:44:31 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 09:44:31 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 09:44:33 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 09:44:33 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 09:44:58 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 09:44:58 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 09:48:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 09:48:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 09:54:06 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pw_omega: CV not found
+
+Wed Feb  5 09:54:13 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ia_omegad: CV not found
+
+Wed Feb  5 09:54:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: pw_omegad: CV not found
+
+Wed Feb  5 10:06:15 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: num_lobes: CV not found
+
+Wed Feb  5 10:08:22 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opflpi: CV not found
+
+Wed Feb  5 10:12:25 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: a_theatrf1: CV not found
+
+Wed Feb  5 10:13:21 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: wg_thetarf1: CV not found
+
+Wed Feb  5 13:30:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opcgate
+
+Wed Feb  5 13:30:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: opcgate is out of range: min=0, max=2, requested=3
+
+Wed Feb  5 13:33:24 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: p[acq: CV not found
+
+Wed Feb  5 13:33:25 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opacq: CV not found
+
+Wed Feb  5 13:33:26 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opacqmode: CV not found
+
+Wed Feb  5 13:34:38 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 13:34:38 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 13:34:56 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 13:34:56 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 13:34:57 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 13:34:57 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 13:35:15 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 13:35:15 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 13:36:50 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opuawe1: CV not found
+
+Wed Feb  5 13:36:59 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../orderslice.c line 756
+ERROR: phases/slices != 1, 2, or 3
+
+Wed Feb  5 13:36:59 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 11135
+ERROR 2227073: orderslice failed.
+
+Wed Feb  5 13:37:48 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Wed Feb  5 13:37:50 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rspent: CV not found
+
+Thu Feb  6 10:36:35 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: seq_tyoe: CV not found
+
+Thu Feb  6 11:25:53 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opfphases
+
+Thu Feb  6 11:25:53 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: opfphases is out of range: min=1, max=512, requested=0
+
+Thu Feb  6 11:26:14 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rhreframep: CV not found
+
+Thu Feb  6 14:40:23 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Thu Feb  6 14:57:07 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser22
+
+Thu Feb  6 14:57:36 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser22
+
+Thu Feb  6 15:06:15 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Thu Feb  6 15:06:17 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../bbepi.host.c line 10313
+ERROR 2242667: Delay After Acq is out of range.
+
+Thu Feb  6 15:07:04 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rspent: CV not found
+
+Thu Feb  6 15:14:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Thu Feb  6 15:23:26 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opfphase: CV not found
+
+Thu Feb  6 15:26:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opfphasesa: CV not found
+
+Thu Feb  6 15:26:03 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opfphase: CV not found
+
+Thu Feb  6 15:52:42 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: acqtype: CV not found
+
+Thu Feb  6 17:57:21 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Mon Feb 10 13:36:18 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opsseq: CV not found
+
+Mon Feb 10 13:36:24 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opsseq: CV not found
+
+Mon Feb 10 13:36:36 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to oppseq
+
+Mon Feb 10 13:36:36 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 813
+ERROR 2217536: oppseq is out of range: min=1, max=57, requested=0
+
+Mon Feb 10 13:38:07 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: oplfip: CV not found
+
+Mon Feb 10 13:38:14 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Mon Feb 10 14:51:52 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: vgrf_targ: CV not found
+
+Mon Feb 10 14:52:06 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: tspo: CV not found
+
+Mon Feb 10 14:52:50 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: tsp_min: CV not found
+
+Mon Feb 10 14:53:02 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: tsp_min: CV not found
+
+Tue Feb 11 10:03:59 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: num_freqs: CV not found
+
+Wed Feb 12 18:08:54 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: xmtaddscan: CV not found
+
+Tue Feb 25 16:09:47 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opflip
+
+Tue Feb 25 16:10:09 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: maxB1Seq: CV not found
+
+Wed Mar  5 15:49:49 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opuser02: CV not found
+
+Wed Mar  5 15:58:31 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: xmtaddSCAN: CV not found
+
+Thu Mar 13 14:23:17 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: dc_cjop: CV not found
+
+Mon Mar 17 16:00:03 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: dro: CV not found
+
+Tue Mar 18 16:02:04 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: act_rbw: CV not found
+
+Tue Mar 18 16:02:10 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: act_rbww: CV not found
+
+Tue Mar 18 16:02:12 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: act_rbw: CV not found
+
+Tue Mar 18 16:02:13 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: rbq: CV not found
+
+Tue Mar 18 16:02:32 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to vrgf_targ
+
+Tue Mar 18 16:02:32 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 820
+ERROR 2217537: vrgf_targ is out of range: min=0.2, max=16, requested=0
+
+Tue Mar 18 16:03:12 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to vrgf_targ
+
+Tue Mar 18 16:03:12 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 820
+ERROR 2217537: vrgf_targ is out of range: min=0.2, max=16, requested=0.2
+
+Tue Mar 18 16:06:16 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opfov
+
+Tue Mar 18 16:06:26 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opfov
+
+Tue Mar 18 16:20:24 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Tue Mar 18 16:23:46 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: : CV not found
+
+Tue Mar 18 16:23:51 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opuser21
+
+Tue Mar 18 16:24:22 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: a_rp: CV not found
+
+Tue Mar 18 16:24:27 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: a_gro: CV not found
+
+Tue Mar 18 16:24:28 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: gro: CV not found
+
+Tue Mar 18 16:25:14 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: a_gx: CV not found
+
+Tue Mar 18 16:25:16 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: a_gx2: CV not found
+
+Tue Mar 18 16:28:04 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: trise: CV not found
+
+Wed Mar 19 09:58:23 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opautorbq: CV not found
+
+Wed Mar 19 10:03:32 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to xtarg
+
+Wed Mar 19 10:03:32 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 820
+ERROR 2217537: xtarg is out of range: min=0, max=10, requested=90
+
+Wed Mar 19 10:07:46 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: decimation: CV not found
+
+Thu Mar 20 13:57:35 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: fov: CV not found
+
+Thu Mar 20 13:57:58 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_util.c line 783
+ERROR: Attempt to assign out of range value to opfov
+
+Thu Mar 20 13:58:24 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: opxre: CV not found
+
+Thu Mar 20 14:28:34 2014
+EPI: 7T_23 Release, Compiler v3.2a
+file ../epic_get.c line 747
+ERROR 2217472: ramppot: CV not found

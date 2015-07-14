@@ -1,0 +1,1494 @@
+14c14
+<    Instr:  Start:16596  End:16600  Dur:4       Per: 1       Amp: 0       
+---
+>    Instr:  Start:14696  End:14700  Dur:4       Per: 1       Amp: 0       
+18c18
+<    Instr:  Start:16600  End:16892  Dur:292     Per: 1       Amp: 8817    
+---
+>    Instr:  Start:14700  End:14992  Dur:292     Per: 1       Amp: 8817    
+22c22
+<    Instr:  Start:16892  End:16900  Dur:8       Per: 2       Amp: 8817    
+---
+>    Instr:  Start:14992  End:15000  Dur:8       Per: 2       Amp: 8817    
+26c26
+<    Instr:  Start:16900  End:17192  Dur:292     Per: 1       Amp: 8817    
+---
+>    Instr:  Start:15000  End:15292  Dur:292     Per: 1       Amp: 8817    
+30c30
+<    Instr:  Start:17192  End:17348  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:15292  End:15448  Dur:156     Per: 1       Amp: -16956  
+34c34
+<    Instr:  Start:17348  End:17504  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:15448  End:15604  Dur:156     Per: 39      Amp: -16956  
+38c38
+<    Instr:  Start:17504  End:17660  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:15604  End:15760  Dur:156     Per: 1       Amp: 16956   
+42c42
+<    Instr:  Start:17660  End:17816  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:15760  End:15916  Dur:156     Per: 1       Amp: 16956   
+46c46
+<    Instr:  Start:17816  End:17972  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:15916  End:16072  Dur:156     Per: 39      Amp: 16956   
+50c50
+<    Instr:  Start:17972  End:18128  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:16072  End:16228  Dur:156     Per: 1       Amp: -16956  
+54c54
+<    Instr:  Start:18128  End:18284  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:16228  End:16384  Dur:156     Per: 1       Amp: -16956  
+58c58
+<    Instr:  Start:18284  End:18440  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:16384  End:16540  Dur:156     Per: 39      Amp: -16956  
+62c62
+<    Instr:  Start:18440  End:18596  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:16540  End:16696  Dur:156     Per: 1       Amp: 16956   
+66c66
+<    Instr:  Start:18596  End:18752  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:16696  End:16852  Dur:156     Per: 1       Amp: 16956   
+70c70
+<    Instr:  Start:18752  End:18908  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:16852  End:17008  Dur:156     Per: 39      Amp: 16956   
+74c74
+<    Instr:  Start:18908  End:19064  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:17008  End:17164  Dur:156     Per: 1       Amp: -16956  
+78c78
+<    Instr:  Start:19064  End:19220  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:17164  End:17320  Dur:156     Per: 1       Amp: -16956  
+82c82
+<    Instr:  Start:19220  End:19376  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:17320  End:17476  Dur:156     Per: 39      Amp: -16956  
+86c86
+<    Instr:  Start:19376  End:19532  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:17476  End:17632  Dur:156     Per: 1       Amp: 16956   
+90c90
+<    Instr:  Start:19532  End:19688  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:17632  End:17788  Dur:156     Per: 1       Amp: 16956   
+94c94
+<    Instr:  Start:19688  End:19844  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:17788  End:17944  Dur:156     Per: 39      Amp: 16956   
+98c98
+<    Instr:  Start:19844  End:20000  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:17944  End:18100  Dur:156     Per: 1       Amp: -16956  
+102c102
+<    Instr:  Start:20000  End:20156  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:18100  End:18256  Dur:156     Per: 1       Amp: -16956  
+106c106
+<    Instr:  Start:20156  End:20312  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:18256  End:18412  Dur:156     Per: 39      Amp: -16956  
+110c110
+<    Instr:  Start:20312  End:20468  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:18412  End:18568  Dur:156     Per: 1       Amp: 16956   
+114c114
+<    Instr:  Start:20468  End:20624  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:18568  End:18724  Dur:156     Per: 1       Amp: 16956   
+118c118
+<    Instr:  Start:20624  End:20780  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:18724  End:18880  Dur:156     Per: 39      Amp: 16956   
+122c122
+<    Instr:  Start:20780  End:20936  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:18880  End:19036  Dur:156     Per: 1       Amp: -16956  
+126c126
+<    Instr:  Start:20936  End:21092  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:19036  End:19192  Dur:156     Per: 1       Amp: -16956  
+130c130
+<    Instr:  Start:21092  End:21248  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:19192  End:19348  Dur:156     Per: 39      Amp: -16956  
+134c134
+<    Instr:  Start:21248  End:21404  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:19348  End:19504  Dur:156     Per: 1       Amp: 16956   
+138c138
+<    Instr:  Start:21404  End:21560  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:19504  End:19660  Dur:156     Per: 1       Amp: 16956   
+142c142
+<    Instr:  Start:21560  End:21716  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:19660  End:19816  Dur:156     Per: 39      Amp: 16956   
+146c146
+<    Instr:  Start:21716  End:21872  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:19816  End:19972  Dur:156     Per: 1       Amp: -16956  
+150c150
+<    Instr:  Start:21872  End:22028  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:19972  End:20128  Dur:156     Per: 1       Amp: -16956  
+154c154
+<    Instr:  Start:22028  End:22184  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:20128  End:20284  Dur:156     Per: 39      Amp: -16956  
+158c158
+<    Instr:  Start:22184  End:22340  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:20284  End:20440  Dur:156     Per: 1       Amp: 16956   
+162c162
+<    Instr:  Start:22340  End:22496  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:20440  End:20596  Dur:156     Per: 1       Amp: 16956   
+166c166
+<    Instr:  Start:22496  End:22652  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:20596  End:20752  Dur:156     Per: 39      Amp: 16956   
+170c170
+<    Instr:  Start:22652  End:22808  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:20752  End:20908  Dur:156     Per: 1       Amp: -16956  
+174c174
+<    Instr:  Start:22808  End:22964  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:20908  End:21064  Dur:156     Per: 1       Amp: -16956  
+178c178
+<    Instr:  Start:22964  End:23120  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:21064  End:21220  Dur:156     Per: 39      Amp: -16956  
+182c182
+<    Instr:  Start:23120  End:23276  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:21220  End:21376  Dur:156     Per: 1       Amp: 16956   
+186c186
+<    Instr:  Start:23276  End:23432  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:21376  End:21532  Dur:156     Per: 1       Amp: 16956   
+190c190
+<    Instr:  Start:23432  End:23588  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:21532  End:21688  Dur:156     Per: 39      Amp: 16956   
+194c194
+<    Instr:  Start:23588  End:23744  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:21688  End:21844  Dur:156     Per: 1       Amp: -16956  
+198c198
+<    Instr:  Start:23744  End:23900  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:21844  End:22000  Dur:156     Per: 1       Amp: -16956  
+202c202
+<    Instr:  Start:23900  End:24056  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:22000  End:22156  Dur:156     Per: 39      Amp: -16956  
+206c206
+<    Instr:  Start:24056  End:24212  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:22156  End:22312  Dur:156     Per: 1       Amp: 16956   
+210c210
+<    Instr:  Start:24212  End:24368  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:22312  End:22468  Dur:156     Per: 1       Amp: 16956   
+214c214
+<    Instr:  Start:24368  End:24524  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:22468  End:22624  Dur:156     Per: 39      Amp: 16956   
+218c218
+<    Instr:  Start:24524  End:24680  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:22624  End:22780  Dur:156     Per: 1       Amp: -16956  
+222c222
+<    Instr:  Start:24680  End:24836  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:22780  End:22936  Dur:156     Per: 1       Amp: -16956  
+226c226
+<    Instr:  Start:24836  End:24992  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:22936  End:23092  Dur:156     Per: 39      Amp: -16956  
+230c230
+<    Instr:  Start:24992  End:25148  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:23092  End:23248  Dur:156     Per: 1       Amp: 16956   
+234c234
+<    Instr:  Start:25148  End:25304  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:23248  End:23404  Dur:156     Per: 1       Amp: 16956   
+238c238
+<    Instr:  Start:25304  End:25460  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:23404  End:23560  Dur:156     Per: 39      Amp: 16956   
+242c242
+<    Instr:  Start:25460  End:25616  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:23560  End:23716  Dur:156     Per: 1       Amp: -16956  
+246c246
+<    Instr:  Start:25616  End:25772  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:23716  End:23872  Dur:156     Per: 1       Amp: -16956  
+250c250
+<    Instr:  Start:25772  End:25928  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:23872  End:24028  Dur:156     Per: 39      Amp: -16956  
+254c254
+<    Instr:  Start:25928  End:26084  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:24028  End:24184  Dur:156     Per: 1       Amp: 16956   
+258c258
+<    Instr:  Start:26084  End:26240  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:24184  End:24340  Dur:156     Per: 1       Amp: 16956   
+262c262
+<    Instr:  Start:26240  End:26396  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:24340  End:24496  Dur:156     Per: 39      Amp: 16956   
+266c266
+<    Instr:  Start:26396  End:26552  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:24496  End:24652  Dur:156     Per: 1       Amp: -16956  
+270c270
+<    Instr:  Start:26552  End:26708  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:24652  End:24808  Dur:156     Per: 1       Amp: -16956  
+274c274
+<    Instr:  Start:26708  End:26864  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:24808  End:24964  Dur:156     Per: 39      Amp: -16956  
+278c278
+<    Instr:  Start:26864  End:27020  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:24964  End:25120  Dur:156     Per: 1       Amp: 16956   
+282c282
+<    Instr:  Start:27020  End:27176  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:25120  End:25276  Dur:156     Per: 1       Amp: 16956   
+286c286
+<    Instr:  Start:27176  End:27332  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:25276  End:25432  Dur:156     Per: 39      Amp: 16956   
+290c290
+<    Instr:  Start:27332  End:27488  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:25432  End:25588  Dur:156     Per: 1       Amp: -16956  
+294c294
+<    Instr:  Start:27488  End:27644  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:25588  End:25744  Dur:156     Per: 1       Amp: -16956  
+298c298
+<    Instr:  Start:27644  End:27800  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:25744  End:25900  Dur:156     Per: 39      Amp: -16956  
+302c302
+<    Instr:  Start:27800  End:27956  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:25900  End:26056  Dur:156     Per: 1       Amp: 16956   
+306c306
+<    Instr:  Start:27956  End:28112  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:26056  End:26212  Dur:156     Per: 1       Amp: 16956   
+310c310
+<    Instr:  Start:28112  End:28268  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:26212  End:26368  Dur:156     Per: 39      Amp: 16956   
+314c314
+<    Instr:  Start:28268  End:28424  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:26368  End:26524  Dur:156     Per: 1       Amp: -16956  
+318c318
+<    Instr:  Start:28424  End:28580  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:26524  End:26680  Dur:156     Per: 1       Amp: -16956  
+322c322
+<    Instr:  Start:28580  End:28736  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:26680  End:26836  Dur:156     Per: 39      Amp: -16956  
+326c326
+<    Instr:  Start:28736  End:28892  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:26836  End:26992  Dur:156     Per: 1       Amp: 16956   
+330c330
+<    Instr:  Start:28892  End:29048  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:26992  End:27148  Dur:156     Per: 1       Amp: 16956   
+334c334
+<    Instr:  Start:29048  End:29204  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:27148  End:27304  Dur:156     Per: 39      Amp: 16956   
+338c338
+<    Instr:  Start:29204  End:29360  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:27304  End:27460  Dur:156     Per: 1       Amp: -16956  
+342c342
+<    Instr:  Start:29360  End:29516  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:27460  End:27616  Dur:156     Per: 1       Amp: -16956  
+346c346
+<    Instr:  Start:29516  End:29672  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:27616  End:27772  Dur:156     Per: 39      Amp: -16956  
+350c350
+<    Instr:  Start:29672  End:29828  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:27772  End:27928  Dur:156     Per: 1       Amp: 16956   
+354c354
+<    Instr:  Start:29828  End:29984  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:27928  End:28084  Dur:156     Per: 1       Amp: 16956   
+358c358
+<    Instr:  Start:29984  End:30140  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:28084  End:28240  Dur:156     Per: 39      Amp: 16956   
+362c362
+<    Instr:  Start:30140  End:30296  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:28240  End:28396  Dur:156     Per: 1       Amp: -16956  
+366c366
+<    Instr:  Start:30296  End:30452  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:28396  End:28552  Dur:156     Per: 1       Amp: -16956  
+370c370
+<    Instr:  Start:30452  End:30608  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:28552  End:28708  Dur:156     Per: 39      Amp: -16956  
+374c374
+<    Instr:  Start:30608  End:30764  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:28708  End:28864  Dur:156     Per: 1       Amp: 16956   
+378c378
+<    Instr:  Start:30764  End:30920  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:28864  End:29020  Dur:156     Per: 1       Amp: 16956   
+382c382
+<    Instr:  Start:30920  End:31076  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:29020  End:29176  Dur:156     Per: 39      Amp: 16956   
+386c386
+<    Instr:  Start:31076  End:31232  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:29176  End:29332  Dur:156     Per: 1       Amp: -16956  
+390c390
+<    Instr:  Start:31232  End:31388  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:29332  End:29488  Dur:156     Per: 1       Amp: -16956  
+394c394
+<    Instr:  Start:31388  End:31544  Dur:156     Per: 39      Amp: -16956  
+---
+>    Instr:  Start:29488  End:29644  Dur:156     Per: 39      Amp: -16956  
+398c398
+<    Instr:  Start:31544  End:31700  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:29644  End:29800  Dur:156     Per: 1       Amp: 16956   
+402c402
+<    Instr:  Start:31700  End:31856  Dur:156     Per: 1       Amp: 16956   
+---
+>    Instr:  Start:29800  End:29956  Dur:156     Per: 1       Amp: 16956   
+406c406
+<    Instr:  Start:31856  End:32012  Dur:156     Per: 39      Amp: 16956   
+---
+>    Instr:  Start:29956  End:30112  Dur:156     Per: 39      Amp: 16956   
+410c410
+<    Instr:  Start:32012  End:32168  Dur:156     Per: 1       Amp: -16956  
+---
+>    Instr:  Start:30112  End:30268  Dur:156     Per: 1       Amp: -16956  
+639c639
+<    Instr:  Start:16592  End:16596  Dur:4       Per: 1       Amp: 0       
+---
+>    Instr:  Start:14692  End:14696  Dur:4       Per: 1       Amp: 0       
+643c643
+<    Instr:  Start:16596  End:16884  Dur:288     Per: 1       Amp: 32766   
+---
+>    Instr:  Start:14696  End:14984  Dur:288     Per: 1       Amp: 32766   
+647c647
+<    Instr:  Start:16884  End:16904  Dur:20      Per: 1       Amp: 32766   
+---
+>    Instr:  Start:14984  End:15004  Dur:20      Per: 1       Amp: 32766   
+651c651
+<    Instr:  Start:16904  End:17192  Dur:288     Per: 1       Amp: 32766   
+---
+>    Instr:  Start:15004  End:15292  Dur:288     Per: 1       Amp: 32766   
+655c655
+<    Instr:  Start:17620  End:17644  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:15720  End:15744  Dur:24      Per: 1       Amp: 2863    
+659c659
+<    Instr:  Start:17644  End:17676  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:15744  End:15776  Dur:32      Per: 8       Amp: 2863    
+663c663
+<    Instr:  Start:17676  End:17700  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:15776  End:15800  Dur:24      Per: 1       Amp: 2863    
+667c667
+<    Instr:  Start:18088  End:18112  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:16188  End:16212  Dur:24      Per: 1       Amp: 2863    
+671c671
+<    Instr:  Start:18112  End:18144  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:16212  End:16244  Dur:32      Per: 8       Amp: 2863    
+675c675
+<    Instr:  Start:18144  End:18168  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:16244  End:16268  Dur:24      Per: 1       Amp: 2863    
+679c679
+<    Instr:  Start:18556  End:18580  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:16656  End:16680  Dur:24      Per: 1       Amp: 2863    
+683c683
+<    Instr:  Start:18580  End:18612  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:16680  End:16712  Dur:32      Per: 8       Amp: 2863    
+687c687
+<    Instr:  Start:18612  End:18636  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:16712  End:16736  Dur:24      Per: 1       Amp: 2863    
+691c691
+<    Instr:  Start:19024  End:19048  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:17124  End:17148  Dur:24      Per: 1       Amp: 2863    
+695c695
+<    Instr:  Start:19048  End:19080  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:17148  End:17180  Dur:32      Per: 8       Amp: 2863    
+699c699
+<    Instr:  Start:19080  End:19104  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:17180  End:17204  Dur:24      Per: 1       Amp: 2863    
+703c703
+<    Instr:  Start:19492  End:19516  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:17592  End:17616  Dur:24      Per: 1       Amp: 2863    
+707c707
+<    Instr:  Start:19516  End:19548  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:17616  End:17648  Dur:32      Per: 8       Amp: 2863    
+711c711
+<    Instr:  Start:19548  End:19572  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:17648  End:17672  Dur:24      Per: 1       Amp: 2863    
+715c715
+<    Instr:  Start:19960  End:19984  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:18060  End:18084  Dur:24      Per: 1       Amp: 2863    
+719c719
+<    Instr:  Start:19984  End:20016  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:18084  End:18116  Dur:32      Per: 8       Amp: 2863    
+723c723
+<    Instr:  Start:20016  End:20040  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:18116  End:18140  Dur:24      Per: 1       Amp: 2863    
+727c727
+<    Instr:  Start:20428  End:20452  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:18528  End:18552  Dur:24      Per: 1       Amp: 2863    
+731c731
+<    Instr:  Start:20452  End:20484  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:18552  End:18584  Dur:32      Per: 8       Amp: 2863    
+735c735
+<    Instr:  Start:20484  End:20508  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:18584  End:18608  Dur:24      Per: 1       Amp: 2863    
+739c739
+<    Instr:  Start:20896  End:20920  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:18996  End:19020  Dur:24      Per: 1       Amp: 2863    
+743c743
+<    Instr:  Start:20920  End:20952  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:19020  End:19052  Dur:32      Per: 8       Amp: 2863    
+747c747
+<    Instr:  Start:20952  End:20976  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:19052  End:19076  Dur:24      Per: 1       Amp: 2863    
+751c751
+<    Instr:  Start:21364  End:21388  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:19464  End:19488  Dur:24      Per: 1       Amp: 2863    
+755c755
+<    Instr:  Start:21388  End:21420  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:19488  End:19520  Dur:32      Per: 8       Amp: 2863    
+759c759
+<    Instr:  Start:21420  End:21444  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:19520  End:19544  Dur:24      Per: 1       Amp: 2863    
+763c763
+<    Instr:  Start:21832  End:21856  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:19932  End:19956  Dur:24      Per: 1       Amp: 2863    
+767c767
+<    Instr:  Start:21856  End:21888  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:19956  End:19988  Dur:32      Per: 8       Amp: 2863    
+771c771
+<    Instr:  Start:21888  End:21912  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:19988  End:20012  Dur:24      Per: 1       Amp: 2863    
+775c775
+<    Instr:  Start:22300  End:22324  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:20400  End:20424  Dur:24      Per: 1       Amp: 2863    
+779c779
+<    Instr:  Start:22324  End:22356  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:20424  End:20456  Dur:32      Per: 8       Amp: 2863    
+783c783
+<    Instr:  Start:22356  End:22380  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:20456  End:20480  Dur:24      Per: 1       Amp: 2863    
+787c787
+<    Instr:  Start:22768  End:22792  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:20868  End:20892  Dur:24      Per: 1       Amp: 2863    
+791c791
+<    Instr:  Start:22792  End:22824  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:20892  End:20924  Dur:32      Per: 8       Amp: 2863    
+795c795
+<    Instr:  Start:22824  End:22848  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:20924  End:20948  Dur:24      Per: 1       Amp: 2863    
+799c799
+<    Instr:  Start:23236  End:23260  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:21336  End:21360  Dur:24      Per: 1       Amp: 2863    
+803c803
+<    Instr:  Start:23260  End:23292  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:21360  End:21392  Dur:32      Per: 8       Amp: 2863    
+807c807
+<    Instr:  Start:23292  End:23316  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:21392  End:21416  Dur:24      Per: 1       Amp: 2863    
+811c811
+<    Instr:  Start:23704  End:23728  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:21804  End:21828  Dur:24      Per: 1       Amp: 2863    
+815c815
+<    Instr:  Start:23728  End:23760  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:21828  End:21860  Dur:32      Per: 8       Amp: 2863    
+819c819
+<    Instr:  Start:23760  End:23784  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:21860  End:21884  Dur:24      Per: 1       Amp: 2863    
+823c823
+<    Instr:  Start:24172  End:24196  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:22272  End:22296  Dur:24      Per: 1       Amp: 2863    
+827c827
+<    Instr:  Start:24196  End:24228  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:22296  End:22328  Dur:32      Per: 8       Amp: 2863    
+831c831
+<    Instr:  Start:24228  End:24252  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:22328  End:22352  Dur:24      Per: 1       Amp: 2863    
+835c835
+<    Instr:  Start:24640  End:24664  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:22740  End:22764  Dur:24      Per: 1       Amp: 2863    
+839c839
+<    Instr:  Start:24664  End:24696  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:22764  End:22796  Dur:32      Per: 8       Amp: 2863    
+843c843
+<    Instr:  Start:24696  End:24720  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:22796  End:22820  Dur:24      Per: 1       Amp: 2863    
+847c847
+<    Instr:  Start:25108  End:25132  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:23208  End:23232  Dur:24      Per: 1       Amp: 2863    
+851c851
+<    Instr:  Start:25132  End:25164  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:23232  End:23264  Dur:32      Per: 8       Amp: 2863    
+855c855
+<    Instr:  Start:25164  End:25188  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:23264  End:23288  Dur:24      Per: 1       Amp: 2863    
+859c859
+<    Instr:  Start:25576  End:25600  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:23676  End:23700  Dur:24      Per: 1       Amp: 2863    
+863c863
+<    Instr:  Start:25600  End:25632  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:23700  End:23732  Dur:32      Per: 8       Amp: 2863    
+867c867
+<    Instr:  Start:25632  End:25656  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:23732  End:23756  Dur:24      Per: 1       Amp: 2863    
+871c871
+<    Instr:  Start:26044  End:26068  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:24144  End:24168  Dur:24      Per: 1       Amp: 2863    
+875c875
+<    Instr:  Start:26068  End:26100  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:24168  End:24200  Dur:32      Per: 8       Amp: 2863    
+879c879
+<    Instr:  Start:26100  End:26124  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:24200  End:24224  Dur:24      Per: 1       Amp: 2863    
+883c883
+<    Instr:  Start:26512  End:26536  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:24612  End:24636  Dur:24      Per: 1       Amp: 2863    
+887c887
+<    Instr:  Start:26536  End:26568  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:24636  End:24668  Dur:32      Per: 8       Amp: 2863    
+891c891
+<    Instr:  Start:26568  End:26592  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:24668  End:24692  Dur:24      Per: 1       Amp: 2863    
+895c895
+<    Instr:  Start:26980  End:27004  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:25080  End:25104  Dur:24      Per: 1       Amp: 2863    
+899c899
+<    Instr:  Start:27004  End:27036  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:25104  End:25136  Dur:32      Per: 8       Amp: 2863    
+903c903
+<    Instr:  Start:27036  End:27060  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:25136  End:25160  Dur:24      Per: 1       Amp: 2863    
+907c907
+<    Instr:  Start:27448  End:27472  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:25548  End:25572  Dur:24      Per: 1       Amp: 2863    
+911c911
+<    Instr:  Start:27472  End:27504  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:25572  End:25604  Dur:32      Per: 8       Amp: 2863    
+915c915
+<    Instr:  Start:27504  End:27528  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:25604  End:25628  Dur:24      Per: 1       Amp: 2863    
+919c919
+<    Instr:  Start:27916  End:27940  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:26016  End:26040  Dur:24      Per: 1       Amp: 2863    
+923c923
+<    Instr:  Start:27940  End:27972  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:26040  End:26072  Dur:32      Per: 8       Amp: 2863    
+927c927
+<    Instr:  Start:27972  End:27996  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:26072  End:26096  Dur:24      Per: 1       Amp: 2863    
+931c931
+<    Instr:  Start:28384  End:28408  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:26484  End:26508  Dur:24      Per: 1       Amp: 2863    
+935c935
+<    Instr:  Start:28408  End:28440  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:26508  End:26540  Dur:32      Per: 8       Amp: 2863    
+939c939
+<    Instr:  Start:28440  End:28464  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:26540  End:26564  Dur:24      Per: 1       Amp: 2863    
+943c943
+<    Instr:  Start:28852  End:28876  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:26952  End:26976  Dur:24      Per: 1       Amp: 2863    
+947c947
+<    Instr:  Start:28876  End:28908  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:26976  End:27008  Dur:32      Per: 8       Amp: 2863    
+951c951
+<    Instr:  Start:28908  End:28932  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:27008  End:27032  Dur:24      Per: 1       Amp: 2863    
+955c955
+<    Instr:  Start:29320  End:29344  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:27420  End:27444  Dur:24      Per: 1       Amp: 2863    
+959c959
+<    Instr:  Start:29344  End:29376  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:27444  End:27476  Dur:32      Per: 8       Amp: 2863    
+963c963
+<    Instr:  Start:29376  End:29400  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:27476  End:27500  Dur:24      Per: 1       Amp: 2863    
+967c967
+<    Instr:  Start:29788  End:29812  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:27888  End:27912  Dur:24      Per: 1       Amp: 2863    
+971c971
+<    Instr:  Start:29812  End:29844  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:27912  End:27944  Dur:32      Per: 8       Amp: 2863    
+975c975
+<    Instr:  Start:29844  End:29868  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:27944  End:27968  Dur:24      Per: 1       Amp: 2863    
+979c979
+<    Instr:  Start:30256  End:30280  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:28356  End:28380  Dur:24      Per: 1       Amp: 2863    
+983c983
+<    Instr:  Start:30280  End:30312  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:28380  End:28412  Dur:32      Per: 8       Amp: 2863    
+987c987
+<    Instr:  Start:30312  End:30336  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:28412  End:28436  Dur:24      Per: 1       Amp: 2863    
+991c991
+<    Instr:  Start:30724  End:30748  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:28824  End:28848  Dur:24      Per: 1       Amp: 2863    
+995c995
+<    Instr:  Start:30748  End:30780  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:28848  End:28880  Dur:32      Per: 8       Amp: 2863    
+999c999
+<    Instr:  Start:30780  End:30804  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:28880  End:28904  Dur:24      Per: 1       Amp: 2863    
+1003c1003
+<    Instr:  Start:31192  End:31216  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:29292  End:29316  Dur:24      Per: 1       Amp: 2863    
+1007c1007
+<    Instr:  Start:31216  End:31248  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:29316  End:29348  Dur:32      Per: 8       Amp: 2863    
+1011c1011
+<    Instr:  Start:31248  End:31272  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:29348  End:29372  Dur:24      Per: 1       Amp: 2863    
+1015c1015
+<    Instr:  Start:31660  End:31684  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:29760  End:29784  Dur:24      Per: 1       Amp: 2863    
+1019c1019
+<    Instr:  Start:31684  End:31716  Dur:32      Per: 8       Amp: 2863    
+---
+>    Instr:  Start:29784  End:29816  Dur:32      Per: 8       Amp: 2863    
+1023c1023
+<    Instr:  Start:31716  End:31740  Dur:24      Per: 1       Amp: 2863    
+---
+>    Instr:  Start:29816  End:29840  Dur:24      Per: 1       Amp: 2863    
+1027c1027
+<    Instr:  Start:32268  End:32624  Dur:356     Per: 1       Amp: 10900   
+---
+>    Instr:  Start:30368  End:30724  Dur:356     Per: 1       Amp: 10900   
+1031c1031
+<    Instr:  Start:32624  End:32632  Dur:8       Per: 2       Amp: 10900   
+---
+>    Instr:  Start:30724  End:30732  Dur:8       Per: 2       Amp: 10900   
+1035c1035
+<    Instr:  Start:32632  End:32988  Dur:356     Per: 1       Amp: 10900   
+---
+>    Instr:  Start:30732  End:31088  Dur:356     Per: 1       Amp: 10900   
+1200c1200
+<    Instr:  Start:32268  End:32624  Dur:356     Per: 1       Amp: 10900   
+---
+>    Instr:  Start:30368  End:30724  Dur:356     Per: 1       Amp: 10900   
+1204c1204
+<    Instr:  Start:32624  End:32632  Dur:8       Per: 2       Amp: 10900   
+---
+>    Instr:  Start:30724  End:30732  Dur:8       Per: 2       Amp: 10900   
+1208c1208
+<    Instr:  Start:32632  End:32988  Dur:356     Per: 1       Amp: 10900   
+---
+>    Instr:  Start:30732  End:31088  Dur:356     Per: 1       Amp: 10900   
+1565c1565
+<    Instr:  Start:32624  End:32626  Dur:2       Per: 1       Amp: 0       
+---
+>    Instr:  Start:30724  End:30726  Dur:2       Per: 1       Amp: 0       
+1760c1760
+<    Instr:  Start:17292  End:17448  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:15392  End:15548  Dur:156     Per: 2       Amp: 6553    
+1764c1764
+<    Instr:  Start:17448  End:17604  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:15548  End:15704  Dur:156     Per: 78      Amp: 6553    
+1768c1768
+<    Instr:  Start:17604  End:17760  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:15704  End:15860  Dur:156     Per: 2       Amp: 6553    
+1772c1772
+<    Instr:  Start:17760  End:17916  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:15860  End:16016  Dur:156     Per: 2       Amp: 6553    
+1776c1776
+<    Instr:  Start:17916  End:18072  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:16016  End:16172  Dur:156     Per: 78      Amp: 6553    
+1780c1780
+<    Instr:  Start:18072  End:18228  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:16172  End:16328  Dur:156     Per: 2       Amp: 6553    
+1784c1784
+<    Instr:  Start:18228  End:18384  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:16328  End:16484  Dur:156     Per: 2       Amp: 6553    
+1788c1788
+<    Instr:  Start:18384  End:18540  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:16484  End:16640  Dur:156     Per: 78      Amp: 6553    
+1792c1792
+<    Instr:  Start:18540  End:18696  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:16640  End:16796  Dur:156     Per: 2       Amp: 6553    
+1796c1796
+<    Instr:  Start:18696  End:18852  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:16796  End:16952  Dur:156     Per: 2       Amp: 6553    
+1800c1800
+<    Instr:  Start:18852  End:19008  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:16952  End:17108  Dur:156     Per: 78      Amp: 6553    
+1804c1804
+<    Instr:  Start:19008  End:19164  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:17108  End:17264  Dur:156     Per: 2       Amp: 6553    
+1808c1808
+<    Instr:  Start:19164  End:19320  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:17264  End:17420  Dur:156     Per: 2       Amp: 6553    
+1812c1812
+<    Instr:  Start:19320  End:19476  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:17420  End:17576  Dur:156     Per: 78      Amp: 6553    
+1816c1816
+<    Instr:  Start:19476  End:19632  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:17576  End:17732  Dur:156     Per: 2       Amp: 6553    
+1820c1820
+<    Instr:  Start:19632  End:19788  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:17732  End:17888  Dur:156     Per: 2       Amp: 6553    
+1824c1824
+<    Instr:  Start:19788  End:19944  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:17888  End:18044  Dur:156     Per: 78      Amp: 6553    
+1828c1828
+<    Instr:  Start:19944  End:20100  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:18044  End:18200  Dur:156     Per: 2       Amp: 6553    
+1832c1832
+<    Instr:  Start:20100  End:20256  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:18200  End:18356  Dur:156     Per: 2       Amp: 6553    
+1836c1836
+<    Instr:  Start:20256  End:20412  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:18356  End:18512  Dur:156     Per: 78      Amp: 6553    
+1840c1840
+<    Instr:  Start:20412  End:20568  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:18512  End:18668  Dur:156     Per: 2       Amp: 6553    
+1844c1844
+<    Instr:  Start:20568  End:20724  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:18668  End:18824  Dur:156     Per: 2       Amp: 6553    
+1848c1848
+<    Instr:  Start:20724  End:20880  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:18824  End:18980  Dur:156     Per: 78      Amp: 6553    
+1852c1852
+<    Instr:  Start:20880  End:21036  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:18980  End:19136  Dur:156     Per: 2       Amp: 6553    
+1856c1856
+<    Instr:  Start:21036  End:21192  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:19136  End:19292  Dur:156     Per: 2       Amp: 6553    
+1860c1860
+<    Instr:  Start:21192  End:21348  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:19292  End:19448  Dur:156     Per: 78      Amp: 6553    
+1864c1864
+<    Instr:  Start:21348  End:21504  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:19448  End:19604  Dur:156     Per: 2       Amp: 6553    
+1868c1868
+<    Instr:  Start:21504  End:21660  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:19604  End:19760  Dur:156     Per: 2       Amp: 6553    
+1872c1872
+<    Instr:  Start:21660  End:21816  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:19760  End:19916  Dur:156     Per: 78      Amp: 6553    
+1876c1876
+<    Instr:  Start:21816  End:21972  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:19916  End:20072  Dur:156     Per: 2       Amp: 6553    
+1880c1880
+<    Instr:  Start:21972  End:22128  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:20072  End:20228  Dur:156     Per: 2       Amp: 6553    
+1884c1884
+<    Instr:  Start:22128  End:22284  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:20228  End:20384  Dur:156     Per: 78      Amp: 6553    
+1888c1888
+<    Instr:  Start:22284  End:22440  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:20384  End:20540  Dur:156     Per: 2       Amp: 6553    
+1892c1892
+<    Instr:  Start:22440  End:22596  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:20540  End:20696  Dur:156     Per: 2       Amp: 6553    
+1896c1896
+<    Instr:  Start:22596  End:22752  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:20696  End:20852  Dur:156     Per: 78      Amp: 6553    
+1900c1900
+<    Instr:  Start:22752  End:22908  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:20852  End:21008  Dur:156     Per: 2       Amp: 6553    
+1904c1904
+<    Instr:  Start:22908  End:23064  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:21008  End:21164  Dur:156     Per: 2       Amp: 6553    
+1908c1908
+<    Instr:  Start:23064  End:23220  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:21164  End:21320  Dur:156     Per: 78      Amp: 6553    
+1912c1912
+<    Instr:  Start:23220  End:23376  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:21320  End:21476  Dur:156     Per: 2       Amp: 6553    
+1916c1916
+<    Instr:  Start:23376  End:23532  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:21476  End:21632  Dur:156     Per: 2       Amp: 6553    
+1920c1920
+<    Instr:  Start:23532  End:23688  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:21632  End:21788  Dur:156     Per: 78      Amp: 6553    
+1924c1924
+<    Instr:  Start:23688  End:23844  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:21788  End:21944  Dur:156     Per: 2       Amp: 6553    
+1928c1928
+<    Instr:  Start:23844  End:24000  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:21944  End:22100  Dur:156     Per: 2       Amp: 6553    
+1932c1932
+<    Instr:  Start:24000  End:24156  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:22100  End:22256  Dur:156     Per: 78      Amp: 6553    
+1936c1936
+<    Instr:  Start:24156  End:24312  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:22256  End:22412  Dur:156     Per: 2       Amp: 6553    
+1940c1940
+<    Instr:  Start:24312  End:24468  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:22412  End:22568  Dur:156     Per: 2       Amp: 6553    
+1944c1944
+<    Instr:  Start:24468  End:24624  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:22568  End:22724  Dur:156     Per: 78      Amp: 6553    
+1948c1948
+<    Instr:  Start:24624  End:24780  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:22724  End:22880  Dur:156     Per: 2       Amp: 6553    
+1952c1952
+<    Instr:  Start:24780  End:24936  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:22880  End:23036  Dur:156     Per: 2       Amp: 6553    
+1956c1956
+<    Instr:  Start:24936  End:25092  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:23036  End:23192  Dur:156     Per: 78      Amp: 6553    
+1960c1960
+<    Instr:  Start:25092  End:25248  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:23192  End:23348  Dur:156     Per: 2       Amp: 6553    
+1964c1964
+<    Instr:  Start:25248  End:25404  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:23348  End:23504  Dur:156     Per: 2       Amp: 6553    
+1968c1968
+<    Instr:  Start:25404  End:25560  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:23504  End:23660  Dur:156     Per: 78      Amp: 6553    
+1972c1972
+<    Instr:  Start:25560  End:25716  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:23660  End:23816  Dur:156     Per: 2       Amp: 6553    
+1976c1976
+<    Instr:  Start:25716  End:25872  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:23816  End:23972  Dur:156     Per: 2       Amp: 6553    
+1980c1980
+<    Instr:  Start:25872  End:26028  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:23972  End:24128  Dur:156     Per: 78      Amp: 6553    
+1984c1984
+<    Instr:  Start:26028  End:26184  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:24128  End:24284  Dur:156     Per: 2       Amp: 6553    
+1988c1988
+<    Instr:  Start:26184  End:26340  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:24284  End:24440  Dur:156     Per: 2       Amp: 6553    
+1992c1992
+<    Instr:  Start:26340  End:26496  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:24440  End:24596  Dur:156     Per: 78      Amp: 6553    
+1996c1996
+<    Instr:  Start:26496  End:26652  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:24596  End:24752  Dur:156     Per: 2       Amp: 6553    
+2000c2000
+<    Instr:  Start:26652  End:26808  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:24752  End:24908  Dur:156     Per: 2       Amp: 6553    
+2004c2004
+<    Instr:  Start:26808  End:26964  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:24908  End:25064  Dur:156     Per: 78      Amp: 6553    
+2008c2008
+<    Instr:  Start:26964  End:27120  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:25064  End:25220  Dur:156     Per: 2       Amp: 6553    
+2012c2012
+<    Instr:  Start:27120  End:27276  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:25220  End:25376  Dur:156     Per: 2       Amp: 6553    
+2016c2016
+<    Instr:  Start:27276  End:27432  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:25376  End:25532  Dur:156     Per: 78      Amp: 6553    
+2020c2020
+<    Instr:  Start:27432  End:27588  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:25532  End:25688  Dur:156     Per: 2       Amp: 6553    
+2024c2024
+<    Instr:  Start:27588  End:27744  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:25688  End:25844  Dur:156     Per: 2       Amp: 6553    
+2028c2028
+<    Instr:  Start:27744  End:27900  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:25844  End:26000  Dur:156     Per: 78      Amp: 6553    
+2032c2032
+<    Instr:  Start:27900  End:28056  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:26000  End:26156  Dur:156     Per: 2       Amp: 6553    
+2036c2036
+<    Instr:  Start:28056  End:28212  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:26156  End:26312  Dur:156     Per: 2       Amp: 6553    
+2040c2040
+<    Instr:  Start:28212  End:28368  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:26312  End:26468  Dur:156     Per: 78      Amp: 6553    
+2044c2044
+<    Instr:  Start:28368  End:28524  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:26468  End:26624  Dur:156     Per: 2       Amp: 6553    
+2048c2048
+<    Instr:  Start:28524  End:28680  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:26624  End:26780  Dur:156     Per: 2       Amp: 6553    
+2052c2052
+<    Instr:  Start:28680  End:28836  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:26780  End:26936  Dur:156     Per: 78      Amp: 6553    
+2056c2056
+<    Instr:  Start:28836  End:28992  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:26936  End:27092  Dur:156     Per: 2       Amp: 6553    
+2060c2060
+<    Instr:  Start:28992  End:29148  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:27092  End:27248  Dur:156     Per: 2       Amp: 6553    
+2064c2064
+<    Instr:  Start:29148  End:29304  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:27248  End:27404  Dur:156     Per: 78      Amp: 6553    
+2068c2068
+<    Instr:  Start:29304  End:29460  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:27404  End:27560  Dur:156     Per: 2       Amp: 6553    
+2072c2072
+<    Instr:  Start:29460  End:29616  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:27560  End:27716  Dur:156     Per: 2       Amp: 6553    
+2076c2076
+<    Instr:  Start:29616  End:29772  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:27716  End:27872  Dur:156     Per: 78      Amp: 6553    
+2080c2080
+<    Instr:  Start:29772  End:29928  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:27872  End:28028  Dur:156     Per: 2       Amp: 6553    
+2084c2084
+<    Instr:  Start:29928  End:30084  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:28028  End:28184  Dur:156     Per: 2       Amp: 6553    
+2088c2088
+<    Instr:  Start:30084  End:30240  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:28184  End:28340  Dur:156     Per: 78      Amp: 6553    
+2092c2092
+<    Instr:  Start:30240  End:30396  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:28340  End:28496  Dur:156     Per: 2       Amp: 6553    
+2096c2096
+<    Instr:  Start:30396  End:30552  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:28496  End:28652  Dur:156     Per: 2       Amp: 6553    
+2100c2100
+<    Instr:  Start:30552  End:30708  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:28652  End:28808  Dur:156     Per: 78      Amp: 6553    
+2104c2104
+<    Instr:  Start:30708  End:30864  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:28808  End:28964  Dur:156     Per: 2       Amp: 6553    
+2108c2108
+<    Instr:  Start:30864  End:31020  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:28964  End:29120  Dur:156     Per: 2       Amp: 6553    
+2112c2112
+<    Instr:  Start:31020  End:31176  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:29120  End:29276  Dur:156     Per: 78      Amp: 6553    
+2116c2116
+<    Instr:  Start:31176  End:31332  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:29276  End:29432  Dur:156     Per: 2       Amp: 6553    
+2120c2120
+<    Instr:  Start:31332  End:31488  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:29432  End:29588  Dur:156     Per: 2       Amp: 6553    
+2124c2124
+<    Instr:  Start:31488  End:31644  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:29588  End:29744  Dur:156     Per: 78      Amp: 6553    
+2128c2128
+<    Instr:  Start:31644  End:31800  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:29744  End:29900  Dur:156     Per: 2       Amp: 6553    
+2132c2132
+<    Instr:  Start:31800  End:31956  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:29900  End:30056  Dur:156     Per: 2       Amp: 6553    
+2136c2136
+<    Instr:  Start:31956  End:32112  Dur:156     Per: 78      Amp: 6553    
+---
+>    Instr:  Start:30056  End:30212  Dur:156     Per: 78      Amp: 6553    
+2140c2140
+<    Instr:  Start:32112  End:32268  Dur:156     Per: 2       Amp: 6553    
+---
+>    Instr:  Start:30212  End:30368  Dur:156     Per: 2       Amp: 6553    
+2269c2269
+<    Instr:  Start:17176   End:17180   Dur:4      
+---
+>    Instr:  Start:15276   End:15280   Dur:4      
+2278c2278
+<    Instr:  Start:17276   End:17293   Dur:17     
+---
+>    Instr:  Start:15376   End:15393   Dur:17     
+2300c2300
+<    Instr:  Start:17328   End:17332   Dur:4      
+---
+>    Instr:  Start:15428   End:15432   Dur:4      
+2309c2309
+<    Instr:  Start:17332   End:17336   Dur:4      
+---
+>    Instr:  Start:15432   End:15436   Dur:4      
+2318c2318
+<    Instr:  Start:17744   End:17761   Dur:17     
+---
+>    Instr:  Start:15844   End:15861   Dur:17     
+2340c2340
+<    Instr:  Start:17796   End:17800   Dur:4      
+---
+>    Instr:  Start:15896   End:15900   Dur:4      
+2349c2349
+<    Instr:  Start:18212   End:18229   Dur:17     
+---
+>    Instr:  Start:16312   End:16329   Dur:17     
+2371c2371
+<    Instr:  Start:18264   End:18268   Dur:4      
+---
+>    Instr:  Start:16364   End:16368   Dur:4      
+2380c2380
+<    Instr:  Start:18680   End:18697   Dur:17     
+---
+>    Instr:  Start:16780   End:16797   Dur:17     
+2402c2402
+<    Instr:  Start:18732   End:18736   Dur:4      
+---
+>    Instr:  Start:16832   End:16836   Dur:4      
+2411c2411
+<    Instr:  Start:19148   End:19165   Dur:17     
+---
+>    Instr:  Start:17248   End:17265   Dur:17     
+2433c2433
+<    Instr:  Start:19200   End:19204   Dur:4      
+---
+>    Instr:  Start:17300   End:17304   Dur:4      
+2442c2442
+<    Instr:  Start:19616   End:19633   Dur:17     
+---
+>    Instr:  Start:17716   End:17733   Dur:17     
+2464c2464
+<    Instr:  Start:19668   End:19672   Dur:4      
+---
+>    Instr:  Start:17768   End:17772   Dur:4      
+2473c2473
+<    Instr:  Start:20084   End:20101   Dur:17     
+---
+>    Instr:  Start:18184   End:18201   Dur:17     
+2495c2495
+<    Instr:  Start:20136   End:20140   Dur:4      
+---
+>    Instr:  Start:18236   End:18240   Dur:4      
+2504c2504
+<    Instr:  Start:20552   End:20569   Dur:17     
+---
+>    Instr:  Start:18652   End:18669   Dur:17     
+2526c2526
+<    Instr:  Start:20604   End:20608   Dur:4      
+---
+>    Instr:  Start:18704   End:18708   Dur:4      
+2535c2535
+<    Instr:  Start:21020   End:21037   Dur:17     
+---
+>    Instr:  Start:19120   End:19137   Dur:17     
+2557c2557
+<    Instr:  Start:21072   End:21076   Dur:4      
+---
+>    Instr:  Start:19172   End:19176   Dur:4      
+2566c2566
+<    Instr:  Start:21488   End:21505   Dur:17     
+---
+>    Instr:  Start:19588   End:19605   Dur:17     
+2588c2588
+<    Instr:  Start:21540   End:21544   Dur:4      
+---
+>    Instr:  Start:19640   End:19644   Dur:4      
+2597c2597
+<    Instr:  Start:21956   End:21973   Dur:17     
+---
+>    Instr:  Start:20056   End:20073   Dur:17     
+2619c2619
+<    Instr:  Start:22008   End:22012   Dur:4      
+---
+>    Instr:  Start:20108   End:20112   Dur:4      
+2628c2628
+<    Instr:  Start:22424   End:22441   Dur:17     
+---
+>    Instr:  Start:20524   End:20541   Dur:17     
+2650c2650
+<    Instr:  Start:22476   End:22480   Dur:4      
+---
+>    Instr:  Start:20576   End:20580   Dur:4      
+2659c2659
+<    Instr:  Start:22892   End:22909   Dur:17     
+---
+>    Instr:  Start:20992   End:21009   Dur:17     
+2681c2681
+<    Instr:  Start:22944   End:22948   Dur:4      
+---
+>    Instr:  Start:21044   End:21048   Dur:4      
+2690c2690
+<    Instr:  Start:23360   End:23377   Dur:17     
+---
+>    Instr:  Start:21460   End:21477   Dur:17     
+2712c2712
+<    Instr:  Start:23412   End:23416   Dur:4      
+---
+>    Instr:  Start:21512   End:21516   Dur:4      
+2721c2721
+<    Instr:  Start:23828   End:23845   Dur:17     
+---
+>    Instr:  Start:21928   End:21945   Dur:17     
+2743c2743
+<    Instr:  Start:23880   End:23884   Dur:4      
+---
+>    Instr:  Start:21980   End:21984   Dur:4      
+2752c2752
+<    Instr:  Start:24296   End:24313   Dur:17     
+---
+>    Instr:  Start:22396   End:22413   Dur:17     
+2774c2774
+<    Instr:  Start:24348   End:24352   Dur:4      
+---
+>    Instr:  Start:22448   End:22452   Dur:4      
+2783c2783
+<    Instr:  Start:24764   End:24781   Dur:17     
+---
+>    Instr:  Start:22864   End:22881   Dur:17     
+2805c2805
+<    Instr:  Start:24816   End:24820   Dur:4      
+---
+>    Instr:  Start:22916   End:22920   Dur:4      
+2814c2814
+<    Instr:  Start:25232   End:25249   Dur:17     
+---
+>    Instr:  Start:23332   End:23349   Dur:17     
+2836c2836
+<    Instr:  Start:25284   End:25288   Dur:4      
+---
+>    Instr:  Start:23384   End:23388   Dur:4      
+2845c2845
+<    Instr:  Start:25700   End:25717   Dur:17     
+---
+>    Instr:  Start:23800   End:23817   Dur:17     
+2867c2867
+<    Instr:  Start:25752   End:25756   Dur:4      
+---
+>    Instr:  Start:23852   End:23856   Dur:4      
+2876c2876
+<    Instr:  Start:26168   End:26185   Dur:17     
+---
+>    Instr:  Start:24268   End:24285   Dur:17     
+2898c2898
+<    Instr:  Start:26220   End:26224   Dur:4      
+---
+>    Instr:  Start:24320   End:24324   Dur:4      
+2907c2907
+<    Instr:  Start:26636   End:26653   Dur:17     
+---
+>    Instr:  Start:24736   End:24753   Dur:17     
+2929c2929
+<    Instr:  Start:26688   End:26692   Dur:4      
+---
+>    Instr:  Start:24788   End:24792   Dur:4      
+2938c2938
+<    Instr:  Start:27104   End:27121   Dur:17     
+---
+>    Instr:  Start:25204   End:25221   Dur:17     
+2960c2960
+<    Instr:  Start:27156   End:27160   Dur:4      
+---
+>    Instr:  Start:25256   End:25260   Dur:4      
+2969c2969
+<    Instr:  Start:27572   End:27589   Dur:17     
+---
+>    Instr:  Start:25672   End:25689   Dur:17     
+2991c2991
+<    Instr:  Start:27624   End:27628   Dur:4      
+---
+>    Instr:  Start:25724   End:25728   Dur:4      
+3000c3000
+<    Instr:  Start:28040   End:28057   Dur:17     
+---
+>    Instr:  Start:26140   End:26157   Dur:17     
+3022c3022
+<    Instr:  Start:28092   End:28096   Dur:4      
+---
+>    Instr:  Start:26192   End:26196   Dur:4      
+3031c3031
+<    Instr:  Start:28508   End:28525   Dur:17     
+---
+>    Instr:  Start:26608   End:26625   Dur:17     
+3053c3053
+<    Instr:  Start:28560   End:28564   Dur:4      
+---
+>    Instr:  Start:26660   End:26664   Dur:4      
+3062c3062
+<    Instr:  Start:28976   End:28993   Dur:17     
+---
+>    Instr:  Start:27076   End:27093   Dur:17     
+3084c3084
+<    Instr:  Start:29028   End:29032   Dur:4      
+---
+>    Instr:  Start:27128   End:27132   Dur:4      
+3093c3093
+<    Instr:  Start:29444   End:29461   Dur:17     
+---
+>    Instr:  Start:27544   End:27561   Dur:17     
+3115c3115
+<    Instr:  Start:29496   End:29500   Dur:4      
+---
+>    Instr:  Start:27596   End:27600   Dur:4      
+3124c3124
+<    Instr:  Start:29912   End:29929   Dur:17     
+---
+>    Instr:  Start:28012   End:28029   Dur:17     
+3146c3146
+<    Instr:  Start:29964   End:29968   Dur:4      
+---
+>    Instr:  Start:28064   End:28068   Dur:4      
+3155c3155
+<    Instr:  Start:30380   End:30397   Dur:17     
+---
+>    Instr:  Start:28480   End:28497   Dur:17     
+3177c3177
+<    Instr:  Start:30432   End:30436   Dur:4      
+---
+>    Instr:  Start:28532   End:28536   Dur:4      
+3186c3186
+<    Instr:  Start:30848   End:30865   Dur:17     
+---
+>    Instr:  Start:28948   End:28965   Dur:17     
+3208c3208
+<    Instr:  Start:30900   End:30904   Dur:4      
+---
+>    Instr:  Start:29000   End:29004   Dur:4      
+3217c3217
+<    Instr:  Start:31316   End:31333   Dur:17     
+---
+>    Instr:  Start:29416   End:29433   Dur:17     
+3239c3239
+<    Instr:  Start:31368   End:31372   Dur:4      
+---
+>    Instr:  Start:29468   End:29472   Dur:4      
+3248c3248
+<    Instr:  Start:31784   End:31801   Dur:17     
+---
+>    Instr:  Start:29884   End:29901   Dur:17     
+3270c3270
+<    Instr:  Start:31836   End:31840   Dur:4      
+---
+>    Instr:  Start:29936   End:29940   Dur:4      
+3279c3279
+<    Instr:  Start:32230   End:32234   Dur:4      
+---
+>    Instr:  Start:30330   End:30334   Dur:4      
+3288c3288
+<    Instr:  Start:32234   End:32240   Dur:6      
+---
+>    Instr:  Start:30334   End:30340   Dur:6      
+3299c3299
+<    Instr:  Start:32241   End:32641   Dur:400     Per: 400    
+---
+>    Instr:  Start:30341   End:30741   Dur:400     Per: 400    
+3303c3303
+<    Instr:  Start:32641   End:32642   Dur:1       Per: 1      
+---
+>    Instr:  Start:30741   End:30742   Dur:1       Per: 1      
+3307c3307
+<    Instr:  Start:32642   End:32649   Dur:7      
+---
+>    Instr:  Start:30742   End:30749   Dur:7      
+3319c3319
+<    Instr:  Start:32649   End:32653   Dur:4       Per: 4      
+---
+>    Instr:  Start:30749   End:30753   Dur:4       Per: 4      
+3323,3324c3323,3324
+<    Instr:  Start:32988   End:132132  Dur:99144   Per: 99144  
+<    CtrlW:  Period:99144   
+---
+>    Instr:  Start:31088   End:132132  Dur:101044  Per: 101044 
+>    CtrlW:  Period:101044  
