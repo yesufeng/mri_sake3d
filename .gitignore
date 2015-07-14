@@ -1,1 +1,4 @@
 *.launch
+.cproject
+.project
+
